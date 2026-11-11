@@ -1,0 +1,34 @@
+name: Sync data
+
+# Pulls every release and every run from the Kardashevian lab's public API and
+# commits whatever changed. The lab's daily price check finishes around 06:00–08:00 UTC.
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-data
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "kardashevian-data"
+          git config user.email "kardashevian-data@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Data through $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,1508 @@
+{
+  "version": "market-eod-v1",
+  "source": "yahoo+coingecko",
+  "asOf": "2026-09-18T23:59:59.000Z",
+  "through": "2026-09-18",
+  "assets": [
+    {
+      "symbol": "AAPL.US",
+      "price": 336.1300048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MSFT.US",
+      "price": 493.7799987792969,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GOOGL.US",
+      "price": 349.5400085449219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMZN.US",
+      "price": 253.7100067138672,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "META.US",
+      "price": 665.75,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NVDA.US",
+      "price": 222.27000427246094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BRK-B.US",
+      "price": 509.7699890136719,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "JPM.US",
+      "price": 349.6700134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "V.US",
+      "price": 368.2900085449219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MA.US",
+      "price": 565.239990234375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "JNJ.US",
+      "price": 269.989990234375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PG.US",
+      "price": 146.38999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "KO.US",
+      "price": 88.25,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PEP.US",
+      "price": 129.75,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WMT.US",
+      "price": 106.7300033569336,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "COST.US",
+      "price": 895.3099975585938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XOM.US",
+      "price": 163.5399932861328,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CVX.US",
+      "price": 209.50999450683594,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "UNH.US",
+      "price": 376.8999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LLY.US",
+      "price": 1152.9300537109375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HD.US",
+      "price": 299.9800109863281,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LOW.US",
+      "price": 192.49000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CAT.US",
+      "price": 808.989990234375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DE.US",
+      "price": 683.989990234375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NKE.US",
+      "price": 35.5099983215332,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DIS.US",
+      "price": 102.66999816894531,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NFLX.US",
+      "price": 71.79000091552734,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CSCO.US",
+      "price": 109.51000213623047,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IBM.US",
+      "price": 229.5500030517578,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "INTC.US",
+      "price": 108.5999984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "QCOM.US",
+      "price": 177.72000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TSM.US",
+      "price": 434.6700134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AVGO.US",
+      "price": 357.6099853515625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ORCL.US",
+      "price": 147.61000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CRM.US",
+      "price": 237.9199981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ADBE.US",
+      "price": 248.9199981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MCD.US",
+      "price": 248.24000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SBUX.US",
+      "price": 95.83000183105469,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TSLA.US",
+      "price": 364.2699890136719,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GOOG.US",
+      "price": 344.4100036621094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMD.US",
+      "price": 559.8200073242188,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TXN.US",
+      "price": 266.6400146484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMAT.US",
+      "price": 444.57000732421875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "INTU.US",
+      "price": 303.19000244140625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NOW.US",
+      "price": 135.47000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PANW.US",
+      "price": 363.5799865722656,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CRWD.US",
+      "price": 237.64999389648438,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MU.US",
+      "price": 1015.7999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LRCX.US",
+      "price": 288.1099853515625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "KLAC.US",
+      "price": 176.99000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ADI.US",
+      "price": 375.7200012207031,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SNPS.US",
+      "price": 384.9700012207031,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CDNS.US",
+      "price": 282.8999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "APH.US",
+      "price": 77.55000305175781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ANET.US",
+      "price": 199.38999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PLTR.US",
+      "price": 177.63999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "APP.US",
+      "price": 308.05999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DDOG.US",
+      "price": 229.9199981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WDAY.US",
+      "price": 193.8699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DASH.US",
+      "price": 192.94000244140625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "UBER.US",
+      "price": 70.5,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ABNB.US",
+      "price": 166.22000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "COIN.US",
+      "price": 194.25,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HOOD.US",
+      "price": 119.81999969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SMCI.US",
+      "price": 39.09000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DELL.US",
+      "price": 568.0599975585938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FTNT.US",
+      "price": 169.83999633789062,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NXPI.US",
+      "price": 227.99000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MSI.US",
+      "price": 458.6700134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ADSK.US",
+      "price": 216.9499969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BAC.US",
+      "price": 57.72999954223633,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WFC.US",
+      "price": 86.12000274658203,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GS.US",
+      "price": 942,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MS.US",
+      "price": 202.5800018310547,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "C.US",
+      "price": 131.77000427246094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AXP.US",
+      "price": 311.55999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BLK.US",
+      "price": 1069.780029296875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BX.US",
+      "price": 124.95999908447266,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SCHW.US",
+      "price": 105.25,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PYPL.US",
+      "price": 52.40999984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "COF.US",
+      "price": 202.42999267578125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PGR.US",
+      "price": 213.47999572753906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SPGI.US",
+      "price": 405.32000732421875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MCO.US",
+      "price": 468.5899963378906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ICE.US",
+      "price": 155.47000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CME.US",
+      "price": 276.010009765625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MSCI.US",
+      "price": 552.8699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ABBV.US",
+      "price": 263.9599914550781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MRK.US",
+      "price": 146.8699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PFE.US",
+      "price": 27.65999984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ABT.US",
+      "price": 102.61000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TMO.US",
+      "price": 651.4500122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DHR.US",
+      "price": 211.80999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMGN.US",
+      "price": 385.6499938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GILD.US",
+      "price": 150.11000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ISRG.US",
+      "price": 393.3299865722656,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SYK.US",
+      "price": 275.1199951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BSX.US",
+      "price": 43.34000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MDT.US",
+      "price": 92.12999725341797,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BMY.US",
+      "price": 63.060001373291016,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VRTX.US",
+      "price": 508.3399963378906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "REGN.US",
+      "price": 784.8499755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ELV.US",
+      "price": 410.95001220703125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CI.US",
+      "price": 275.2799987792969,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CVS.US",
+      "price": 88.83999633789062,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HCA.US",
+      "price": 427.7099914550781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MCK.US",
+      "price": 874.6500244140625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "T.US",
+      "price": 25.399999618530273,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VZ.US",
+      "price": 48.09000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TMUS.US",
+      "price": 168.17999267578125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CMCSA.US",
+      "price": 22.739999771118164,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CHTR.US",
+      "price": 128.1699981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GE.US",
+      "price": 314.2699890136719,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HON.US",
+      "price": 206.4600067138672,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RTX.US",
+      "price": 194,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LMT.US",
+      "price": 533.3800048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BA.US",
+      "price": 198.1999969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GD.US",
+      "price": 353.04998779296875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NOC.US",
+      "price": 527.3900146484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "UNP.US",
+      "price": 279.3699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "UPS.US",
+      "price": 99.05999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ADP.US",
+      "price": 271.2200012207031,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ETN.US",
+      "price": 424.7699890136719,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EMR.US",
+      "price": 149.9199981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ITW.US",
+      "price": 269.4200134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WM.US",
+      "price": 211.10000610351562,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RSG.US",
+      "price": 218.07000732421875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FDX.US",
+      "price": 303.6499938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NSC.US",
+      "price": 314.1600036621094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CSX.US",
+      "price": 47.099998474121094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "COP.US",
+      "price": 131.8300018310547,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SLB.US",
+      "price": 51.119998931884766,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EOG.US",
+      "price": 144.22999572753906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MPC.US",
+      "price": 424.8900146484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PSX.US",
+      "price": 273.1300048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VLO.US",
+      "price": 413.2799987792969,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WMB.US",
+      "price": 72.05000305175781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "KMI.US",
+      "price": 31.84000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NEE.US",
+      "price": 80.47000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DUK.US",
+      "price": 117.52999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SO.US",
+      "price": 85.5199966430664,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "D.US",
+      "price": 63.58000183105469,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AEP.US",
+      "price": 120,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SRE.US",
+      "price": 81.30999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CEG.US",
+      "price": 254.7100067138672,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LIN.US",
+      "price": 460.3999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SHW.US",
+      "price": 320.7300109863281,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "APD.US",
+      "price": 284.17999267578125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NEM.US",
+      "price": 123.41000366210938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FCX.US",
+      "price": 71.54000091552734,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMT.US",
+      "price": 173.97999572753906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PLD.US",
+      "price": 134.83999633789062,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CCI.US",
+      "price": 73.05999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EQIX.US",
+      "price": 1021.3400268554688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SPG.US",
+      "price": 205.32000732421875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "O.US",
+      "price": 56.65999984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WELL.US",
+      "price": 228.8699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DLR.US",
+      "price": 182.1199951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PSA.US",
+      "price": 296.30999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PM.US",
+      "price": 188.6199951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MO.US",
+      "price": 69.5199966430664,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MDLZ.US",
+      "price": 60.849998474121094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CL.US",
+      "price": 87.47000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "KMB.US",
+      "price": 97.86000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GIS.US",
+      "price": 36.31999969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MNST.US",
+      "price": 44.709999084472656,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TJX.US",
+      "price": 127.23999786376953,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TGT.US",
+      "price": 158.19000244140625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BKNG.US",
+      "price": 167.89999389648438,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CMG.US",
+      "price": 33.43000030517578,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MAR.US",
+      "price": 338.9200134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HLT.US",
+      "price": 305.7300109863281,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GM.US",
+      "price": 82.19999694824219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "F.US",
+      "price": 13.210000038146973,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RCL.US",
+      "price": 245.80999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ORLY.US",
+      "price": 84.70999908447266,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AZO.US",
+      "price": 2855.31005859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ROST.US",
+      "price": 226.61000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "YUM.US",
+      "price": 137.99000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GEV.US",
+      "price": 940.3300170898438,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XYZ.US",
+      "price": 76.27999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SHOP.US",
+      "price": 128.5,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MELI.US",
+      "price": 1787.3900146484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PDD.US",
+      "price": 78.9000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SE.US",
+      "price": 101.79000091552734,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SPOT.US",
+      "price": 509.45001220703125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SNOW.US",
+      "price": 332.42999267578125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NET.US",
+      "price": 323.6000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TEAM.US",
+      "price": 192.02000427246094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ZS.US",
+      "price": 197.30999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "OKTA.US",
+      "price": 182.3699951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HUBS.US",
+      "price": 216.1199951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RBLX.US",
+      "price": 47.81999969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AIG.US",
+      "price": 75.33000183105469,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AFL.US",
+      "price": 116.33000183105469,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ALL.US",
+      "price": 249.8300018310547,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MET.US",
+      "price": 97.04000091552734,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PRU.US",
+      "price": 118.4000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PNC.US",
+      "price": 233.1699981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "USB.US",
+      "price": 60.060001373291016,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TFC.US",
+      "price": 48.560001373291016,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BNY.US",
+      "price": 153.7899932861328,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AON.US",
+      "price": 295.6400146484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AJG.US",
+      "price": 239.47999572753906,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AMP.US",
+      "price": 544.3300170898438,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NDAQ.US",
+      "price": 93.54000091552734,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FITB.US",
+      "price": 52.90999984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TROW.US",
+      "price": 104.16000366210938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RJF.US",
+      "price": 164.75,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "COR.US",
+      "price": 308.7799987792969,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HUM.US",
+      "price": 386.2200012207031,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CNC.US",
+      "price": 65.11000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BDX.US",
+      "price": 180.94000244140625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EW.US",
+      "price": 88.26000213623047,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IDXX.US",
+      "price": 511.6499938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DXCM.US",
+      "price": 89.3499984741211,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ZTS.US",
+      "price": 71.4000015258789,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GEHC.US",
+      "price": 64.12999725341797,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BIIB.US",
+      "price": 215.5,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "MRNA.US",
+      "price": 154.0399932861328,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ALGN.US",
+      "price": 147.61000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IQV.US",
+      "price": 266.4200134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "A.US",
+      "price": 156.47000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "RMD.US",
+      "price": 224.99000549316406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CAH.US",
+      "price": 225.3800048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TTWO.US",
+      "price": 205.4499969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "WBD.US",
+      "price": 27.799999237060547,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LYV.US",
+      "price": 167.1199951171875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "OMC.US",
+      "price": 76.56999969482422,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FOXA.US",
+      "price": 64.44999694824219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PH.US",
+      "price": 943.5399780273438,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CARR.US",
+      "price": 53.880001068115234,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "OTIS.US",
+      "price": 68.5199966430664,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TT.US",
+      "price": 429.1099853515625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IR.US",
+      "price": 71.83000183105469,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PCAR.US",
+      "price": 116.05999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "URI.US",
+      "price": 1013.9099731445312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "FAST.US",
+      "price": 49.0099983215332,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CTAS.US",
+      "price": 197.63999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "PAYX.US",
+      "price": 116.13999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VRSK.US",
+      "price": 175.41000366210938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "CPRT.US",
+      "price": 29.280000686645508,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ODFL.US",
+      "price": 173,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ROP.US",
+      "price": 372.739990234375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TDG.US",
+      "price": 1086.050048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AXON.US",
+      "price": 447.760009765625,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HWM.US",
+      "price": 229.6699981689453,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LHX.US",
+      "price": 247.2899932861328,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TDY.US",
+      "price": 603.4600219726562,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "JCI.US",
+      "price": 143.27999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IWM.US",
+      "price": 284.1000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "QQQ.US",
+      "price": 721.4500122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SPY.US",
+      "price": 761.6900024414062,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VTV.US",
+      "price": 221.25,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VUG.US",
+      "price": 88.75,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SCHD.US",
+      "price": 33.68000030517578,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VNQ.US",
+      "price": 92.91000366210938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "GLD.US",
+      "price": 401.1700134277344,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "TLT.US",
+      "price": 81.25,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SHY.US",
+      "price": 81.23999786376953,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLK.US",
+      "price": 189.60000610351562,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLF.US",
+      "price": 55.86000061035156,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLE.US",
+      "price": 64.30999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLV.US",
+      "price": 168.38999938964844,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLI.US",
+      "price": 169.75,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLY.US",
+      "price": 111.02999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLP.US",
+      "price": 82.80000305175781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLU.US",
+      "price": 41.099998474121094,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLRE.US",
+      "price": 42.529998779296875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLB.US",
+      "price": 49.9900016784668,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLC.US",
+      "price": 110.80999755859375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VOO.US",
+      "price": 701.780029296875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VTI.US",
+      "price": 375.42999267578125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DIA.US",
+      "price": 515.8800048828125,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EFA.US",
+      "price": 104.97000122070312,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "EEM.US",
+      "price": 67.02999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "VWO.US",
+      "price": 60.0099983215332,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LQD.US",
+      "price": 104.69999694824219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "HYG.US",
+      "price": 78.52999877929688,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AGG.US",
+      "price": 95.95999908447266,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "IEF.US",
+      "price": 90.80000305175781,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BND.US",
+      "price": 71.19999694824219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SLV.US",
+      "price": 59.93000030517578,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "USO.US",
+      "price": 153.82000732421875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DBC.US",
+      "price": 32.93000030517578,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BTC-USD.CC",
+      "price": 81233.6796875,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ETH-USD.CC",
+      "price": 2631.962646484375,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "SOL-USD.CC",
+      "price": 111.01493835449219,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XRP-USD.CC",
+      "price": 1.410446047782898,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DOGE-USD.CC",
+      "price": 0.08772200345993042,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LINK-USD.CC",
+      "price": 12.428622245788574,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ADA-USD.CC",
+      "price": 0.22776399552822113,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "AVAX-USD.CC",
+      "price": 10.086183547973633,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "DOT-USD.CC",
+      "price": 1.1230930089950562,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "LTC-USD.CC",
+      "price": 58.332252502441406,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BCH-USD.CC",
+      "price": 255.22598266601562,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "ATOM-USD.CC",
+      "price": 1.7454500198364258,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "XLM-USD.CC",
+      "price": 0.1962299942970276,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "BNB-USD.CC",
+      "price": 762.0443725585938,
+      "priceDate": "2026-09-18"
+    },
+    {
+      "symbol": "NEAR-USD.CC",
+      "price": 3.5872509479522705,
+      "priceDate": "2026-09-18"
+    }
+  ]
+}

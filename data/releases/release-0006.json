@@ -1,0 +1,3561 @@
+{
+  "arenas": {
+    "markets": {
+      "books": [
+        {
+          "id": "c1970317",
+          "asOf": "2026-10-16",
+          "models": [
+            "anthropic:claude-haiku-5-5",
+            "deepseek:deepseek-flash",
+            "openai6:gpt-6-luna"
+          ],
+          "created": "2026-10-19T15:07:30.667Z",
+          "maturedCells": 0,
+          "trackedCells": 40
+        },
+        {
+          "id": "def76d36",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "mimo:mimo-v2.6-pro",
+            "openai6:gpt-6-luna"
+          ],
+          "created": "2026-10-19T13:05:47.763Z",
+          "maturedCells": 0,
+          "trackedCells": 45
+        },
+        {
+          "id": "a4393e54",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "openai6:gpt-6-luna",
+            "openai:gpt-5.6-luna",
+            "mimo:mimo-v2.6-pro"
+          ],
+          "created": "2026-10-06T09:31:14.148Z",
+          "maturedCells": 0,
+          "trackedCells": 60
+        },
+        {
+          "id": "bae0a4cc",
+          "asOf": "2026-10-16",
+          "models": [
+            "openai:gpt-5.6-luna",
+            "openai6:gpt-6-luna",
+            "mimo:mimo-v2.6-pro",
+            "deepseek:deepseek-flash"
+          ],
+          "created": "2026-09-29T14:44:31.554Z",
+          "maturedCells": 0,
+          "trackedCells": 56
+        },
+        {
+          "id": "0d82647f",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "openai:gpt-5.6-luna",
+            "openai6:gpt-6-luna",
+            "mimo:mimo-v2.6-pro"
+          ],
+          "created": "2026-09-28T12:29:18.020Z",
+          "maturedCells": 0,
+          "trackedCells": 58
+        },
+        {
+          "id": "5f255cef",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "openai6:gpt-6-luna",
+            "openai:gpt-5.6-luna",
+            "mimo:mimo-v2.6-pro"
+          ],
+          "created": "2026-09-27T10:47:28.602Z",
+          "maturedCells": 0,
+          "trackedCells": 53
+        },
+        {
+          "id": "6044891c",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "openai:gpt-5.6-luna"
+          ],
+          "created": "2026-09-21T10:38:48.881Z",
+          "maturedCells": 0,
+          "trackedCells": 24
+        },
+        {
+          "id": "4f409492",
+          "asOf": "2026-10-16",
+          "models": [
+            "deepseek:deepseek-flash",
+            "openai:gpt-5.6-luna"
+          ],
+          "created": "2026-09-20T19:51:56.671Z",
+          "maturedCells": 0,
+          "trackedCells": 22
+        }
+      ],
+      "early": [
+        {
+          "id": "anthropic:claude-haiku-5-5",
+          "weeks": 1,
+          "infoRatio": null,
+          "confidence": "early",
+          "drawdownKept": 11,
+          "battingAverage": 0.4545,
+          "drawdownChecks": 11
+        },
+        {
+          "id": "deepseek:deepseek-flash",
+          "weeks": 5,
+          "infoRatio": 2.21,
+          "confidence": "building",
+          "drawdownKept": 113,
+          "battingAverage": 0.5529,
+          "drawdownChecks": 113
+        },
+        {
+          "id": "openai6:gpt-6-luna",
+          "weeks": 4,
+          "infoRatio": 2.25,
+          "confidence": "building",
+          "drawdownKept": 89,
+          "battingAverage": 0.4464,
+          "drawdownChecks": 89
+        },
+        {
+          "id": "mimo:mimo-v2.6-pro",
+          "weeks": 4,
+          "infoRatio": 2.5,
+          "confidence": "building",
+          "drawdownKept": 63,
+          "battingAverage": 0.6265,
+          "drawdownChecks": 63
+        },
+        {
+          "id": "openai:gpt-5.6-luna",
+          "weeks": 5,
+          "infoRatio": 0.19,
+          "confidence": "building",
+          "drawdownKept": 82,
+          "battingAverage": 0.3954,
+          "drawdownChecks": 82
+        }
+      ],
+      "grids": {
+        "mimo:mimo-v2.6-pro": {
+          "low": {
+            "1": {
+              "n": 4,
+              "value": 0.0191,
+              "matured": 0
+            },
+            "3": {
+              "n": 5,
+              "value": 0.0274,
+              "matured": 0
+            },
+            "9": {
+              "n": 4,
+              "value": 0.0245,
+              "matured": 0
+            },
+            "12": {
+              "n": 3,
+              "value": 0.0233,
+              "matured": 0
+            },
+            "24": {
+              "n": 5,
+              "value": 0.0288,
+              "matured": 0
+            }
+          },
+          "high": {
+            "1": {
+              "n": 4,
+              "value": -0.0103,
+              "matured": 0
+            },
+            "3": {
+              "n": 4,
+              "value": -0.0229,
+              "matured": 0
+            },
+            "9": {
+              "n": 5,
+              "value": 0.0229,
+              "matured": 0
+            },
+            "12": {
+              "n": 4,
+              "value": 0.0189,
+              "matured": 0
+            },
+            "24": {
+              "n": 4,
+              "value": -0.0022,
+              "matured": 0
+            }
+          },
+          "medium": {
+            "1": {
+              "n": 4,
+              "value": 0.0257,
+              "matured": 0
+            },
+            "3": {
+              "n": 4,
+              "value": 0.0317,
+              "matured": 0
+            },
+            "9": {
+              "n": 4,
+              "value": 0.0225,
+              "matured": 0
+            },
+            "12": {
+              "n": 4,
+              "value": 0.0272,
+              "matured": 0
+            },
+            "24": {
+              "n": 5,
+              "value": 0.0199,
+              "matured": 0
+            }
+          }
+        },
+        "openai6:gpt-6-luna": {
+          "low": {
+            "1": {
+              "n": 6,
+              "value": 0.008,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": 0.0081,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": 0.0122,
+              "matured": 0
+            },
+            "12": {
+              "n": 5,
+              "value": 0.0146,
+              "matured": 0
+            },
+            "24": {
+              "n": 6,
+              "value": 0.0102,
+              "matured": 0
+            }
+          },
+          "high": {
+            "1": {
+              "n": 6,
+              "value": 0.0003,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": 0.0145,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": 0.0085,
+              "matured": 0
+            },
+            "12": {
+              "n": 6,
+              "value": 0.0322,
+              "matured": 0
+            },
+            "24": {
+              "n": 6,
+              "value": 0.0347,
+              "matured": 0
+            }
+          },
+          "medium": {
+            "1": {
+              "n": 6,
+              "value": 0.0141,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": 0.0182,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": 0.015,
+              "matured": 0
+            },
+            "12": {
+              "n": 6,
+              "value": 0.0151,
+              "matured": 0
+            },
+            "24": {
+              "n": 6,
+              "value": 0.0134,
+              "matured": 0
+            }
+          }
+        },
+        "openai:gpt-5.6-luna": {
+          "low": {
+            "1": {
+              "n": 4,
+              "value": 0.0163,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": 0.0163,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": 0.0176,
+              "matured": 0
+            },
+            "12": {
+              "n": 6,
+              "value": 0.0201,
+              "matured": 0
+            },
+            "24": {
+              "n": 6,
+              "value": 0.0164,
+              "matured": 0
+            }
+          },
+          "high": {
+            "1": {
+              "n": 4,
+              "value": -0.0484,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": -0.0477,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": -0.033,
+              "matured": 0
+            },
+            "12": {
+              "n": 5,
+              "value": -0.0274,
+              "matured": 0
+            },
+            "24": {
+              "n": 6,
+              "value": -0.0233,
+              "matured": 0
+            }
+          },
+          "medium": {
+            "1": {
+              "n": 4,
+              "value": 0.0352,
+              "matured": 0
+            },
+            "3": {
+              "n": 6,
+              "value": 0.0232,
+              "matured": 0
+            },
+            "9": {
+              "n": 6,
+              "value": 0.0205,
+              "matured": 0
+            },
+            "12": {
+              "n": 6,
+              "value": 0.0192,
+              "matured": 0
+            },
+            "24": {
+              "n": 5,
+              "value": 0.0219,
+              "matured": 0
+            }
+          }
+        },
+        "deepseek:deepseek-flash": {
+          "low": {
+            "1": {
+              "n": 6,
+              "value": 0.0144,
+              "matured": 0
+            },
+            "3": {
+              "n": 8,
+              "value": 0.0181,
+              "matured": 0
+            },
+            "9": {
+              "n": 8,
+              "value": 0.0178,
+              "matured": 0
+            },
+            "12": {
+              "n": 8,
+              "value": 0.0164,
+              "matured": 0
+            },
+            "24": {
+              "n": 7,
+              "value": 0.0194,
+              "matured": 0
+            }
+          },
+          "high": {
+            "1": {
+              "n": 6,
+              "value": 0.0154,
+              "matured": 0
+            },
+            "3": {
+              "n": 8,
+              "value": 0.005,
+              "matured": 0
+            },
+            "9": {
+              "n": 8,
+              "value": 0.0074,
+              "matured": 0
+            },
+            "12": {
+              "n": 8,
+              "value": 0.0157,
+              "matured": 0
+            },
+            "24": {
+              "n": 8,
+              "value": 0.0003,
+              "matured": 0
+            }
+          },
+          "medium": {
+            "1": {
+              "n": 6,
+              "value": 0.021,
+              "matured": 0
+            },
+            "3": {
+              "n": 8,
+              "value": 0.0248,
+              "matured": 0
+            },
+            "9": {
+              "n": 8,
+              "value": 0.0192,
+              "matured": 0
+            },
+            "12": {
+              "n": 8,
+              "value": 0.0161,
+              "matured": 0
+            },
+            "24": {
+              "n": 8,
+              "value": 0.0168,
+              "matured": 0
+            }
+          }
+        },
+        "anthropic:claude-haiku-5-5": {
+          "low": {
+            "1": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "3": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "9": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "12": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "24": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            }
+          },
+          "high": {
+            "1": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "3": {
+              "n": 0,
+              "value": null,
+              "matured": 0
+            },
+            "9": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "12": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "24": {
+              "n": 0,
+              "value": null,
+              "matured": 0
+            }
+          },
+          "medium": {
+            "1": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "3": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "9": {
+              "n": 1,
+              "value": 0,
+              "matured": 0
+            },
+            "12": {
+              "n": 0,
+              "value": null,
+              "matured": 0
+            },
+            "24": {
+              "n": 0,
+              "value": null,
+              "matured": 0
+            }
+          }
+        }
+      },
+      "through": "2026-10-16",
+      "patterns": {
+        "mix": {
+          "byRisk": {
+            "low": {
+              "cash": 0.303,
+              "gold": 0.048,
+              "tech": 0,
+              "bonds": 0.295,
+              "index": 0.129,
+              "other": 0.047,
+              "crypto": 0,
+              "energy": 0.011,
+              "defensive": 0.166
+            },
+            "high": {
+              "cash": 0.066,
+              "gold": 0.068,
+              "tech": 0.484,
+              "bonds": 0.006,
+              "index": 0.004,
+              "other": 0.071,
+              "crypto": 0.123,
+              "energy": 0.119,
+              "defensive": 0.059
+            },
+            "medium": {
+              "cash": 0.123,
+              "gold": 0.071,
+              "tech": 0.061,
+              "bonds": 0.056,
+              "index": 0.273,
+              "other": 0.158,
+              "crypto": 0.008,
+              "energy": 0.098,
+              "defensive": 0.152
+            }
+          },
+          "byModel": {
+            "mimo:mimo-v2.6-pro": {
+              "cash": 0.126,
+              "gold": 0.095,
+              "tech": 0.162,
+              "bonds": 0.062,
+              "index": 0.081,
+              "other": 0.139,
+              "crypto": 0.059,
+              "energy": 0.111,
+              "defensive": 0.165
+            },
+            "openai6:gpt-6-luna": {
+              "cash": 0.216,
+              "gold": 0.043,
+              "tech": 0.244,
+              "bonds": 0.158,
+              "index": 0.187,
+              "other": 0.066,
+              "crypto": 0.012,
+              "energy": 0.02,
+              "defensive": 0.056
+            },
+            "openai:gpt-5.6-luna": {
+              "cash": 0.151,
+              "gold": 0.067,
+              "tech": 0.203,
+              "bonds": 0.129,
+              "index": 0.173,
+              "other": 0.083,
+              "crypto": 0.063,
+              "energy": 0.051,
+              "defensive": 0.081
+            },
+            "deepseek:deepseek-flash": {
+              "cash": 0.16,
+              "gold": 0.057,
+              "tech": 0.133,
+              "bonds": 0.108,
+              "index": 0.095,
+              "other": 0.092,
+              "crypto": 0.048,
+              "energy": 0.124,
+              "defensive": 0.184
+            },
+            "anthropic:claude-haiku-5-5": {
+              "cash": 0.129,
+              "gold": 0.047,
+              "tech": 0.119,
+              "bonds": 0.191,
+              "index": 0.163,
+              "other": 0.095,
+              "crypto": 0.031,
+              "energy": 0.025,
+              "defensive": 0.201
+            }
+          }
+        },
+        "byRisk": {
+          "all": {
+            "low": {
+              "n": 120,
+              "ahead": 0.8,
+              "avgExcess": 0.0163
+            },
+            "high": {
+              "n": 119,
+              "ahead": 0.42,
+              "avgExcess": -0.0004
+            },
+            "medium": {
+              "n": 119,
+              "ahead": 0.941,
+              "avgExcess": 0.0198
+            }
+          },
+          "mimo:mimo-v2.6-pro": {
+            "low": {
+              "n": 21,
+              "ahead": 0.81,
+              "avgExcess": 0.025
+            },
+            "high": {
+              "n": 21,
+              "ahead": 0.571,
+              "avgExcess": 0.0023
+            },
+            "medium": {
+              "n": 21,
+              "ahead": 1,
+              "avgExcess": 0.0252
+            }
+          },
+          "openai6:gpt-6-luna": {
+            "low": {
+              "n": 29,
+              "ahead": 0.69,
+              "avgExcess": 0.0105
+            },
+            "high": {
+              "n": 30,
+              "ahead": 0.5,
+              "avgExcess": 0.018
+            },
+            "medium": {
+              "n": 30,
+              "ahead": 0.8,
+              "avgExcess": 0.0152
+            }
+          },
+          "openai:gpt-5.6-luna": {
+            "low": {
+              "n": 28,
+              "ahead": 0.964,
+              "avgExcess": 0.0174
+            },
+            "high": {
+              "n": 27,
+              "ahead": 0.111,
+              "avgExcess": -0.0354
+            },
+            "medium": {
+              "n": 27,
+              "ahead": 1,
+              "avgExcess": 0.0232
+            }
+          },
+          "deepseek:deepseek-flash": {
+            "low": {
+              "n": 37,
+              "ahead": 0.838,
+              "avgExcess": 0.0173
+            },
+            "high": {
+              "n": 38,
+              "ahead": 0.5,
+              "avgExcess": 0.0084
+            },
+            "medium": {
+              "n": 38,
+              "ahead": 0.974,
+              "avgExcess": 0.0195
+            }
+          },
+          "anthropic:claude-haiku-5-5": {
+            "low": {
+              "n": 5,
+              "ahead": 0.2,
+              "avgExcess": 0
+            },
+            "high": {
+              "n": 3,
+              "ahead": 0.333,
+              "avgExcess": 0
+            },
+            "medium": {
+              "n": 3,
+              "ahead": 1,
+              "avgExcess": 0
+            }
+          }
+        },
+        "groups": [
+          {
+            "group": "cash",
+            "excess": 0.006,
+            "weight": 0.165
+          },
+          {
+            "group": "bonds",
+            "excess": 0.0081,
+            "weight": 0.12
+          },
+          {
+            "group": "gold",
+            "excess": -0.0119,
+            "weight": 0.062
+          },
+          {
+            "group": "defensive",
+            "excess": 0.039,
+            "weight": 0.126
+          },
+          {
+            "group": "index",
+            "excess": 0.0141,
+            "weight": 0.135
+          },
+          {
+            "group": "energy",
+            "excess": 0.0712,
+            "weight": 0.076
+          },
+          {
+            "group": "tech",
+            "excess": -0.0138,
+            "weight": 0.181
+          },
+          {
+            "group": "crypto",
+            "excess": -0.0422,
+            "weight": 0.044
+          },
+          {
+            "group": "other",
+            "excess": 0.0307,
+            "weight": 0.092
+          }
+        ],
+        "running": 358,
+        "favourites": {
+          "mimo:mimo-v2.6-pro": {
+            "top": [
+              {
+                "held": 0.651,
+                "group": "other",
+                "symbol": "BRK-B",
+                "weight": 0.055
+              },
+              {
+                "held": 0.81,
+                "group": "gold",
+                "symbol": "GLD",
+                "weight": 0.051
+              },
+              {
+                "held": 0.619,
+                "group": "energy",
+                "symbol": "XOM",
+                "weight": 0.045
+              },
+              {
+                "held": 0.349,
+                "group": "bonds",
+                "symbol": "SHY",
+                "weight": 0.044
+              },
+              {
+                "held": 0.571,
+                "group": "crypto",
+                "symbol": "BTC",
+                "weight": 0.04
+              },
+              {
+                "held": 0.349,
+                "group": "index",
+                "symbol": "VTV",
+                "weight": 0.033
+              },
+              {
+                "held": 0.349,
+                "group": "tech",
+                "symbol": "ORCL",
+                "weight": 0.029
+              },
+              {
+                "held": 0.286,
+                "group": "defensive",
+                "symbol": "XLV",
+                "weight": 0.023
+              }
+            ],
+            "portfolios": 63,
+            "avgHoldings": 13.7,
+            "instruments": 117
+          },
+          "openai6:gpt-6-luna": {
+            "top": [
+              {
+                "held": 0.596,
+                "group": "bonds",
+                "symbol": "SHY",
+                "weight": 0.142
+              },
+              {
+                "held": 0.528,
+                "group": "index",
+                "symbol": "VTV",
+                "weight": 0.094
+              },
+              {
+                "held": 0.438,
+                "group": "tech",
+                "symbol": "ADBE",
+                "weight": 0.073
+              },
+              {
+                "held": 0.292,
+                "group": "tech",
+                "symbol": "ORCL",
+                "weight": 0.057
+              },
+              {
+                "held": 0.258,
+                "group": "tech",
+                "symbol": "INTU",
+                "weight": 0.047
+              },
+              {
+                "held": 0.596,
+                "group": "gold",
+                "symbol": "GLD",
+                "weight": 0.043
+              },
+              {
+                "held": 0.191,
+                "group": "index",
+                "symbol": "SPY",
+                "weight": 0.042
+              },
+              {
+                "held": 0.258,
+                "group": "other",
+                "symbol": "BRK-B",
+                "weight": 0.031
+              }
+            ],
+            "portfolios": 89,
+            "avgHoldings": 5.5,
+            "instruments": 57
+          },
+          "openai:gpt-5.6-luna": {
+            "top": [
+              {
+                "held": 0.512,
+                "group": "bonds",
+                "symbol": "SHY",
+                "weight": 0.105
+              },
+              {
+                "held": 0.573,
+                "group": "index",
+                "symbol": "VTV",
+                "weight": 0.083
+              },
+              {
+                "held": 0.573,
+                "group": "defensive",
+                "symbol": "XLV",
+                "weight": 0.053
+              },
+              {
+                "held": 0.768,
+                "group": "gold",
+                "symbol": "GLD",
+                "weight": 0.052
+              },
+              {
+                "held": 0.451,
+                "group": "tech",
+                "symbol": "ADBE",
+                "weight": 0.049
+              },
+              {
+                "held": 0.451,
+                "group": "energy",
+                "symbol": "XLE",
+                "weight": 0.044
+              },
+              {
+                "held": 0.5,
+                "group": "other",
+                "symbol": "BRK-B",
+                "weight": 0.043
+              },
+              {
+                "held": 0.28,
+                "group": "tech",
+                "symbol": "AMAT",
+                "weight": 0.038
+              }
+            ],
+            "portfolios": 82,
+            "avgHoldings": 8.3,
+            "instruments": 64
+          },
+          "deepseek:deepseek-flash": {
+            "top": [
+              {
+                "held": 0.549,
+                "group": "bonds",
+                "symbol": "SHY",
+                "weight": 0.079
+              },
+              {
+                "held": 0.708,
+                "group": "defensive",
+                "symbol": "XLV",
+                "weight": 0.056
+              },
+              {
+                "held": 0.681,
+                "group": "energy",
+                "symbol": "XLE",
+                "weight": 0.046
+              },
+              {
+                "held": 0.478,
+                "group": "index",
+                "symbol": "VTV",
+                "weight": 0.045
+              },
+              {
+                "held": 0.602,
+                "group": "other",
+                "symbol": "BRK-B",
+                "weight": 0.036
+              },
+              {
+                "held": 0.726,
+                "group": "gold",
+                "symbol": "GLD",
+                "weight": 0.036
+              },
+              {
+                "held": 0.478,
+                "group": "index",
+                "symbol": "SCHD",
+                "weight": 0.035
+              },
+              {
+                "held": 0.478,
+                "group": "defensive",
+                "symbol": "XLP",
+                "weight": 0.034
+              }
+            ],
+            "portfolios": 113,
+            "avgHoldings": 15.8,
+            "instruments": 132
+          },
+          "anthropic:claude-haiku-5-5": {
+            "top": [
+              {
+                "held": 0.545,
+                "group": "bonds",
+                "symbol": "SHY",
+                "weight": 0.091
+              },
+              {
+                "held": 0.273,
+                "group": "index",
+                "symbol": "VTI",
+                "weight": 0.053
+              },
+              {
+                "held": 0.636,
+                "group": "defensive",
+                "symbol": "JNJ",
+                "weight": 0.052
+              },
+              {
+                "held": 0.636,
+                "group": "defensive",
+                "symbol": "PG",
+                "weight": 0.045
+              },
+              {
+                "held": 0.818,
+                "group": "gold",
+                "symbol": "GLD",
+                "weight": 0.041
+              },
+              {
+                "held": 0.273,
+                "group": "bonds",
+                "symbol": "BND",
+                "weight": 0.038
+              },
+              {
+                "held": 0.364,
+                "group": "bonds",
+                "symbol": "IEF",
+                "weight": 0.036
+              },
+              {
+                "held": 0.545,
+                "group": "other",
+                "symbol": "BRK-B",
+                "weight": 0.035
+              }
+            ],
+            "portfolios": 11,
+            "avgHoldings": 10.9,
+            "instruments": 54
+          }
+        },
+        "portfolios": 358,
+        "rarelyHeld": [
+          {
+            "held": 2,
+            "symbol": "AAPL"
+          },
+          {
+            "held": 29,
+            "symbol": "MSFT"
+          },
+          {
+            "held": 15,
+            "symbol": "NVDA"
+          },
+          {
+            "held": 3,
+            "symbol": "AMZN"
+          },
+          {
+            "held": 38,
+            "symbol": "GOOGL"
+          },
+          {
+            "held": 7,
+            "symbol": "META"
+          },
+          {
+            "held": 0,
+            "symbol": "TSLA"
+          }
+        ]
+      },
+      "leaderboard": [
+        {
+          "ci": 83,
+          "id": "deepseek:deepseek-flash",
+          "elo": 1702,
+          "cells": 113,
+          "anchor": false,
+          "beatsSpy": 0.6195,
+          "avgExcess": 0.015,
+          "maturedCells": 0
+        },
+        {
+          "ci": 101,
+          "id": "mimo:mimo-v2.6-pro",
+          "elo": 1696,
+          "cells": 63,
+          "anchor": false,
+          "beatsSpy": 0.6508,
+          "avgExcess": 0.0175,
+          "maturedCells": 0
+        },
+        {
+          "ci": 87,
+          "id": "openai6:gpt-6-luna",
+          "elo": 1619,
+          "cells": 89,
+          "anchor": false,
+          "beatsSpy": 0.5843,
+          "avgExcess": 0.0146,
+          "maturedCells": 0
+        },
+        {
+          "ci": 92,
+          "id": "openai:gpt-5.6-luna",
+          "elo": 1576,
+          "cells": 82,
+          "anchor": false,
+          "beatsSpy": 0.6341,
+          "avgExcess": 0.0019,
+          "maturedCells": 0
+        },
+        {
+          "ci": 227,
+          "id": "anthropic:claude-haiku-5-5",
+          "elo": 1571,
+          "cells": 11,
+          "anchor": false,
+          "beatsSpy": 0,
+          "avgExcess": 0,
+          "maturedCells": 0
+        },
+        {
+          "ci": 0,
+          "id": "spy",
+          "elo": 1500,
+          "cells": 0,
+          "anchor": true,
+          "beatsSpy": null,
+          "avgExcess": null,
+          "maturedCells": 0
+        }
+      ],
+      "provisional": true,
+      "maturedCells": 0,
+      "trackedCells": 358
+    },
+    "sandbox": {
+      "course": {
+        "goal": {
+          "x": 35.199,
+          "y": 22.159
+        },
+        "arena": 40,
+        "paths": [
+          {
+            "id": "mimo:mimo-v2.6-pro",
+            "path": [
+              [
+                3.8,
+                26.1
+              ],
+              [
+                4.3,
+                26.5
+              ],
+              [
+                5.5,
+                26.3
+              ],
+              [
+                6.7,
+                26.1
+              ],
+              [
+                7.3,
+                27
+              ],
+              [
+                7.4,
+                28
+              ],
+              [
+                8.2,
+                28.3
+              ],
+              [
+                8.5,
+                27.4
+              ],
+              [
+                8.7,
+                26.8
+              ],
+              [
+                9,
+                26.9
+              ],
+              [
+                8.9,
+                27
+              ],
+              [
+                9.3,
+                26.9
+              ],
+              [
+                10.1,
+                27.2
+              ],
+              [
+                10.6,
+                28.1
+              ],
+              [
+                11.3,
+                28.6
+              ],
+              [
+                11.8,
+                28.1
+              ],
+              [
+                11.7,
+                28.1
+              ],
+              [
+                11.8,
+                28.4
+              ],
+              [
+                12.1,
+                29
+              ],
+              [
+                12.6,
+                29.2
+              ],
+              [
+                12.4,
+                29.3
+              ],
+              [
+                12.1,
+                28.9
+              ],
+              [
+                10.5,
+                28.4
+              ],
+              [
+                9.6,
+                27.6
+              ],
+              [
+                9.7,
+                27.3
+              ],
+              [
+                10,
+                27.6
+              ],
+              [
+                9.9,
+                28.6
+              ],
+              [
+                10.3,
+                29.1
+              ],
+              [
+                10.3,
+                29
+              ],
+              [
+                10.1,
+                28.9
+              ],
+              [
+                8.9,
+                28
+              ],
+              [
+                8.7,
+                27.1
+              ],
+              [
+                8.9,
+                26.9
+              ],
+              [
+                9.1,
+                27.5
+              ],
+              [
+                8.3,
+                28.4
+              ],
+              [
+                8.1,
+                29.2
+              ],
+              [
+                8.5,
+                29.3
+              ],
+              [
+                8.7,
+                28.9
+              ],
+              [
+                8.7,
+                29.2
+              ],
+              [
+                9.6,
+                29.6
+              ],
+              [
+                10.4,
+                29.6
+              ],
+              [
+                11.1,
+                29.1
+              ],
+              [
+                11.5,
+                28.9
+              ],
+              [
+                11.6,
+                29.5
+              ],
+              [
+                11.8,
+                30.4
+              ],
+              [
+                12,
+                30.4
+              ],
+              [
+                12,
+                30.1
+              ],
+              [
+                11.7,
+                30.4
+              ],
+              [
+                12.1,
+                30.1
+              ],
+              [
+                12.5,
+                29.7
+              ],
+              [
+                12.6,
+                29.7
+              ],
+              [
+                12.8,
+                29.8
+              ],
+              [
+                12.8,
+                29.8
+              ],
+              [
+                12.8,
+                29.8
+              ],
+              [
+                12.8,
+                29.8
+              ],
+              [
+                12.9,
+                29.8
+              ],
+              [
+                12.9,
+                29.9
+              ],
+              [
+                12.7,
+                30.3
+              ],
+              [
+                13.6,
+                31.1
+              ],
+              [
+                13.9,
+                31.1
+              ],
+              [
+                13.8,
+                31.1
+              ],
+              [
+                13,
+                30.8
+              ],
+              [
+                12.2,
+                30.4
+              ],
+              [
+                12.2,
+                30.2
+              ],
+              [
+                12.4,
+                30.4
+              ],
+              [
+                12.7,
+                30.7
+              ],
+              [
+                12.6,
+                30.9
+              ],
+              [
+                11,
+                32.1
+              ],
+              [
+                9.8,
+                32.9
+              ],
+              [
+                9.3,
+                32.5
+              ],
+              [
+                9.5,
+                32
+              ],
+              [
+                10.2,
+                32.6
+              ],
+              [
+                10.3,
+                33.4
+              ],
+              [
+                10.4,
+                33.5
+              ]
+            ],
+            "score": 14.83,
+            "attempt": 8
+          },
+          {
+            "id": "openai:gpt-5.6-luna",
+            "path": [
+              [
+                3.8,
+                26.1
+              ],
+              [
+                4,
+                26.3
+              ],
+              [
+                5,
+                26.3
+              ],
+              [
+                6,
+                25.6
+              ],
+              [
+                7.1,
+                24.7
+              ],
+              [
+                8.3,
+                23.9
+              ],
+              [
+                9.4,
+                23.7
+              ],
+              [
+                10.3,
+                23.9
+              ],
+              [
+                11.1,
+                24.1
+              ],
+              [
+                11.7,
+                24.1
+              ],
+              [
+                12,
+                23.9
+              ],
+              [
+                12.4,
+                23.4
+              ],
+              [
+                12.8,
+                23.1
+              ],
+              [
+                12.5,
+                22.5
+              ],
+              [
+                11.8,
+                21.5
+              ],
+              [
+                10.5,
+                21.1
+              ],
+              [
+                9.9,
+                22.1
+              ],
+              [
+                10.6,
+                22.7
+              ],
+              [
+                11,
+                22.9
+              ],
+              [
+                11.6,
+                23.4
+              ],
+              [
+                12,
+                23.6
+              ],
+              [
+                12.2,
+                23.7
+              ],
+              [
+                12.2,
+                24.1
+              ],
+              [
+                12.2,
+                24.9
+              ],
+              [
+                12.2,
+                24.8
+              ],
+              [
+                11.6,
+                25.3
+              ],
+              [
+                11.8,
+                26.1
+              ],
+              [
+                11.6,
+                25.8
+              ],
+              [
+                11.5,
+                26
+              ],
+              [
+                11.2,
+                27
+              ],
+              [
+                10.6,
+                28.1
+              ],
+              [
+                9.9,
+                29.2
+              ],
+              [
+                9.1,
+                30.2
+              ],
+              [
+                8.3,
+                31.2
+              ],
+              [
+                7.4,
+                32.3
+              ],
+              [
+                6.6,
+                33.3
+              ],
+              [
+                5.9,
+                34.1
+              ],
+              [
+                5.4,
+                34.9
+              ],
+              [
+                4.9,
+                35.7
+              ],
+              [
+                4.4,
+                36.7
+              ],
+              [
+                3.9,
+                37.8
+              ],
+              [
+                3.8,
+                38.6
+              ],
+              [
+                3.5,
+                38.6
+              ],
+              [
+                3.6,
+                37.9
+              ],
+              [
+                4.1,
+                37.2
+              ],
+              [
+                4.6,
+                36.6
+              ],
+              [
+                5.3,
+                36.2
+              ],
+              [
+                6.2,
+                35.9
+              ],
+              [
+                7.3,
+                35.9
+              ],
+              [
+                8.2,
+                36.1
+              ],
+              [
+                9.1,
+                36.2
+              ],
+              [
+                9.6,
+                36.1
+              ],
+              [
+                9.7,
+                35.8
+              ],
+              [
+                9.2,
+                34.9
+              ],
+              [
+                8.5,
+                33.7
+              ],
+              [
+                8.2,
+                32.4
+              ],
+              [
+                8.2,
+                31.3
+              ],
+              [
+                8.4,
+                30.3
+              ],
+              [
+                9,
+                29.3
+              ],
+              [
+                9.7,
+                28.4
+              ],
+              [
+                10.3,
+                27.8
+              ],
+              [
+                10.7,
+                27.6
+              ],
+              [
+                10.9,
+                27.9
+              ],
+              [
+                11.2,
+                28.2
+              ],
+              [
+                11.6,
+                28.5
+              ],
+              [
+                11.9,
+                28.5
+              ],
+              [
+                12,
+                28.5
+              ],
+              [
+                11.9,
+                28.5
+              ],
+              [
+                11.9,
+                28.5
+              ],
+              [
+                11.9,
+                28.5
+              ],
+              [
+                11.9,
+                28.4
+              ],
+              [
+                11.9,
+                28.4
+              ],
+              [
+                12,
+                28.4
+              ],
+              [
+                12,
+                28.4
+              ]
+            ],
+            "score": 23.71,
+            "attempt": 8
+          },
+          {
+            "id": "openai6:gpt-6-luna",
+            "path": [
+              [
+                3.8,
+                26.1
+              ],
+              [
+                4.4,
+                26.4
+              ],
+              [
+                5.7,
+                26.3
+              ],
+              [
+                7,
+                26
+              ],
+              [
+                8.5,
+                25.5
+              ],
+              [
+                9.8,
+                25.1
+              ],
+              [
+                10.8,
+                24.8
+              ],
+              [
+                11.6,
+                24.6
+              ],
+              [
+                12.3,
+                24.4
+              ],
+              [
+                12.5,
+                24.4
+              ],
+              [
+                12.8,
+                24.3
+              ],
+              [
+                12.8,
+                24.4
+              ],
+              [
+                12.8,
+                24.3
+              ],
+              [
+                12.9,
+                24.4
+              ],
+              [
+                12.9,
+                24.4
+              ],
+              [
+                12.8,
+                24.6
+              ],
+              [
+                12.6,
+                24.9
+              ],
+              [
+                12.4,
+                25.2
+              ],
+              [
+                12.3,
+                25.1
+              ],
+              [
+                12.3,
+                25.3
+              ],
+              [
+                12.3,
+                25.3
+              ],
+              [
+                12.3,
+                25.7
+              ],
+              [
+                12.1,
+                25.9
+              ],
+              [
+                11.8,
+                27.3
+              ],
+              [
+                12.7,
+                28
+              ],
+              [
+                13.1,
+                28.1
+              ],
+              [
+                13.6,
+                28.2
+              ],
+              [
+                13.7,
+                28.3
+              ],
+              [
+                14,
+                28.6
+              ],
+              [
+                14.1,
+                28.7
+              ],
+              [
+                14.2,
+                28.7
+              ],
+              [
+                14.4,
+                28.7
+              ],
+              [
+                14.3,
+                28.6
+              ],
+              [
+                14.1,
+                28.4
+              ],
+              [
+                13.6,
+                28.1
+              ],
+              [
+                13.5,
+                28
+              ],
+              [
+                13.3,
+                27.8
+              ],
+              [
+                13.3,
+                27.6
+              ],
+              [
+                13.3,
+                27.7
+              ],
+              [
+                13.3,
+                27.8
+              ],
+              [
+                13.1,
+                27.8
+              ],
+              [
+                13.1,
+                27.9
+              ],
+              [
+                13.2,
+                27.8
+              ],
+              [
+                13,
+                27.6
+              ],
+              [
+                12,
+                27.4
+              ],
+              [
+                11.1,
+                26.4
+              ],
+              [
+                10.6,
+                25
+              ],
+              [
+                10.4,
+                23.5
+              ],
+              [
+                10.4,
+                21.9
+              ],
+              [
+                10,
+                20.3
+              ],
+              [
+                9.4,
+                19
+              ],
+              [
+                9.3,
+                17.7
+              ],
+              [
+                9.3,
+                16.3
+              ],
+              [
+                9.6,
+                14.7
+              ],
+              [
+                9.9,
+                13.1
+              ],
+              [
+                10.3,
+                11.7
+              ],
+              [
+                10.7,
+                10.5
+              ],
+              [
+                11,
+                9.2
+              ],
+              [
+                11.1,
+                7.6
+              ],
+              [
+                11.2,
+                5.9
+              ],
+              [
+                11.3,
+                4.7
+              ],
+              [
+                11.4,
+                3.4
+              ],
+              [
+                11.2,
+                2.5
+              ],
+              [
+                11.4,
+                1.6
+              ],
+              [
+                11.8,
+                1.2
+              ],
+              [
+                12.5,
+                0.9
+              ],
+              [
+                12.7,
+                1.1
+              ],
+              [
+                13,
+                1.3
+              ],
+              [
+                13.1,
+                1.5
+              ],
+              [
+                13.3,
+                1.9
+              ],
+              [
+                13.3,
+                2
+              ],
+              [
+                13.3,
+                2.1
+              ],
+              [
+                13.3,
+                2.4
+              ],
+              [
+                13.3,
+                2.4
+              ]
+            ],
+            "score": 45.95,
+            "attempt": 7
+          },
+          {
+            "id": "deepseek:deepseek-flash",
+            "path": [
+              [
+                3.8,
+                26.1
+              ],
+              [
+                4.4,
+                26.5
+              ],
+              [
+                6.1,
+                26.3
+              ],
+              [
+                7.7,
+                26.9
+              ],
+              [
+                9.8,
+                26.9
+              ],
+              [
+                11.2,
+                26.6
+              ],
+              [
+                11.1,
+                28.2
+              ],
+              [
+                11.7,
+                27.7
+              ],
+              [
+                11.9,
+                27.1
+              ],
+              [
+                11.3,
+                27.6
+              ],
+              [
+                11.3,
+                27.5
+              ],
+              [
+                11.7,
+                27.1
+              ],
+              [
+                11.2,
+                26.9
+              ],
+              [
+                11.2,
+                26.5
+              ],
+              [
+                11.1,
+                27.2
+              ],
+              [
+                11.5,
+                25.9
+              ],
+              [
+                11.7,
+                25.6
+              ],
+              [
+                11.3,
+                25.8
+              ],
+              [
+                11.7,
+                26.8
+              ],
+              [
+                11.3,
+                26.8
+              ],
+              [
+                11,
+                27
+              ],
+              [
+                12.2,
+                27.3
+              ],
+              [
+                11.9,
+                26.9
+              ],
+              [
+                11.8,
+                26.5
+              ],
+              [
+                11.6,
+                26.5
+              ],
+              [
+                11.4,
+                26
+              ],
+              [
+                12,
+                26.9
+              ],
+              [
+                11.2,
+                26.6
+              ],
+              [
+                10.8,
+                26.6
+              ],
+              [
+                11.9,
+                27.4
+              ],
+              [
+                12.2,
+                27.6
+              ],
+              [
+                12.9,
+                28.1
+              ],
+              [
+                12.9,
+                27.6
+              ],
+              [
+                12.3,
+                27.4
+              ],
+              [
+                12.9,
+                28.6
+              ],
+              [
+                13.6,
+                28.3
+              ],
+              [
+                13.1,
+                28.9
+              ],
+              [
+                13.5,
+                28.6
+              ],
+              [
+                12,
+                28
+              ],
+              [
+                12.4,
+                27.4
+              ],
+              [
+                12.1,
+                28.3
+              ],
+              [
+                11.4,
+                27.6
+              ],
+              [
+                11.9,
+                26.4
+              ],
+              [
+                12.1,
+                26.4
+              ],
+              [
+                12.1,
+                26.9
+              ],
+              [
+                12.2,
+                27.4
+              ],
+              [
+                12.2,
+                27.6
+              ],
+              [
+                11.6,
+                26.9
+              ],
+              [
+                11.8,
+                26.3
+              ],
+              [
+                10.6,
+                26
+              ],
+              [
+                10.8,
+                26
+              ],
+              [
+                9.6,
+                25
+              ],
+              [
+                10.4,
+                24.3
+              ],
+              [
+                10.8,
+                22.9
+              ],
+              [
+                10.5,
+                21.4
+              ],
+              [
+                11.9,
+                20.9
+              ],
+              [
+                10.4,
+                20.2
+              ],
+              [
+                10.3,
+                19.5
+              ],
+              [
+                11.7,
+                19.3
+              ],
+              [
+                11.3,
+                18.7
+              ],
+              [
+                11.7,
+                18.1
+              ],
+              [
+                12.1,
+                18.2
+              ],
+              [
+                12.3,
+                17.4
+              ],
+              [
+                13,
+                15.9
+              ],
+              [
+                11.6,
+                14.8
+              ],
+              [
+                12.8,
+                14.3
+              ],
+              [
+                13.7,
+                14.3
+              ],
+              [
+                12.6,
+                14.6
+              ],
+              [
+                12.7,
+                14.6
+              ],
+              [
+                13.1,
+                14
+              ],
+              [
+                13.3,
+                12.9
+              ],
+              [
+                13.8,
+                12.5
+              ],
+              [
+                13.8,
+                12.6
+              ]
+            ],
+            "score": 29.09,
+            "attempt": 7
+          }
+        ],
+        "start": {
+          "x": 3.761,
+          "y": 26.111,
+          "heading": 33.6
+        },
+        "world": "e45f63ed",
+        "obstacles": [
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 0.6
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 1.7
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 2.8
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 3.9
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 5
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 6.1
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 7.2
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 8.3
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 9.4
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 10.5
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 11.6
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 12.7
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 13.8
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 14.9
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 16
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 17.1
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 18.2
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 19.3
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 20.4
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 21.5
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 22.6
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 23.7
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 24.8
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 25.9
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 27
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 32.5
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 33.6
+          },
+          {
+            "r": 0.8,
+            "x": 15,
+            "y": 39.1
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 0.6
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 1.7
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 6.1
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 7.2
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 8.3
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 9.4
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 10.5
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 11.6
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 12.7
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 13.8
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 14.9
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 16
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 17.1
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 18.2
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 19.3
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 20.4
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 21.5
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 22.6
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 23.7
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 24.8
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 30.3
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 35.8
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 36.9
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 38
+          },
+          {
+            "r": 0.8,
+            "x": 24.5,
+            "y": 39.1
+          },
+          {
+            "r": 0.7,
+            "x": 13.1,
+            "y": 19.1
+          },
+          {
+            "r": 0.7,
+            "x": 14.2,
+            "y": 19.1
+          },
+          {
+            "r": 0.7,
+            "x": 15.3,
+            "y": 19.4
+          },
+          {
+            "r": 0.7,
+            "x": 16.3,
+            "y": 20.1
+          },
+          {
+            "r": 0.7,
+            "x": 16.9,
+            "y": 21
+          },
+          {
+            "r": 0.7,
+            "x": 17.3,
+            "y": 22.1
+          },
+          {
+            "r": 0.7,
+            "x": 17.3,
+            "y": 23.2
+          },
+          {
+            "r": 0.7,
+            "x": 17,
+            "y": 24.3
+          },
+          {
+            "r": 0.7,
+            "x": 16.3,
+            "y": 25.2
+          },
+          {
+            "r": 0.7,
+            "x": 15.4,
+            "y": 25.9
+          },
+          {
+            "r": 0.7,
+            "x": 14.3,
+            "y": 26.3
+          },
+          {
+            "r": 0.7,
+            "x": 13.2,
+            "y": 26.3
+          },
+          {
+            "r": 1.21,
+            "x": 27.8,
+            "y": 24.4
+          },
+          {
+            "r": 0.67,
+            "x": 18.2,
+            "y": 18.4
+          },
+          {
+            "r": 1.23,
+            "x": 12,
+            "y": 35.6
+          },
+          {
+            "r": 1.11,
+            "x": 17.8,
+            "y": 37.3
+          },
+          {
+            "r": 1.33,
+            "x": 19,
+            "y": 2.6
+          },
+          {
+            "r": 1.56,
+            "x": 20.5,
+            "y": 8.4
+          },
+          {
+            "r": 1.75,
+            "x": 19.7,
+            "y": 14.7
+          },
+          {
+            "r": 1.66,
+            "x": 28.6,
+            "y": 13.4
+          },
+          {
+            "r": 1.78,
+            "x": 29.7,
+            "y": 33
+          },
+          {
+            "r": 1.16,
+            "x": 20.8,
+            "y": 26.8
+          }
+        ],
+        "checkpoints": [
+          {
+            "x": 14.01,
+            "y": 29.411
+          },
+          {
+            "x": 26.032,
+            "y": 4.002
+          }
+        ]
+      },
+      "worlds": [
+        {
+          "id": "9fe33ce7",
+          "seed": 918376227,
+          "rated": false,
+          "created": "2026-10-19T13:06:06.792Z",
+          "players": [
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                11.62,
+                26.79,
+                -2.27,
+                -13.47,
+                27.16,
+                35.3,
+                101.14,
+                106.06
+              ],
+              "final": 44.82,
+              "goals": 1,
+              "learning": 45.21,
+              "bestPractice": 106.06
+            },
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                7.94,
+                129.25,
+                131.67,
+                131.5,
+                130.69,
+                128.78,
+                129.97,
+                130.64
+              ],
+              "final": 41.24,
+              "goals": 2,
+              "learning": 115.9,
+              "bestPractice": 131.67
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                -15,
+                9.27,
+                27.35,
+                -15,
+                0,
+                0
+              ],
+              "final": 9.62,
+              "goals": 0,
+              "learning": 19.8,
+              "bestPractice": 27.35
+            },
+            {
+              "id": "anthropic:claude-haiku-5-5",
+              "name": "Claude Haiku 5.5",
+              "curve": [
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15
+              ],
+              "final": -15,
+              "goals": 0,
+              "learning": -15,
+              "bestPractice": -15
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -9.64
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 18.4
+            }
+          ]
+        },
+        {
+          "id": "e45f63ed",
+          "seed": 2021068944,
+          "rated": true,
+          "created": "2026-10-15T14:34:49.846Z",
+          "players": [
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                -15,
+                31.95,
+                18.97,
+                26.07,
+                39.23,
+                16.9,
+                45.95,
+                31.31
+              ],
+              "final": 47.49,
+              "goals": 1,
+              "learning": 31.4,
+              "bestPractice": 45.95
+            },
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                -15,
+                4.04,
+                18.73,
+                16.58,
+                0,
+                14.76,
+                17.06,
+                23.71
+              ],
+              "final": 16.25,
+              "goals": 0,
+              "learning": 13.3,
+              "bestPractice": 23.71
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                -15,
+                0,
+                -5.81,
+                -15,
+                16.72,
+                15.97,
+                29.09,
+                16.51
+              ],
+              "final": 7.23,
+              "goals": 0,
+              "learning": 9.58,
+              "bestPractice": 29.09
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                -15,
+                -15,
+                -15,
+                0,
+                0,
+                -15,
+                -15,
+                14.83
+              ],
+              "final": 6.34,
+              "goals": 0,
+              "learning": -3.77,
+              "bestPractice": 14.83
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -6.06
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 4.8
+            }
+          ]
+        },
+        {
+          "id": "323b0d5f",
+          "seed": 1861848758,
+          "rated": true,
+          "created": "2026-10-06T09:23:22.012Z",
+          "players": [
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                -15,
+                51.17,
+                59.37,
+                48.89,
+                50.69,
+                59.44,
+                59.35,
+                59.35
+              ],
+              "final": 84.54,
+              "goals": 4,
+              "learning": 49.08,
+              "bestPractice": 59.44
+            },
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                0,
+                19.69,
+                48.18,
+                49.21,
+                11.23,
+                28.35,
+                61.51,
+                17.47
+              ],
+              "final": 45.94,
+              "goals": 2,
+              "learning": 42.32,
+              "bestPractice": 61.51
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                2.7,
+                62.85,
+                -15,
+                -4.96,
+                -4.41,
+                -15,
+                -15,
+                30
+              ],
+              "final": 20.63,
+              "goals": 1,
+              "learning": 55.33,
+              "bestPractice": 62.85
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                0,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                -15,
+                1.03
+              ],
+              "final": -5.05,
+              "goals": 0,
+              "learning": 0.13,
+              "bestPractice": 1.03
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -9.49
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 0.9
+            }
+          ]
+        },
+        {
+          "id": "3acfc54f",
+          "seed": 839861913,
+          "rated": true,
+          "created": "2026-10-01T12:08:11.632Z",
+          "players": [
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                0,
+                2.39,
+                18.99,
+                3.38,
+                18.15,
+                19.29,
+                3.52,
+                21.11
+              ],
+              "final": 57.39,
+              "goals": 1,
+              "learning": 14.88,
+              "bestPractice": 21.11
+            },
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                0.16,
+                1.41,
+                2.94,
+                17.72,
+                -15,
+                18.15,
+                17.46,
+                10.43
+              ],
+              "final": 26.37,
+              "goals": 0,
+              "learning": 11.8,
+              "bestPractice": 18.15
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                -15,
+                -1.51,
+                0,
+                -15,
+                -0.83,
+                18.76,
+                2.41,
+                10.41
+              ],
+              "final": 24.66,
+              "goals": 0,
+              "learning": 4.97,
+              "bestPractice": 18.76
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                -3.1,
+                18.23,
+                -15,
+                -13.62,
+                6.97,
+                -0.85,
+                14.39,
+                2.45
+              ],
+              "final": 21.45,
+              "goals": 0,
+              "learning": 15.56,
+              "bestPractice": 18.23
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -13.17
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 22.49
+            }
+          ]
+        },
+        {
+          "id": "c8cb3d43",
+          "seed": 122849159,
+          "rated": true,
+          "created": "2026-10-01T12:07:29.394Z",
+          "players": [
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                -3.09,
+                15,
+                61.52,
+                30,
+                125.81,
+                126.53,
+                43.65,
+                126.53
+              ],
+              "final": 47.58,
+              "goals": 2,
+              "learning": 80.04,
+              "bestPractice": 126.53
+            },
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                3.9,
+                22.18,
+                30,
+                15,
+                18.3,
+                109.86,
+                15,
+                30
+              ],
+              "final": 41.5,
+              "goals": 1,
+              "learning": 55.71,
+              "bestPractice": 109.86
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                -15,
+                -4.52,
+                -4.37,
+                45,
+                45.47,
+                133.72,
+                22.89,
+                131.39
+              ],
+              "final": 27.78,
+              "goals": 1,
+              "learning": 58.47,
+              "bestPractice": 133.72
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                -3.86,
+                30,
+                16.87,
+                54.66,
+                103.92,
+                -15,
+                -5.27,
+                105.39
+              ],
+              "final": 20.84,
+              "goals": 0,
+              "learning": 65.99,
+              "bestPractice": 105.39
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -10.01
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 33.91
+            }
+          ]
+        },
+        {
+          "id": "5d05b465",
+          "seed": 660273807,
+          "rated": true,
+          "created": "2026-09-28T20:58:46.606Z",
+          "players": [
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                50.42,
+                53.57,
+                50.29,
+                111.47,
+                62.55,
+                111.47,
+                61.82,
+                111.47
+              ],
+              "final": 36.99,
+              "goals": 0,
+              "learning": 89.36,
+              "bestPractice": 111.47
+            },
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                51.69,
+                49.65,
+                49.83,
+                7.21,
+                60,
+                50.85,
+                53.14,
+                -15
+              ],
+              "final": 31.59,
+              "goals": 1,
+              "learning": 55.84,
+              "bestPractice": 60
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                12.07,
+                10.14,
+                59.51,
+                50.46,
+                112.69,
+                10.59,
+                107.97,
+                52.32
+              ],
+              "final": 25.2,
+              "goals": 0,
+              "learning": 74.24,
+              "bestPractice": 112.69
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                1.97,
+                2.06,
+                2.96,
+                15.33,
+                18.57,
+                13.92,
+                2.42,
+                6.17
+              ],
+              "final": 1.07,
+              "goals": 0,
+              "learning": 12.07,
+              "bestPractice": 18.57
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -10.31
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": 10.99
+            }
+          ]
+        },
+        {
+          "id": "d6d5908d",
+          "seed": 1338413455,
+          "rated": true,
+          "created": "2026-09-28T16:42:54.777Z",
+          "players": [
+            {
+              "id": "openai6:gpt-6-luna",
+              "name": "GPT-6 Luna",
+              "curve": [
+                -15,
+                19.99,
+                21.31,
+                22.87,
+                19.27,
+                22.08,
+                15,
+                21.39
+              ],
+              "final": 48.5,
+              "goals": 1,
+              "learning": 17.58,
+              "bestPractice": 22.87
+            },
+            {
+              "id": "openai:gpt-5.6-luna",
+              "name": "GPT-5.6 Luna",
+              "curve": [
+                -15,
+                22.25,
+                19.53,
+                22.6,
+                19.4,
+                19.85,
+                20.62,
+                32.94
+              ],
+              "final": 21.28,
+              "goals": 0,
+              "learning": 19.11,
+              "bestPractice": 32.94
+            },
+            {
+              "id": "mimo:mimo-v2.6-pro",
+              "name": "MiMo V2.6 Pro",
+              "curve": [
+                -15,
+                1.09,
+                20.02,
+                20.36,
+                -2.29,
+                -1.58,
+                22.81,
+                20.19
+              ],
+              "final": 2.46,
+              "goals": 0,
+              "learning": 14.1,
+              "bestPractice": 22.81
+            },
+            {
+              "id": "deepseek:deepseek-flash",
+              "name": "DeepSeek Flash",
+              "curve": [
+                -15,
+                -15,
+                -15,
+                18.94,
+                -4.87,
+                -15,
+                -15,
+                -4.56
+              ],
+              "final": 1.21,
+              "goals": 0,
+              "learning": 6.21,
+              "bestPractice": 18.94
+            }
+          ],
+          "attempts": 8,
+          "baselines": [
+            {
+              "id": "random",
+              "name": "Random",
+              "final": -10.49
+            },
+            {
+              "id": "reference",
+              "name": "Reference engineer",
+              "final": -2.35
+            }
+          ]
+        }
+      ],
+      "leaderboard": [
+        {
+          "ci": 186,
+          "id": "openai6:gpt-6-luna",
+          "elo": 1933,
+          "name": "GPT-6 Luna",
+          "anchor": false,
+          "worlds": 6,
+          "baseline": false,
+          "learning": 46.54
+        },
+        {
+          "ci": 166,
+          "id": "openai:gpt-5.6-luna",
+          "elo": 1818,
+          "name": "GPT-5.6 Luna",
+          "anchor": false,
+          "worlds": 6,
+          "baseline": false,
+          "learning": 33.53
+        },
+        {
+          "ci": 148,
+          "id": "mimo:mimo-v2.6-pro",
+          "elo": 1533,
+          "name": "MiMo V2.6 Pro",
+          "anchor": false,
+          "worlds": 6,
+          "baseline": false,
+          "learning": 35.14
+        },
+        {
+          "ci": 0,
+          "id": "reference",
+          "elo": 1500,
+          "name": "Reference engineer",
+          "anchor": true,
+          "worlds": 6,
+          "baseline": true,
+          "learning": null
+        },
+        {
+          "ci": 153,
+          "id": "deepseek:deepseek-flash",
+          "elo": 1415,
+          "name": "DeepSeek Flash",
+          "anchor": false,
+          "worlds": 6,
+          "baseline": false,
+          "learning": 17
+        },
+        {
+          "ci": 220,
+          "id": "random",
+          "elo": 1082,
+          "name": "Random",
+          "anchor": false,
+          "worlds": 6,
+          "baseline": true,
+          "learning": null
+        }
+      ],
+      "ratedWorlds": 6
+    }
+  },
+  "models": [
+    {
+      "id": "anthropic:claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "slug": "claude-haiku-5-5",
+      "model": "claude-haiku-5-5",
+      "provider": "Anthropic"
+    },
+    {
+      "id": "deepseek:deepseek-flash",
+      "name": "DeepSeek Flash",
+      "slug": "deepseek-flash",
+      "model": "deepseek-flash",
+      "provider": "DeepSeek"
+    },
+    {
+      "id": "openai6:gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "slug": "gpt-6-luna",
+      "model": "gpt-6-luna",
+      "provider": "OpenAI"
+    },
+    {
+      "id": "mimo:mimo-v2.6-pro",
+      "name": "MiMo V2.6 Pro",
+      "slug": "mimo-v2-6-pro",
+      "model": "mimo-v2.6-pro",
+      "provider": "Xiaomi"
+    },
+    {
+      "id": "openai:gpt-5.6-luna",
+      "name": "GPT-5.6 Luna",
+      "slug": "gpt-5-6-luna",
+      "model": "gpt-5.6-luna",
+      "provider": "OpenAI"
+    }
+  ],
+  "builtAt": "2026-10-20T06:00:23.908Z",
+  "version": "kardashevian-release-v1",
+  "methodVersion": "1.0",
+  "n": 6,
+  "releasedAt": "2026-10-20T06:00:24.094Z",
+  "note": "Automatic daily release: prices through 2026-10-16; 8 books, 6 rated worlds"
+}

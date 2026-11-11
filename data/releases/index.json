@@ -1,0 +1,159 @@
+{
+  "releases": [
+    {
+      "n": 31,
+      "releasedAt": "2026-11-11T08:02:44.209Z",
+      "note": "Automatic daily release: prices through 2026-11-10; 21 books, 9 rated worlds"
+    },
+    {
+      "n": 30,
+      "releasedAt": "2026-11-11T06:00:43.954Z",
+      "note": "Automatic daily release: prices through 2026-11-09; 21 books, 9 rated worlds"
+    },
+    {
+      "n": 29,
+      "releasedAt": "2026-11-10T08:01:31.814Z",
+      "note": "Automatic daily release: prices through 2026-11-09; 18 books, 9 rated worlds"
+    },
+    {
+      "n": 28,
+      "releasedAt": "2026-11-07T07:58:19.911Z",
+      "note": "Automatic daily release: prices through 2026-11-06; 18 books, 9 rated worlds"
+    },
+    {
+      "n": 27,
+      "releasedAt": "2026-11-06T08:15:17.689Z",
+      "note": "Automatic daily release: prices through 2026-11-05; 18 books, 9 rated worlds"
+    },
+    {
+      "n": 26,
+      "releasedAt": "2026-11-05T07:59:11.920Z",
+      "note": "Automatic daily release: prices through 2026-11-04; 18 books, 9 rated worlds"
+    },
+    {
+      "n": 25,
+      "releasedAt": "2026-11-05T06:00:22.201Z",
+      "note": "Automatic daily release: prices through 2026-11-03; 18 books, 9 rated worlds"
+    },
+    {
+      "n": 24,
+      "releasedAt": "2026-11-04T07:59:56.417Z",
+      "note": "Automatic daily release: prices through 2026-11-03; 16 books, 9 rated worlds"
+    },
+    {
+      "n": 23,
+      "releasedAt": "2026-11-04T06:01:05.848Z",
+      "note": "Automatic daily release: prices through 2026-11-02; 16 books, 9 rated worlds"
+    },
+    {
+      "n": 22,
+      "releasedAt": "2026-11-03T07:56:20.721Z",
+      "note": "Automatic daily release: prices through 2026-11-02; 14 books, 9 rated worlds"
+    },
+    {
+      "n": 21,
+      "releasedAt": "2026-10-31T07:57:42.720Z",
+      "note": "Automatic daily release: prices through 2026-10-30; 14 books, 9 rated worlds"
+    },
+    {
+      "n": 20,
+      "releasedAt": "2026-10-31T06:00:58.263Z",
+      "note": "Automatic daily release: prices through 2026-10-29; 14 books, 9 rated worlds"
+    },
+    {
+      "n": 19,
+      "releasedAt": "2026-10-30T07:58:33.816Z",
+      "note": "Automatic daily release: prices through 2026-10-29; 11 books, 9 rated worlds"
+    },
+    {
+      "n": 18,
+      "releasedAt": "2026-10-29T08:03:18.640Z",
+      "note": "Automatic daily release: prices through 2026-10-28; 11 books, 9 rated worlds"
+    },
+    {
+      "n": 17,
+      "releasedAt": "2026-10-28T08:05:26.376Z",
+      "note": "Automatic daily release: prices through 2026-10-27; 11 books, 9 rated worlds"
+    },
+    {
+      "n": 16,
+      "releasedAt": "2026-10-28T06:00:35.821Z",
+      "note": "Automatic daily release: prices through 2026-10-26; 11 books, 9 rated worlds"
+    },
+    {
+      "n": 15,
+      "releasedAt": "2026-10-27T07:56:28.620Z",
+      "note": "Automatic daily release: prices through 2026-10-26; 11 books, 8 rated worlds"
+    },
+    {
+      "n": 14,
+      "releasedAt": "2026-10-27T06:00:29.973Z",
+      "note": "Automatic daily release: prices through 2026-10-23; 11 books, 8 rated worlds"
+    },
+    {
+      "n": 13,
+      "releasedAt": "2026-10-24T06:57:49.947Z",
+      "note": "Automatic daily release: prices through 2026-10-23; 10 books, 8 rated worlds"
+    },
+    {
+      "n": 12,
+      "releasedAt": "2026-10-23T07:04:32.375Z",
+      "note": "Automatic daily release: prices through 2026-10-22; 10 books, 8 rated worlds"
+    },
+    {
+      "n": 11,
+      "releasedAt": "2026-10-22T07:03:00.527Z",
+      "note": "Automatic daily release: prices through 2026-10-21; 10 books, 8 rated worlds"
+    },
+    {
+      "n": 10,
+      "releasedAt": "2026-10-22T06:00:38.412Z",
+      "note": "Automatic daily release: prices through 2026-10-20; 10 books, 8 rated worlds"
+    },
+    {
+      "n": 9,
+      "releasedAt": "2026-10-21T06:56:14.838Z",
+      "note": "Automatic daily release: prices through 2026-10-20; 9 books, 7 rated worlds"
+    },
+    {
+      "n": 8,
+      "releasedAt": "2026-10-21T06:00:53.429Z",
+      "note": "Automatic daily release: prices through 2026-10-19; 9 books, 7 rated worlds"
+    },
+    {
+      "n": 7,
+      "releasedAt": "2026-10-20T07:05:50.353Z",
+      "note": "Automatic daily release: prices through 2026-10-19; 8 books, 6 rated worlds"
+    },
+    {
+      "n": 6,
+      "releasedAt": "2026-10-20T06:00:24.094Z",
+      "note": "Automatic daily release: prices through 2026-10-16; 8 books, 6 rated worlds"
+    },
+    {
+      "n": 5,
+      "releasedAt": "2026-10-19T13:05:03.554Z",
+      "note": "Recalculated without the 13 Oct book (stale 18 Sep snapshot)"
+    },
+    {
+      "n": 4,
+      "releasedAt": "2026-10-17T07:02:36.221Z",
+      "note": "Automatic daily release: prices through 2026-10-16; 7 books, 6 rated worlds"
+    },
+    {
+      "n": 3,
+      "releasedAt": "2026-10-16T13:11:38.104Z",
+      "note": "Automatic daily release: prices through 2026-10-15; 7 books, 6 rated worlds"
+    },
+    {
+      "n": 2,
+      "releasedAt": "2026-10-07T14:39:38.730Z",
+      "note": "Adds how the models invest: risk levels, holdings mix, what helped, favourites"
+    },
+    {
+      "n": 1,
+      "releasedAt": "2026-10-07T13:57:52.107Z",
+      "note": "First public release: Markets (6 books) and Sandbox (5 rated worlds)"
+    }
+  ]
+}

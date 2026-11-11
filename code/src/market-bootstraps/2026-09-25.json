@@ -1,0 +1,3007 @@
+{
+  "asOfDate": "2026-09-25",
+  "source": "yahoo",
+  "universeVersion": "v1",
+  "instruments": [
+    {
+      "symbol": "AAPL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 341.070007,
+      "return3m": 0.20291834,
+      "return12m": 0.35678294,
+      "high52w": 341.070007,
+      "low52w": 244.36731,
+      "nObs": 252
+    },
+    {
+      "symbol": "MSFT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 516.169983,
+      "return3m": 0.38655035,
+      "return12m": 0.02012517,
+      "high52w": 537.646362,
+      "low52w": 352.167023,
+      "nObs": 252
+    },
+    {
+      "symbol": "GOOGL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 343.920013,
+      "return3m": 0.0200097,
+      "return12m": 0.395219,
+      "high52w": 402.121185,
+      "low52w": 235.956345,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMZN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 249.669998,
+      "return3m": 0.07297261,
+      "return12m": 0.13378135,
+      "high52w": 284.019989,
+      "low52w": 198.789993,
+      "nObs": 252
+    },
+    {
+      "symbol": "META.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 751.659973,
+      "return3m": 0.36711161,
+      "return12m": -0.00847984,
+      "high52w": 777.590027,
+      "low52w": 524.81897,
+      "nObs": 252
+    },
+    {
+      "symbol": "NVDA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 225.070007,
+      "return3m": 0.17032076,
+      "return12m": 0.27484461,
+      "high52w": 235.202393,
+      "low52w": 164.79332,
+      "nObs": 252
+    },
+    {
+      "symbol": "BRK-B.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 505.480011,
+      "return3m": 0.01367667,
+      "return12m": 0.01687826,
+      "high52w": 529.419983,
+      "low52w": 465.399994,
+      "nObs": 252
+    },
+    {
+      "symbol": "JPM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 343.059998,
+      "return3m": 0.04727391,
+      "return12m": 0.11550953,
+      "high52w": 365.179993,
+      "low52w": 280.137878,
+      "nObs": 252
+    },
+    {
+      "symbol": "V.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 367.380005,
+      "return3m": 0.09467476,
+      "return12m": 0.09341621,
+      "high52w": 384.140015,
+      "low52w": 294.361786,
+      "nObs": 252
+    },
+    {
+      "symbol": "MA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 567.650024,
+      "return3m": 0.13943649,
+      "return12m": 0.00417959,
+      "high52w": 599.859985,
+      "low52w": 470.760834,
+      "nObs": 252
+    },
+    {
+      "symbol": "JNJ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 271.220001,
+      "return3m": 0.07028051,
+      "return12m": 0.56959731,
+      "high52w": 278.429993,
+      "low52w": 173.812988,
+      "nObs": 252
+    },
+    {
+      "symbol": "PG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 146.229996,
+      "return3m": -0.01139717,
+      "return12m": -0.01239905,
+      "high52w": 164.720734,
+      "low52w": 135.034378,
+      "nObs": 252
+    },
+    {
+      "symbol": "KO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 87.809998,
+      "return3m": 0.06903035,
+      "return12m": 0.35657373,
+      "high52w": 91.444336,
+      "low52w": 63.969444,
+      "nObs": 252
+    },
+    {
+      "symbol": "PEP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 128.630005,
+      "return3m": -0.08052808,
+      "return12m": -0.05857742,
+      "high52w": 165.453445,
+      "low52w": 128.149994,
+      "nObs": 252
+    },
+    {
+      "symbol": "WMT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 107.980003,
+      "return3m": -0.06440917,
+      "return12m": 0.05995475,
+      "high52w": 133.879486,
+      "low52w": 99.769974,
+      "nObs": 252
+    },
+    {
+      "symbol": "COST.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 922.77002,
+      "return3m": -0.02971304,
+      "return12m": -0.01810701,
+      "high52w": 1092.582886,
+      "low52w": 846.264954,
+      "nObs": 252
+    },
+    {
+      "symbol": "XOM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 160.589996,
+      "return3m": 0.1837546,
+      "return12m": 0.44242607,
+      "high52w": 169.320007,
+      "low52w": 107.523682,
+      "nObs": 252
+    },
+    {
+      "symbol": "CVX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 204.449997,
+      "return3m": 0.20562531,
+      "return12m": 0.33500632,
+      "high52w": 217.770004,
+      "low52w": 142.763428,
+      "nObs": 252
+    },
+    {
+      "symbol": "UNH.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 376.589996,
+      "return3m": -0.1144713,
+      "return12m": 0.09893867,
+      "high52w": 433.679596,
+      "low52w": 255.972839,
+      "nObs": 252
+    },
+    {
+      "symbol": "LLY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1183.459961,
+      "return3m": -0.01900816,
+      "return12m": 0.60534327,
+      "high52w": 1280.339966,
+      "low52w": 710.111511,
+      "nObs": 252
+    },
+    {
+      "symbol": "HD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 293.200012,
+      "return3m": -0.15335467,
+      "return12m": -0.26421388,
+      "high52w": 398.79657,
+      "low52w": 292.179993,
+      "nObs": 252
+    },
+    {
+      "symbol": "LOW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 189.279999,
+      "return3m": -0.14396897,
+      "return12m": -0.24933547,
+      "high52w": 284.260315,
+      "low52w": 188.490005,
+      "nObs": 252
+    },
+    {
+      "symbol": "CAT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 821.580017,
+      "return3m": -0.17480811,
+      "return12m": 0.76456603,
+      "high52w": 1062.928223,
+      "low52w": 459.583038,
+      "nObs": 252
+    },
+    {
+      "symbol": "DE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 690.460022,
+      "return3m": 0.12883974,
+      "return12m": 0.49082813,
+      "high52w": 709.47998,
+      "low52w": 435.192139,
+      "nObs": 252
+    },
+    {
+      "symbol": "NKE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 35.75,
+      "return3m": -0.11339299,
+      "return12m": -0.48148353,
+      "high52w": 72.189766,
+      "low52w": 35.509998,
+      "nObs": 252
+    },
+    {
+      "symbol": "DIS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 106.150002,
+      "return3m": 0.08273482,
+      "return12m": -0.05062972,
+      "high52w": 114.998825,
+      "low52w": 91.717216,
+      "nObs": 252
+    },
+    {
+      "symbol": "NFLX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 71.150002,
+      "return3m": -0.03603842,
+      "return12m": -0.40902858,
+      "high52w": 124.135002,
+      "low52w": 67.599998,
+      "nObs": 252
+    },
+    {
+      "symbol": "CSCO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 106.699997,
+      "return3m": -0.0586344,
+      "return12m": 0.61778626,
+      "high52w": 129.515488,
+      "low52w": 65.856354,
+      "nObs": 252
+    },
+    {
+      "symbol": "IBM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 225.509995,
+      "return3m": -0.1638343,
+      "return12m": -0.13515288,
+      "high52w": 326.885101,
+      "low52w": 204.304428,
+      "nObs": 252
+    },
+    {
+      "symbol": "INTC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 123.0,
+      "return3m": -0.04145891,
+      "return12m": 2.93978228,
+      "high52w": 140.940002,
+      "low52w": 33.549999,
+      "nObs": 252
+    },
+    {
+      "symbol": "QCOM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 201.970001,
+      "return3m": 0.07222781,
+      "return12m": 0.18799197,
+      "high52w": 248.742508,
+      "low52w": 122.944305,
+      "nObs": 252
+    },
+    {
+      "symbol": "TSM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 450.609985,
+      "return3m": 0.04503027,
+      "return12m": 0.62224054,
+      "high52w": 476.292267,
+      "low52w": 270.36853,
+      "nObs": 252
+    },
+    {
+      "symbol": "AVGO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 352.809998,
+      "return3m": -0.03169014,
+      "return12m": 0.04751772,
+      "high52w": 479.935089,
+      "low52w": 292.413879,
+      "nObs": 252
+    },
+    {
+      "symbol": "ORCL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 137.100006,
+      "return3m": -0.07374286,
+      "return12m": -0.55046803,
+      "high52w": 310.009796,
+      "low52w": 114.989998,
+      "nObs": 252
+    },
+    {
+      "symbol": "CRM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 234.020004,
+      "return3m": 0.48027852,
+      "return12m": -0.04020117,
+      "high52w": 264.416992,
+      "low52w": 149.856354,
+      "nObs": 252
+    },
+    {
+      "symbol": "ADBE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 235.470001,
+      "return3m": 0.16149562,
+      "return12m": -0.33345597,
+      "high52w": 360.369995,
+      "low52w": 193.410004,
+      "nObs": 252
+    },
+    {
+      "symbol": "MCD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 236.5,
+      "return3m": -0.11706326,
+      "return12m": -0.20289489,
+      "high52w": 334.50296,
+      "low52w": 236.5,
+      "nObs": 252
+    },
+    {
+      "symbol": "SBUX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 94.860001,
+      "return3m": -0.08790702,
+      "return12m": 0.15439351,
+      "high52w": 108.489998,
+      "low52w": 76.507599,
+      "nObs": 252
+    },
+    {
+      "symbol": "TSLA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 372.109985,
+      "return3m": -0.02001529,
+      "return12m": -0.15962425,
+      "high52w": 489.880005,
+      "low52w": 298.320007,
+      "nObs": 252
+    },
+    {
+      "symbol": "GOOG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 341.079987,
+      "return3m": 0.01975382,
+      "return12m": 0.37985868,
+      "high52w": 398.54126,
+      "low52w": 236.871658,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 630.630005,
+      "return3m": 0.20907624,
+      "return12m": 2.91987808,
+      "high52w": 630.630005,
+      "low52w": 159.460007,
+      "nObs": 252
+    },
+    {
+      "symbol": "TXN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 278.070007,
+      "return3m": -0.02079755,
+      "return12m": 0.54668838,
+      "high52w": 330.587372,
+      "low52w": 150.793472,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMAT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 485.0,
+      "return3m": -0.22545054,
+      "return12m": 1.42098172,
+      "high52w": 722.227722,
+      "low52w": 198.502075,
+      "nObs": 252
+    },
+    {
+      "symbol": "INTU.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 275.790009,
+      "return3m": 0.03470671,
+      "return12m": -0.59860063,
+      "high52w": 690.502808,
+      "low52w": 253.945114,
+      "nObs": 252
+    },
+    {
+      "symbol": "NOW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 135.619995,
+      "return3m": 0.37909294,
+      "return12m": -0.27349284,
+      "high52w": 189.257996,
+      "low52w": 83.0,
+      "nObs": 252
+    },
+    {
+      "symbol": "PANW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 374.73999,
+      "return3m": 0.23188683,
+      "return12m": 0.8671649,
+      "high52w": 396.0,
+      "low52w": 141.669998,
+      "nObs": 252
+    },
+    {
+      "symbol": "CRWD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 252.130005,
+      "return3m": 0.43850288,
+      "return12m": 1.11727174,
+      "high52w": 262.48999,
+      "low52w": 87.5625,
+      "nObs": 252
+    },
+    {
+      "symbol": "MU.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1082.280029,
+      "return3m": -0.04405388,
+      "return12m": 5.7034631,
+      "high52w": 1213.373413,
+      "low52w": 156.57869,
+      "nObs": 252
+    },
+    {
+      "symbol": "LRCX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 315.209991,
+      "return3m": -0.16762551,
+      "return12m": 1.46778303,
+      "high52w": 432.870148,
+      "low52w": 127.540901,
+      "nObs": 252
+    },
+    {
+      "symbol": "KLAC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 187.919998,
+      "return3m": -0.24335429,
+      "return12m": 0.76793355,
+      "high52w": 301.369354,
+      "low52w": 97.747688,
+      "nObs": 252
+    },
+    {
+      "symbol": "ADI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 393.600006,
+      "return3m": 0.02039027,
+      "return12m": 0.60300362,
+      "high52w": 444.126862,
+      "low52w": 222.418213,
+      "nObs": 252
+    },
+    {
+      "symbol": "SNPS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 425.76001,
+      "return3m": -0.0629044,
+      "return12m": -0.0904313,
+      "high52w": 534.559998,
+      "low52w": 367.700012,
+      "nObs": 252
+    },
+    {
+      "symbol": "CDNS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 326.130005,
+      "return3m": -0.13555275,
+      "return12m": -0.08636818,
+      "high52w": 416.390015,
+      "low52w": 265.660004,
+      "nObs": 252
+    },
+    {
+      "symbol": "APH.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 84.089996,
+      "return3m": 0.02883485,
+      "return12m": 0.3754107,
+      "high52w": 88.023483,
+      "low52w": 59.393139,
+      "nObs": 252
+    },
+    {
+      "symbol": "ANET.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 206.550003,
+      "return3m": 0.31059642,
+      "return12m": 0.44805107,
+      "high52w": 210.5,
+      "low52w": 116.129997,
+      "nObs": 252
+    },
+    {
+      "symbol": "PLTR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 189.669998,
+      "return3m": 0.67953597,
+      "return12m": 0.0563043,
+      "high52w": 207.179993,
+      "low52w": 107.269997,
+      "nObs": 252
+    },
+    {
+      "symbol": "APP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 310.75,
+      "return3m": -0.34864172,
+      "return12m": -0.5159054,
+      "high52w": 733.599976,
+      "low52w": 298.589996,
+      "nObs": 252
+    },
+    {
+      "symbol": "DDOG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 268.130005,
+      "return3m": 0.11828002,
+      "return12m": 0.96331545,
+      "high52w": 288.149994,
+      "low52w": 102.614998,
+      "nObs": 252
+    },
+    {
+      "symbol": "WDAY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 189.449997,
+      "return3m": 0.5252395,
+      "return12m": -0.21556043,
+      "high52w": 247.690002,
+      "low52w": 112.5,
+      "nObs": 252
+    },
+    {
+      "symbol": "DASH.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 193.360001,
+      "return3m": 0.05609266,
+      "return12m": -0.25841832,
+      "high52w": 281.73999,
+      "low52w": 146.600006,
+      "nObs": 252
+    },
+    {
+      "symbol": "UBER.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 69.620003,
+      "return3m": -0.08635163,
+      "return12m": -0.28799342,
+      "high52w": 100.099998,
+      "low52w": 65.940002,
+      "nObs": 252
+    },
+    {
+      "symbol": "ABNB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 157.470001,
+      "return3m": 0.08182196,
+      "return12m": 0.27941176,
+      "high52w": 190.5,
+      "low52w": 111.540001,
+      "nObs": 252
+    },
+    {
+      "symbol": "COIN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 195.110001,
+      "return3m": 0.30893602,
+      "return12m": -0.39363518,
+      "high52w": 387.269989,
+      "low52w": 141.089996,
+      "nObs": 252
+    },
+    {
+      "symbol": "HOOD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 119.400002,
+      "return3m": 0.20984901,
+      "return12m": -0.05835963,
+      "high52w": 152.460007,
+      "low52w": 65.160004,
+      "nObs": 252
+    },
+    {
+      "symbol": "SMCI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 43.259998,
+      "return3m": 0.41234083,
+      "return12m": -0.06363642,
+      "high52w": 58.68,
+      "low52w": 20.530001,
+      "nObs": 252
+    },
+    {
+      "symbol": "DELL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 562.890015,
+      "return3m": 0.41134994,
+      "return12m": 3.31571575,
+      "high52w": 588.400024,
+      "low52w": 110.544724,
+      "nObs": 252
+    },
+    {
+      "symbol": "FTNT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 173.460007,
+      "return3m": 0.14608523,
+      "return12m": 1.0748805,
+      "high52w": 178.740005,
+      "low52w": 75.230003,
+      "nObs": 252
+    },
+    {
+      "symbol": "NXPI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 238.080002,
+      "return3m": -0.13670001,
+      "return12m": 0.06424146,
+      "high52w": 330.06012,
+      "low52w": 180.993103,
+      "nObs": 252
+    },
+    {
+      "symbol": "MSI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 456.880005,
+      "return3m": 0.13693922,
+      "return12m": 0.01549371,
+      "high52w": 489.972992,
+      "low52w": 360.516571,
+      "nObs": 252
+    },
+    {
+      "symbol": "ADSK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 209.399994,
+      "return3m": 0.066952,
+      "return12m": -0.3527448,
+      "high52w": 323.429993,
+      "low52w": 187.720001,
+      "nObs": 252
+    },
+    {
+      "symbol": "BAC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 56.700001,
+      "return3m": -0.01538897,
+      "return12m": 0.12008914,
+      "high52w": 64.48101,
+      "low52w": 46.242577,
+      "nObs": 252
+    },
+    {
+      "symbol": "WFC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 82.970001,
+      "return3m": -0.00493268,
+      "return12m": 0.00795741,
+      "high52w": 94.82888,
+      "low52w": 73.000885,
+      "nObs": 252
+    },
+    {
+      "symbol": "GS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 935.450012,
+      "return3m": -0.078048,
+      "return12m": 0.2037009,
+      "high52w": 1146.455078,
+      "low52w": 730.237366,
+      "nObs": 252
+    },
+    {
+      "symbol": "MS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 196.309998,
+      "return3m": -0.06904383,
+      "return12m": 0.27159997,
+      "high52w": 227.298782,
+      "low52w": 148.493744,
+      "nObs": 252
+    },
+    {
+      "symbol": "C.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 134.279999,
+      "return3m": -0.0479492,
+      "return12m": 0.34894895,
+      "high52w": 144.933121,
+      "low52w": 91.984093,
+      "nObs": 252
+    },
+    {
+      "symbol": "AXP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 308.890015,
+      "return3m": -0.0899766,
+      "return12m": -0.0830768,
+      "high52w": 381.781555,
+      "low52w": 290.553589,
+      "nObs": 252
+    },
+    {
+      "symbol": "BLK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1086.310059,
+      "return3m": 0.13182692,
+      "return12m": -0.01636109,
+      "high52w": 1177.427612,
+      "low52w": 913.042908,
+      "nObs": 252
+    },
+    {
+      "symbol": "BX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 118.419998,
+      "return3m": 0.03663762,
+      "return12m": -0.30804301,
+      "high52w": 169.273422,
+      "low52w": 100.160728,
+      "nObs": 252
+    },
+    {
+      "symbol": "SCHW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 99.029999,
+      "return3m": 0.09538738,
+      "return12m": 0.08580406,
+      "high52w": 113.650002,
+      "low52w": 85.101845,
+      "nObs": 252
+    },
+    {
+      "symbol": "PYPL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 55.040001,
+      "return3m": 0.24578796,
+      "return12m": -0.17987326,
+      "high52w": 75.290367,
+      "low52w": 38.738342,
+      "nObs": 252
+    },
+    {
+      "symbol": "COF.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 200.199997,
+      "return3m": -0.01516187,
+      "return12m": -0.09373403,
+      "high52w": 254.95816,
+      "low52w": 174.730286,
+      "nObs": 252
+    },
+    {
+      "symbol": "PGR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 205.5,
+      "return3m": -0.08357288,
+      "return12m": -0.08811881,
+      "high52w": 234.479996,
+      "low52w": 190.315475,
+      "nObs": 252
+    },
+    {
+      "symbol": "SPGI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 403.299988,
+      "return3m": 0.04675921,
+      "return12m": -0.12361103,
+      "high52w": 513.338501,
+      "low52w": 367.149567,
+      "nObs": 252
+    },
+    {
+      "symbol": "MCO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 468.700012,
+      "return3m": 0.04373342,
+      "return12m": -0.00428521,
+      "high52w": 536.031677,
+      "low52w": 409.496368,
+      "nObs": 252
+    },
+    {
+      "symbol": "ICE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 154.309998,
+      "return3m": 0.24998478,
+      "return12m": -0.06953203,
+      "high52w": 173.314041,
+      "low52w": 122.502655,
+      "nObs": 252
+    },
+    {
+      "symbol": "CME.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 264.480011,
+      "return3m": 0.20236008,
+      "return12m": 0.0390093,
+      "high52w": 315.711273,
+      "low52w": 217.558701,
+      "nObs": 252
+    },
+    {
+      "symbol": "MSCI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 551.359985,
+      "return3m": -0.00273606,
+      "return12m": -0.01261497,
+      "high52w": 641.535583,
+      "low52w": 506.185791,
+      "nObs": 252
+    },
+    {
+      "symbol": "ABBV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 264.339996,
+      "return3m": 0.05080534,
+      "return12m": 0.23887711,
+      "high52w": 265.970001,
+      "low52w": 195.985016,
+      "nObs": 252
+    },
+    {
+      "symbol": "MRK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 148.779999,
+      "return3m": 0.163207,
+      "return12m": 0.92228906,
+      "high52w": 155.531921,
+      "low52w": 75.386353,
+      "nObs": 252
+    },
+    {
+      "symbol": "PFE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 28.67,
+      "return3m": 0.20096953,
+      "return12m": 0.27358611,
+      "high52w": 29.02,
+      "low52w": 22.05335,
+      "nObs": 252
+    },
+    {
+      "symbol": "ABT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 101.290001,
+      "return3m": 0.083855,
+      "return12m": -0.22599754,
+      "high52w": 131.549408,
+      "low52w": 81.975327,
+      "nObs": 252
+    },
+    {
+      "symbol": "TMO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 675.0,
+      "return3m": 0.31672097,
+      "return12m": 0.44737606,
+      "high52w": 678.390015,
+      "low52w": 437.565643,
+      "nObs": 252
+    },
+    {
+      "symbol": "DHR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 224.490005,
+      "return3m": 0.14424794,
+      "return12m": 0.21642798,
+      "high52w": 241.035095,
+      "low52w": 161.574799,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMGN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 414.609985,
+      "return3m": 0.16382388,
+      "return12m": 0.5260775,
+      "high52w": 444.119995,
+      "low52w": 263.860413,
+      "nObs": 252
+    },
+    {
+      "symbol": "GILD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 150.929993,
+      "return3m": 0.18689451,
+      "return12m": 0.36060528,
+      "high52w": 153.046692,
+      "low52w": 107.893562,
+      "nObs": 252
+    },
+    {
+      "symbol": "ISRG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 405.179993,
+      "return3m": 0.00118602,
+      "return12m": -0.08741188,
+      "high52w": 592.849976,
+      "low52w": 332.019989,
+      "nObs": 252
+    },
+    {
+      "symbol": "SYK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 272.359985,
+      "return3m": -0.17920387,
+      "return12m": -0.25884119,
+      "high52w": 385.38562,
+      "low52w": 269.75,
+      "nObs": 252
+    },
+    {
+      "symbol": "BSX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 43.919998,
+      "return3m": -0.00700885,
+      "return12m": -0.55211096,
+      "high52w": 104.980003,
+      "low52w": 42.630001,
+      "nObs": 252
+    },
+    {
+      "symbol": "MDT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 88.639999,
+      "return3m": 0.10356836,
+      "return12m": -0.03621571,
+      "high52w": 101.9702,
+      "low52w": 72.495972,
+      "nObs": 252
+    },
+    {
+      "symbol": "BMY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 62.860001,
+      "return3m": 0.10517355,
+      "return12m": 0.49178419,
+      "high52w": 68.089996,
+      "low52w": 41.207596,
+      "nObs": 252
+    },
+    {
+      "symbol": "VRTX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 526.190002,
+      "return3m": 0.07092849,
+      "return12m": 0.39713772,
+      "high52w": 557.960022,
+      "low52w": 381.869995,
+      "nObs": 252
+    },
+    {
+      "symbol": "REGN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 788.039978,
+      "return3m": 0.24657943,
+      "return12m": 0.37280466,
+      "high52w": 852.030029,
+      "low52w": 552.675964,
+      "nObs": 252
+    },
+    {
+      "symbol": "ELV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 396.089996,
+      "return3m": 0.00666525,
+      "return12m": 0.23771773,
+      "high52w": 424.94046,
+      "low52w": 276.684998,
+      "nObs": 252
+    },
+    {
+      "symbol": "CI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 272.01001,
+      "return3m": -0.03277941,
+      "return12m": -0.04548284,
+      "high52w": 304.107635,
+      "low52w": 238.993378,
+      "nObs": 252
+    },
+    {
+      "symbol": "CVS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 89.129997,
+      "return3m": -0.14048494,
+      "return12m": 0.20396675,
+      "high52w": 109.919495,
+      "low52w": 69.042809,
+      "nObs": 252
+    },
+    {
+      "symbol": "HCA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 435.609985,
+      "return3m": 0.11420848,
+      "return12m": 0.05273301,
+      "high52w": 542.231873,
+      "low52w": 359.933685,
+      "nObs": 252
+    },
+    {
+      "symbol": "MCK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 866.640015,
+      "return3m": 0.13628001,
+      "return12m": 0.14393212,
+      "high52w": 993.534241,
+      "low52w": 723.599915,
+      "nObs": 252
+    },
+    {
+      "symbol": "T.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 25.379999,
+      "return3m": 0.13203495,
+      "return12m": -0.0615539,
+      "high52w": 28.418077,
+      "low52w": 20.209398,
+      "nObs": 252
+    },
+    {
+      "symbol": "VZ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 47.080002,
+      "return3m": 0.02884786,
+      "return12m": 0.16479816,
+      "high52w": 51.450001,
+      "low52w": 36.562542,
+      "nObs": 252
+    },
+    {
+      "symbol": "TMUS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 165.429993,
+      "return3m": -0.08920087,
+      "return12m": -0.29142318,
+      "high52w": 234.427704,
+      "low52w": 162.410004,
+      "nObs": 252
+    },
+    {
+      "symbol": "CMCSA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 21.91,
+      "return3m": -0.04149648,
+      "return12m": -0.22459682,
+      "high52w": 31.675089,
+      "low52w": 21.91,
+      "nObs": 252
+    },
+    {
+      "symbol": "CHTR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 112.910004,
+      "return3m": -0.1551182,
+      "return12m": -0.57132011,
+      "high52w": 282.73999,
+      "low52w": 112.910004,
+      "nObs": 252
+    },
+    {
+      "symbol": "GE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 327.089996,
+      "return3m": -0.11247233,
+      "return12m": 0.09474226,
+      "high52w": 381.220001,
+      "low52w": 272.909821,
+      "nObs": 252
+    },
+    {
+      "symbol": "HON.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 212.550003,
+      "return3m": -0.12460904,
+      "return12m": 0.05101431,
+      "high52w": 257.940582,
+      "low52w": 194.68309,
+      "nObs": 252
+    },
+    {
+      "symbol": "RTX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 189.399994,
+      "return3m": 0.01084726,
+      "return12m": 0.19104737,
+      "high52w": 225.490005,
+      "low52w": 154.703751,
+      "nObs": 252
+    },
+    {
+      "symbol": "LMT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 519.559998,
+      "return3m": 0.03029875,
+      "return12m": 0.09611334,
+      "high52w": 668.166077,
+      "low52w": 431.377869,
+      "nObs": 252
+    },
+    {
+      "symbol": "BA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 198.070007,
+      "return3m": -0.08828535,
+      "return12m": -0.07917247,
+      "high52w": 252.149994,
+      "low52w": 179.119995,
+      "nObs": 252
+    },
+    {
+      "symbol": "GD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 336.720001,
+      "return3m": -0.02453937,
+      "return12m": 0.05883572,
+      "high52w": 395.970001,
+      "low52w": 311.160553,
+      "nObs": 252
+    },
+    {
+      "symbol": "NOC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 510.519989,
+      "return3m": 0.0256221,
+      "return12m": -0.11500996,
+      "high52w": 761.192749,
+      "low52w": 493.774323,
+      "nObs": 252
+    },
+    {
+      "symbol": "UNP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 273.790009,
+      "return3m": 0.02500676,
+      "return12m": 0.21358025,
+      "high52w": 309.185181,
+      "low52w": 211.903946,
+      "nObs": 252
+    },
+    {
+      "symbol": "UPS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 93.959999,
+      "return3m": -0.11727297,
+      "return12m": 0.19346613,
+      "high52w": 115.872528,
+      "low52w": 77.490021,
+      "nObs": 252
+    },
+    {
+      "symbol": "ADP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 263.670013,
+      "return3m": 0.18701612,
+      "return12m": -0.06921973,
+      "high52w": 285.651886,
+      "low52w": 186.176926,
+      "nObs": 252
+    },
+    {
+      "symbol": "ETN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 439.980011,
+      "return3m": 0.09531771,
+      "return12m": 0.19525381,
+      "high52w": 459.959991,
+      "low52w": 313.200012,
+      "nObs": 252
+    },
+    {
+      "symbol": "EMR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 158.229996,
+      "return3m": 0.10646451,
+      "return12m": 0.21827762,
+      "high52w": 163.824432,
+      "low52w": 122.335426,
+      "nObs": 252
+    },
+    {
+      "symbol": "ITW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 274.320007,
+      "return3m": 0.03089632,
+      "return12m": 0.08357679,
+      "high52w": 297.320007,
+      "low52w": 236.584671,
+      "nObs": 252
+    },
+    {
+      "symbol": "WM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 206.830002,
+      "return3m": -0.07886269,
+      "return12m": -0.04163729,
+      "high52w": 243.39856,
+      "low52w": 193.538055,
+      "nObs": 252
+    },
+    {
+      "symbol": "RSG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 212.100006,
+      "return3m": -0.01696373,
+      "return12m": -0.05653307,
+      "high52w": 230.937881,
+      "low52w": 197.154419,
+      "nObs": 252
+    },
+    {
+      "symbol": "FDX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 285.850006,
+      "return3m": -0.09907331,
+      "return12m": 0.54335125,
+      "high52w": 338.02301,
+      "low52w": 177.987534,
+      "nObs": 252
+    },
+    {
+      "symbol": "NSC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 313.0,
+      "return3m": 0.0045675,
+      "return12m": 0.0859024,
+      "high52w": 352.980011,
+      "low52w": 274.688385,
+      "nObs": 252
+    },
+    {
+      "symbol": "CSX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 46.779999,
+      "return3m": -0.01577706,
+      "return12m": 0.40098513,
+      "high52w": 53.084675,
+      "low52w": 33.252571,
+      "nObs": 252
+    },
+    {
+      "symbol": "COP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 127.300003,
+      "return3m": 0.20940995,
+      "return12m": 0.37313941,
+      "high52w": 141.220001,
+      "low52w": 83.041977,
+      "nObs": 252
+    },
+    {
+      "symbol": "SLB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 51.540001,
+      "return3m": 0.1022856,
+      "return12m": 0.52557132,
+      "high52w": 59.789768,
+      "low52w": 30.96303,
+      "nObs": 252
+    },
+    {
+      "symbol": "EOG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 140.350006,
+      "return3m": 0.06630168,
+      "return12m": 0.24446386,
+      "high52w": 153.740005,
+      "low52w": 99.305176,
+      "nObs": 252
+    },
+    {
+      "symbol": "MPC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 393.519989,
+      "return3m": 0.55316662,
+      "return12m": 1.07194689,
+      "high52w": 424.890015,
+      "low52w": 160.763626,
+      "nObs": 252
+    },
+    {
+      "symbol": "PSX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 255.75,
+      "return3m": 0.49785855,
+      "return12m": 0.92783758,
+      "high52w": 274.209991,
+      "low52w": 123.114311,
+      "nObs": 252
+    },
+    {
+      "symbol": "VLO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 387.179993,
+      "return3m": 0.49853992,
+      "return12m": 1.31451699,
+      "high52w": 413.279999,
+      "low52w": 153.143066,
+      "nObs": 252
+    },
+    {
+      "symbol": "WMB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 69.260002,
+      "return3m": -0.10468477,
+      "return12m": 0.13536983,
+      "high52w": 78.249725,
+      "low52w": 54.839825,
+      "nObs": 252
+    },
+    {
+      "symbol": "KMI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 30.75,
+      "return3m": -0.06485624,
+      "return12m": 0.14975406,
+      "high52w": 33.992275,
+      "low52w": 24.860598,
+      "nObs": 252
+    },
+    {
+      "symbol": "NEE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 76.080002,
+      "return3m": -0.13446122,
+      "return12m": 0.06009021,
+      "high52w": 96.443047,
+      "low52w": 72.564575,
+      "nObs": 252
+    },
+    {
+      "symbol": "DUK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 113.349998,
+      "return3m": -0.10945016,
+      "return12m": -0.05105108,
+      "high52w": 131.163406,
+      "low52w": 111.092102,
+      "nObs": 252
+    },
+    {
+      "symbol": "SO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 82.879997,
+      "return3m": -0.13993044,
+      "return12m": -0.09313977,
+      "high52w": 97.491119,
+      "low52w": 82.062035,
+      "nObs": 252
+    },
+    {
+      "symbol": "D.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 60.68,
+      "return3m": -0.116688,
+      "return12m": 0.03691931,
+      "high52w": 70.973,
+      "low52w": 55.358932,
+      "nObs": 252
+    },
+    {
+      "symbol": "AEP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 118.349998,
+      "return3m": -0.14016118,
+      "return12m": 0.12069686,
+      "high52w": 137.642075,
+      "low52w": 104.614624,
+      "nObs": 252
+    },
+    {
+      "symbol": "SRE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 77.93,
+      "return3m": -0.16638863,
+      "return12m": -0.07356916,
+      "high52w": 98.217255,
+      "low52w": 77.739998,
+      "nObs": 252
+    },
+    {
+      "symbol": "CEG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 263.269989,
+      "return3m": -0.00130781,
+      "return12m": -0.21935044,
+      "high52w": 401.704468,
+      "low52w": 236.137009,
+      "nObs": 252
+    },
+    {
+      "symbol": "LIN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 469.890015,
+      "return3m": -0.09272654,
+      "return12m": 0.00450166,
+      "high52w": 544.845764,
+      "low52w": 385.583374,
+      "nObs": 252
+    },
+    {
+      "symbol": "SHW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 329.100006,
+      "return3m": -0.04129782,
+      "return12m": -0.03131036,
+      "high52w": 369.961334,
+      "low52w": 292.324341,
+      "nObs": 252
+    },
+    {
+      "symbol": "APD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 281.76001,
+      "return3m": 0.02059222,
+      "return12m": 0.06239489,
+      "high52w": 314.190002,
+      "low52w": 226.254913,
+      "nObs": 252
+    },
+    {
+      "symbol": "NEM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 121.43,
+      "return3m": 0.2658148,
+      "return12m": 0.46841885,
+      "high52w": 134.859268,
+      "low52w": 77.899368,
+      "nObs": 252
+    },
+    {
+      "symbol": "FCX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 72.309998,
+      "return3m": 0.16069666,
+      "return12m": 0.94020022,
+      "high52w": 79.910004,
+      "low52w": 34.96413,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 169.029999,
+      "return3m": -0.03735975,
+      "return12m": -0.09003484,
+      "high52w": 192.284515,
+      "low52w": 162.110001,
+      "nObs": 252
+    },
+    {
+      "symbol": "PLD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 133.050003,
+      "return3m": -0.04189217,
+      "return12m": 0.21590587,
+      "high52w": 148.877991,
+      "low52w": 107.8442,
+      "nObs": 252
+    },
+    {
+      "symbol": "CCI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 67.839996,
+      "return3m": -0.16695219,
+      "return12m": -0.23878484,
+      "high52w": 94.027962,
+      "low52w": 67.629997,
+      "nObs": 252
+    },
+    {
+      "symbol": "EQIX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1008.080017,
+      "return3m": -0.07184394,
+      "return12m": 0.30370355,
+      "high52w": 1110.633179,
+      "low52w": 715.182739,
+      "nObs": 252
+    },
+    {
+      "symbol": "SPG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 204.820007,
+      "return3m": -0.08758262,
+      "return12m": 0.17025617,
+      "high52w": 234.186432,
+      "low52w": 165.674545,
+      "nObs": 252
+    },
+    {
+      "symbol": "O.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 55.540001,
+      "return3m": -0.1086598,
+      "return12m": -0.02346642,
+      "high52w": 65.823425,
+      "low52w": 53.702282,
+      "nObs": 252
+    },
+    {
+      "symbol": "WELL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 231.369995,
+      "return3m": 0.02161368,
+      "return12m": 0.37320187,
+      "high52w": 251.122009,
+      "low52w": 163.53241,
+      "nObs": 252
+    },
+    {
+      "symbol": "DLR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 178.610001,
+      "return3m": -0.06821382,
+      "return12m": 0.06817068,
+      "high52w": 201.179977,
+      "low52w": 144.962433,
+      "nObs": 252
+    },
+    {
+      "symbol": "PSA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 287.970001,
+      "return3m": -0.10316423,
+      "return12m": 0.06831911,
+      "high52w": 327.113831,
+      "low52w": 250.906769,
+      "nObs": 252
+    },
+    {
+      "symbol": "PM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 190.479996,
+      "return3m": 0.05371462,
+      "return12m": 0.21091098,
+      "high52w": 200.169998,
+      "low52w": 140.594406,
+      "nObs": 252
+    },
+    {
+      "symbol": "MO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 68.82,
+      "return3m": -0.05245783,
+      "return12m": 0.12811862,
+      "high52w": 73.742249,
+      "low52w": 52.191666,
+      "nObs": 252
+    },
+    {
+      "symbol": "MDLZ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 60.25,
+      "return3m": -0.00057532,
+      "return12m": -0.03179175,
+      "high52w": 64.989998,
+      "low52w": 50.643349,
+      "nObs": 252
+    },
+    {
+      "symbol": "CL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 86.059998,
+      "return3m": -0.05991778,
+      "return12m": 0.08729269,
+      "high52w": 97.966049,
+      "low52w": 73.641205,
+      "nObs": 252
+    },
+    {
+      "symbol": "KMB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 98.43,
+      "return3m": -0.08922812,
+      "return12m": -0.16510192,
+      "high52w": 118.284653,
+      "low52w": 90.700867,
+      "nObs": 252
+    },
+    {
+      "symbol": "GIS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 33.639999,
+      "return3m": -0.04964445,
+      "return12m": -0.30086056,
+      "high52w": 47.946838,
+      "low52w": 31.622614,
+      "nObs": 252
+    },
+    {
+      "symbol": "MNST.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 43.110001,
+      "return3m": -0.10541602,
+      "return12m": 0.32789159,
+      "high52w": 49.970001,
+      "low52w": 32.294998,
+      "nObs": 252
+    },
+    {
+      "symbol": "TJX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 130.059998,
+      "return3m": -0.16058435,
+      "return12m": -0.06261199,
+      "high52w": 167.88031,
+      "low52w": 122.839996,
+      "nObs": 252
+    },
+    {
+      "symbol": "TGT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 157.449997,
+      "return3m": 0.13012679,
+      "return12m": 0.85512099,
+      "high52w": 169.889999,
+      "low52w": 81.437111,
+      "nObs": 252
+    },
+    {
+      "symbol": "BKNG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 163.949997,
+      "return3m": -0.09431313,
+      "return12m": -0.25143471,
+      "high52w": 221.005981,
+      "low52w": 153.373093,
+      "nObs": 252
+    },
+    {
+      "symbol": "CMG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 31.33,
+      "return3m": -0.06028795,
+      "return12m": -0.20783817,
+      "high52w": 42.360001,
+      "low52w": 28.18,
+      "nObs": 252
+    },
+    {
+      "symbol": "MAR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 352.029999,
+      "return3m": -0.06510461,
+      "return12m": 0.35409059,
+      "high52w": 401.723633,
+      "low52w": 256.900787,
+      "nObs": 252
+    },
+    {
+      "symbol": "HLT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 313.959991,
+      "return3m": -0.05635114,
+      "return12m": 0.19533323,
+      "high52w": 350.060608,
+      "low52w": 256.247314,
+      "nObs": 252
+    },
+    {
+      "symbol": "GM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 82.629997,
+      "return3m": 0.06019051,
+      "return12m": 0.39090264,
+      "high52w": 90.113647,
+      "low52w": 54.876556,
+      "nObs": 252
+    },
+    {
+      "symbol": "F.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 12.71,
+      "return3m": -0.09075347,
+      "return12m": 0.1438163,
+      "high52w": 17.253143,
+      "low52w": 10.901724,
+      "nObs": 252
+    },
+    {
+      "symbol": "RCL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 242.699997,
+      "return3m": -0.23257088,
+      "return12m": -0.24069203,
+      "high52w": 342.365509,
+      "low52w": 230.300003,
+      "nObs": 252
+    },
+    {
+      "symbol": "ORLY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 86.120003,
+      "return3m": -0.03830263,
+      "return12m": -0.16768144,
+      "high52w": 107.809998,
+      "low52w": 82.730003,
+      "nObs": 252
+    },
+    {
+      "symbol": "AZO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 2872.159912,
+      "return3m": -0.08199573,
+      "return12m": -0.31236882,
+      "high52w": 4290.240234,
+      "low52w": 2803.25,
+      "nObs": 252
+    },
+    {
+      "symbol": "ROST.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 236.119995,
+      "return3m": 0.109333,
+      "return12m": 0.59328845,
+      "high52w": 254.737656,
+      "low52w": 146.49086,
+      "nObs": 252
+    },
+    {
+      "symbol": "YUM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 138.630005,
+      "return3m": -0.10920706,
+      "return12m": -0.05438521,
+      "high52w": 166.649811,
+      "low52w": 135.577164,
+      "nObs": 252
+    },
+    {
+      "symbol": "GEV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 957.630005,
+      "return3m": -0.08375674,
+      "return12m": 0.52599405,
+      "high52w": 1174.859985,
+      "low52w": 546.946472,
+      "nObs": 252
+    },
+    {
+      "symbol": "XYZ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 76.419998,
+      "return3m": -0.01799025,
+      "return12m": -0.00091515,
+      "high52w": 84.849998,
+      "low52w": 49.09,
+      "nObs": 252
+    },
+    {
+      "symbol": "SHOP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 142.25,
+      "return3m": 0.21726852,
+      "return12m": -0.04421153,
+      "high52w": 179.009995,
+      "low52w": 95.400002,
+      "nObs": 252
+    },
+    {
+      "symbol": "MELI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1752.609985,
+      "return3m": 0.04627187,
+      "return12m": -0.30201874,
+      "high52w": 2501.310059,
+      "low52w": 1546.810059,
+      "nObs": 252
+    },
+    {
+      "symbol": "PDD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 77.57,
+      "return3m": 0.01332458,
+      "return12m": -0.40768177,
+      "high52w": 138.130005,
+      "low52w": 73.300003,
+      "nObs": 252
+    },
+    {
+      "symbol": "SE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 99.550003,
+      "return3m": 0.0900033,
+      "return12m": -0.4642665,
+      "high52w": 192.690002,
+      "low52w": 78.160004,
+      "nObs": 252
+    },
+    {
+      "symbol": "SPOT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 510.01001,
+      "return3m": 0.10866924,
+      "return12m": -0.28030764,
+      "high52w": 728.469971,
+      "low52w": 412.75,
+      "nObs": 252
+    },
+    {
+      "symbol": "SNOW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 335.940002,
+      "return3m": 0.34937337,
+      "return12m": 0.5093678,
+      "high52w": 356.470001,
+      "low52w": 121.110001,
+      "nObs": 252
+    },
+    {
+      "symbol": "NET.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 349.019989,
+      "return3m": 0.47116836,
+      "return12m": 0.60417326,
+      "high52w": 358.820007,
+      "low52w": 160.190002,
+      "nObs": 252
+    },
+    {
+      "symbol": "TEAM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 187.740005,
+      "return3m": 1.3843029,
+      "return12m": 0.14594399,
+      "high52w": 195.669998,
+      "low52w": 57.150002,
+      "nObs": 252
+    },
+    {
+      "symbol": "ZS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 193.050003,
+      "return3m": 0.45962506,
+      "return12m": -0.32125029,
+      "high52w": 336.269989,
+      "low52w": 118.050003,
+      "nObs": 252
+    },
+    {
+      "symbol": "OKTA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 195.190002,
+      "return3m": 0.5705665,
+      "return12m": 1.17191495,
+      "high52w": 206.639999,
+      "low52w": 62.93,
+      "nObs": 252
+    },
+    {
+      "symbol": "HUBS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 213.740005,
+      "return3m": 0.15242359,
+      "return12m": -0.58525271,
+      "high52w": 519.880005,
+      "low52w": 170.279999,
+      "nObs": 252
+    },
+    {
+      "symbol": "RBLX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 46.439999,
+      "return3m": -0.02354926,
+      "return12m": -0.65116805,
+      "high52w": 141.559998,
+      "low52w": 35.540001,
+      "nObs": 252
+    },
+    {
+      "symbol": "AIG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 74.169998,
+      "return3m": -0.01202438,
+      "return12m": -0.02442791,
+      "high52w": 84.951225,
+      "low52w": 70.529434,
+      "nObs": 252
+    },
+    {
+      "symbol": "AFL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 113.720001,
+      "return3m": -0.04874965,
+      "return12m": 0.06209385,
+      "high52w": 128.900818,
+      "low52w": 103.535446,
+      "nObs": 252
+    },
+    {
+      "symbol": "ALL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 227.600006,
+      "return3m": -0.04616985,
+      "return12m": 0.10788935,
+      "high52w": 273.969757,
+      "low52w": 186.394058,
+      "nObs": 252
+    },
+    {
+      "symbol": "MET.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 97.699997,
+      "return3m": 0.14374971,
+      "return12m": 0.2461437,
+      "high52w": 99.949997,
+      "low52w": 66.771492,
+      "nObs": 252
+    },
+    {
+      "symbol": "PRU.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 119.449997,
+      "return3m": 0.1162031,
+      "return12m": 0.21735917,
+      "high52w": 123.70192,
+      "low52w": 89.727112,
+      "nObs": 252
+    },
+    {
+      "symbol": "PNC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 225.639999,
+      "return3m": -0.07163993,
+      "return12m": 0.14202723,
+      "high52w": 256.970001,
+      "low52w": 174.272507,
+      "nObs": 252
+    },
+    {
+      "symbol": "USB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 59.330002,
+      "return3m": -0.01760367,
+      "return12m": 0.25447159,
+      "high52w": 65.419998,
+      "low52w": 44.011467,
+      "nObs": 252
+    },
+    {
+      "symbol": "TFC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 47.66,
+      "return3m": -0.04669578,
+      "return12m": 0.0830605,
+      "high52w": 54.138481,
+      "low52w": 39.402107,
+      "nObs": 252
+    },
+    {
+      "symbol": "BNY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 150.149994,
+      "return3m": 0.05006707,
+      "return12m": 0.4142549,
+      "high52w": 164.839996,
+      "low52w": 102.663071,
+      "nObs": 252
+    },
+    {
+      "symbol": "AON.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 277.98999,
+      "return3m": -0.15232087,
+      "return12m": -0.21027111,
+      "high52w": 380.392914,
+      "low52w": 276.089996,
+      "nObs": 252
+    },
+    {
+      "symbol": "AJG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 231.100006,
+      "return3m": 0.02525324,
+      "return12m": -0.232248,
+      "high52w": 306.86969,
+      "low52w": 190.853104,
+      "nObs": 252
+    },
+    {
+      "symbol": "AMP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 493.0,
+      "return3m": 0.09215834,
+      "return12m": 0.01556322,
+      "high52w": 570.679993,
+      "low52w": 427.49826,
+      "nObs": 252
+    },
+    {
+      "symbol": "NDAQ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 93.550003,
+      "return3m": 0.19483532,
+      "return12m": 0.08760403,
+      "high52w": 99.963539,
+      "low52w": 76.591072,
+      "nObs": 252
+    },
+    {
+      "symbol": "FITB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 52.099998,
+      "return3m": -0.06820044,
+      "return12m": 0.1925516,
+      "high52w": 59.369999,
+      "low52w": 39.382648,
+      "nObs": 252
+    },
+    {
+      "symbol": "TROW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 105.510002,
+      "return3m": -0.03126358,
+      "return12m": 0.07355161,
+      "high52w": 120.184883,
+      "low52w": 84.121567,
+      "nObs": 252
+    },
+    {
+      "symbol": "RJF.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 159.869995,
+      "return3m": 0.07002711,
+      "return12m": -0.05733659,
+      "high52w": 181.179993,
+      "low52w": 139.865967,
+      "nObs": 252
+    },
+    {
+      "symbol": "COR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 306.920013,
+      "return3m": 0.07473934,
+      "return12m": 0.00291506,
+      "high52w": 372.527435,
+      "low52w": 251.671204,
+      "nObs": 252
+    },
+    {
+      "symbol": "HUM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 397.929993,
+      "return3m": 0.03670799,
+      "return12m": 0.54090891,
+      "high52w": 409.799988,
+      "low52w": 162.459671,
+      "nObs": 252
+    },
+    {
+      "symbol": "CNC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 61.82,
+      "return3m": -0.05948583,
+      "return12m": 0.7841269,
+      "high52w": 69.410004,
+      "low52w": 31.799999,
+      "nObs": 252
+    },
+    {
+      "symbol": "BDX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 183.820007,
+      "return3m": 0.18589047,
+      "return12m": 0.28818129,
+      "high52w": 190.874374,
+      "low52w": 135.288254,
+      "nObs": 252
+    },
+    {
+      "symbol": "EW.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 86.290001,
+      "return3m": -0.04946021,
+      "return12m": 0.15577279,
+      "high52w": 95.18,
+      "low52w": 72.650002,
+      "nObs": 252
+    },
+    {
+      "symbol": "IDXX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 519.26001,
+      "return3m": -0.05845873,
+      "return12m": -0.17205857,
+      "high52w": 766.679993,
+      "low52w": 504.700012,
+      "nObs": 252
+    },
+    {
+      "symbol": "DXCM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 86.620003,
+      "return3m": 0.2349587,
+      "return12m": 0.2832593,
+      "high52w": 92.339996,
+      "low52w": 54.84,
+      "nObs": 252
+    },
+    {
+      "symbol": "ZTS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 71.050003,
+      "return3m": -0.05972804,
+      "return12m": -0.4888503,
+      "high52w": 144.749954,
+      "low52w": 70.269997,
+      "nObs": 252
+    },
+    {
+      "symbol": "GEHC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 66.629997,
+      "return3m": 0.01380231,
+      "return12m": -0.09763721,
+      "high52w": 88.032417,
+      "low52w": 59.451412,
+      "nObs": 252
+    },
+    {
+      "symbol": "BIIB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 227.600006,
+      "return3m": 0.05355741,
+      "return12m": 0.6532288,
+      "high52w": 227.600006,
+      "low52w": 135.669998,
+      "nObs": 252
+    },
+    {
+      "symbol": "MRNA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 198.880005,
+      "return3m": 1.9564444,
+      "return12m": 6.68469905,
+      "high52w": 198.880005,
+      "low52w": 22.360001,
+      "nObs": 252
+    },
+    {
+      "symbol": "ALGN.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 146.779999,
+      "return3m": -0.17738046,
+      "return12m": 0.1451085,
+      "high52w": 197.509995,
+      "low52w": 124.879997,
+      "nObs": 252
+    },
+    {
+      "symbol": "IQV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 270.369995,
+      "return3m": 0.4145129,
+      "return12m": 0.49177878,
+      "high52w": 275.019989,
+      "low52w": 156.660004,
+      "nObs": 252
+    },
+    {
+      "symbol": "A.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 172.789993,
+      "return3m": 0.27286491,
+      "return12m": 0.40035819,
+      "high52w": 172.839996,
+      "low52w": 109.777878,
+      "nObs": 252
+    },
+    {
+      "symbol": "RMD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 222.0,
+      "return3m": 0.11157367,
+      "return12m": -0.18177652,
+      "high52w": 280.314331,
+      "low52w": 182.296875,
+      "nObs": 252
+    },
+    {
+      "symbol": "CAH.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 220.220001,
+      "return3m": -0.07237986,
+      "return12m": 0.43945078,
+      "high52w": 248.610001,
+      "low52w": 147.426758,
+      "nObs": 252
+    },
+    {
+      "symbol": "TTWO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 201.440002,
+      "return3m": -0.15549405,
+      "return12m": -0.17483202,
+      "high52w": 262.290009,
+      "low52w": 189.690002,
+      "nObs": 252
+    },
+    {
+      "symbol": "WBD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 30.860001,
+      "return3m": 0.15407632,
+      "return12m": 0.55701317,
+      "high52w": 30.860001,
+      "low52w": 17.1,
+      "nObs": 252
+    },
+    {
+      "symbol": "LYV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 170.869995,
+      "return3m": -0.04786588,
+      "return12m": 0.05423244,
+      "high52w": 188.460007,
+      "low52w": 125.610001,
+      "nObs": 252
+    },
+    {
+      "symbol": "OMC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 76.150002,
+      "return3m": 0.05257956,
+      "return12m": 0.0290423,
+      "high52w": 88.03476,
+      "low52w": 65.230148,
+      "nObs": 252
+    },
+    {
+      "symbol": "FOXA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 63.07,
+      "return3m": 0.26444399,
+      "return12m": 0.05816813,
+      "high52w": 75.405327,
+      "low52w": 48.575394,
+      "nObs": 252
+    },
+    {
+      "symbol": "PH.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 978.330017,
+      "return3m": 0.01174547,
+      "return12m": 0.31747951,
+      "high52w": 1071.711548,
+      "low52w": 710.742004,
+      "nObs": 252
+    },
+    {
+      "symbol": "CARR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 56.369999,
+      "return3m": -0.23124464,
+      "return12m": -0.02971712,
+      "high52w": 75.727684,
+      "low52w": 49.787888,
+      "nObs": 252
+    },
+    {
+      "symbol": "OTIS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 65.940002,
+      "return3m": -0.09359624,
+      "return12m": -0.24083318,
+      "high52w": 92.495529,
+      "low52w": 65.940002,
+      "nObs": 252
+    },
+    {
+      "symbol": "TT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 454.440002,
+      "return3m": -0.04682176,
+      "return12m": 0.13254292,
+      "high52w": 502.272552,
+      "low52w": 373.790314,
+      "nObs": 252
+    },
+    {
+      "symbol": "IR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 76.080002,
+      "return3m": -0.06479098,
+      "return12m": -0.05876264,
+      "high52w": 98.687462,
+      "low52w": 68.523827,
+      "nObs": 252
+    },
+    {
+      "symbol": "PCAR.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 111.309998,
+      "return3m": -0.07520108,
+      "return12m": 0.17715046,
+      "high52w": 137.845001,
+      "low52w": 90.762444,
+      "nObs": 252
+    },
+    {
+      "symbol": "URI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1047.060059,
+      "return3m": -0.06489767,
+      "return12m": 0.12805427,
+      "high52w": 1164.819946,
+      "low52w": 707.78418,
+      "nObs": 252
+    },
+    {
+      "symbol": "FAST.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 50.43,
+      "return3m": 0.07657621,
+      "return12m": 0.08383319,
+      "high52w": 52.380001,
+      "low52w": 38.516869,
+      "nObs": 252
+    },
+    {
+      "symbol": "CTAS.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 199.910004,
+      "return3m": 0.16596462,
+      "return12m": 0.00939849,
+      "high52w": 215.968979,
+      "low52w": 162.683914,
+      "nObs": 252
+    },
+    {
+      "symbol": "PAYX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 101.370003,
+      "return3m": 0.02528003,
+      "return12m": -0.17490612,
+      "high52w": 127.339996,
+      "low52w": 83.612778,
+      "nObs": 252
+    },
+    {
+      "symbol": "VRSK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 169.210007,
+      "return3m": -0.0687035,
+      "return12m": -0.29651697,
+      "high52w": 249.006546,
+      "low52w": 155.995178,
+      "nObs": 252
+    },
+    {
+      "symbol": "CPRT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 27.59,
+      "return3m": -0.09689032,
+      "return12m": -0.39215685,
+      "high52w": 45.759998,
+      "low52w": 27.17,
+      "nObs": 252
+    },
+    {
+      "symbol": "ODFL.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 173.300003,
+      "return3m": -0.20668603,
+      "return12m": 0.2361905,
+      "high52w": 248.344284,
+      "low52w": 125.509979,
+      "nObs": 252
+    },
+    {
+      "symbol": "ROP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 358.559998,
+      "return3m": 0.06251442,
+      "return12m": -0.28469878,
+      "high52w": 516.322571,
+      "low52w": 313.940338,
+      "nObs": 252
+    },
+    {
+      "symbol": "TDG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1116.199951,
+      "return3m": -0.15730514,
+      "return12m": -0.14138465,
+      "high52w": 1450.0,
+      "low52w": 1076.01001,
+      "nObs": 252
+    },
+    {
+      "symbol": "AXON.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 430.109985,
+      "return3m": -0.07469398,
+      "return12m": -0.38381426,
+      "high52w": 759.440002,
+      "low52w": 345.940002,
+      "nObs": 252
+    },
+    {
+      "symbol": "HWM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 232.479996,
+      "return3m": -0.13492623,
+      "return12m": 0.22470834,
+      "high52w": 292.649994,
+      "low52w": 183.70752,
+      "nObs": 252
+    },
+    {
+      "symbol": "LHX.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 237.690002,
+      "return3m": -0.17998684,
+      "return12m": -0.14917719,
+      "high52w": 373.853058,
+      "low52w": 237.690002,
+      "nObs": 252
+    },
+    {
+      "symbol": "TDY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 614.150024,
+      "return3m": -0.01624238,
+      "return12m": 0.08907299,
+      "high52w": 691.299988,
+      "low52w": 484.470001,
+      "nObs": 252
+    },
+    {
+      "symbol": "JCI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 150.199997,
+      "return3m": 0.08829844,
+      "return12m": 0.42202793,
+      "high52w": 154.327942,
+      "low52w": 104.642319,
+      "nObs": 252
+    },
+    {
+      "symbol": "IWM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 281.970001,
+      "return3m": -0.05711088,
+      "return12m": 0.17895192,
+      "high52w": 304.295258,
+      "low52w": 226.805664,
+      "nObs": 252
+    },
+    {
+      "symbol": "QQQ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 744.5,
+      "return3m": 0.0548544,
+      "return12m": 0.25481986,
+      "high52w": 747.460022,
+      "low52w": 557.086731,
+      "nObs": 252
+    },
+    {
+      "symbol": "SPY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 771.349976,
+      "return3m": 0.06073524,
+      "return12m": 0.17935541,
+      "high52w": 775.953186,
+      "low52w": 628.784668,
+      "nObs": 252
+    },
+    {
+      "symbol": "VTV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 220.809998,
+      "return3m": 0.01108109,
+      "return12m": 0.21259232,
+      "high52w": 227.509995,
+      "low52w": 180.039444,
+      "nObs": 252
+    },
+    {
+      "symbol": "VUG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 90.940002,
+      "return3m": 0.09884002,
+      "return12m": 0.14904585,
+      "high52w": 91.120003,
+      "low52w": 69.924118,
+      "nObs": 252
+    },
+    {
+      "symbol": "SCHD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 33.209999,
+      "return3m": 0.04315677,
+      "return12m": 0.26564494,
+      "high52w": 34.931366,
+      "low52w": 25.543987,
+      "nObs": 252
+    },
+    {
+      "symbol": "VNQ.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 90.989998,
+      "return3m": -0.06983716,
+      "return12m": 0.04459835,
+      "high52w": 100.08197,
+      "low52w": 84.917976,
+      "nObs": 252
+    },
+    {
+      "symbol": "GLD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 393.410004,
+      "return3m": 0.05294007,
+      "return12m": 0.14589886,
+      "high52w": 495.899994,
+      "low52w": 344.75,
+      "nObs": 252
+    },
+    {
+      "symbol": "TLT.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 79.32,
+      "return3m": -0.08150235,
+      "return12m": -0.06772149,
+      "high52w": 88.449287,
+      "low52w": 79.32,
+      "nObs": 252
+    },
+    {
+      "symbol": "SHY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 81.209999,
+      "return3m": -0.00303808,
+      "return12m": 0.0152987,
+      "high52w": 81.835434,
+      "low52w": 79.918785,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLK.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 196.270004,
+      "return3m": 0.08497072,
+      "return12m": 0.41675997,
+      "high52w": 197.743195,
+      "low52w": 127.199715,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLF.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 54.84,
+      "return3m": 0.02733035,
+      "return12m": 0.03907427,
+      "high52w": 58.353477,
+      "low52w": 47.475086,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 62.040001,
+      "return3m": 0.15915243,
+      "return12m": 0.41263844,
+      "high52w": 65.540428,
+      "low52w": 41.428783,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 170.699997,
+      "return3m": 0.06868708,
+      "return12m": 0.27247202,
+      "high52w": 175.010208,
+      "low52w": 131.925491,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 170.429993,
+      "return3m": -0.05690926,
+      "return12m": 0.13220503,
+      "high52w": 186.010071,
+      "low52w": 146.159225,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLY.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 110.559998,
+      "return3m": -0.03118388,
+      "return12m": -0.06955099,
+      "high52w": 123.750664,
+      "low52w": 105.218132,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLP.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 82.059998,
+      "return3m": -0.02491215,
+      "return12m": 0.07376471,
+      "high52w": 88.30864,
+      "low52w": 73.580704,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLU.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 39.509998,
+      "return3m": -0.13851704,
+      "return12m": -0.05769557,
+      "high52w": 46.754093,
+      "low52w": 39.360001,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLRE.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 41.560001,
+      "return3m": -0.07361133,
+      "return12m": 0.03503442,
+      "high52w": 45.62595,
+      "low52w": 38.955517,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLB.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 49.799999,
+      "return3m": -0.03044227,
+      "return12m": 0.1395803,
+      "high52w": 53.424141,
+      "low52w": 41.480408,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 112.959999,
+      "return3m": 0.06736002,
+      "return12m": -0.02615393,
+      "high52w": 118.995262,
+      "low52w": 105.033829,
+      "nObs": 252
+    },
+    {
+      "symbol": "VOO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 710.789978,
+      "return3m": 0.06046902,
+      "return12m": 0.17995865,
+      "high52w": 714.950012,
+      "low52w": 579.243164,
+      "nObs": 252
+    },
+    {
+      "symbol": "VTI.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 379.769989,
+      "return3m": 0.04845118,
+      "return12m": 0.17533239,
+      "high52w": 384.299988,
+      "low52w": 310.786011,
+      "nObs": 252
+    },
+    {
+      "symbol": "DIA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 517.48999,
+      "return3m": 0.00291688,
+      "return12m": 0.13905157,
+      "high52w": 541.113098,
+      "low52w": 448.189545,
+      "nObs": 252
+    },
+    {
+      "symbol": "EFA.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 105.559998,
+      "return3m": 0.02945189,
+      "return12m": 0.17923413,
+      "high52w": 108.809998,
+      "low52w": 88.220078,
+      "nObs": 252
+    },
+    {
+      "symbol": "EEM.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 67.980003,
+      "return3m": 0.01175772,
+      "return12m": 0.30480497,
+      "high52w": 71.209999,
+      "low52w": 50.942406,
+      "nObs": 252
+    },
+    {
+      "symbol": "VWO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 60.16,
+      "return3m": 0.02892953,
+      "return12m": 0.14033844,
+      "high52w": 61.323086,
+      "low52w": 51.36795,
+      "nObs": 252
+    },
+    {
+      "symbol": "LQD.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 103.209999,
+      "return3m": -0.04604745,
+      "return12m": -0.0288251,
+      "high52w": 108.716835,
+      "low52w": 103.150002,
+      "nObs": 252
+    },
+    {
+      "symbol": "HYG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 77.860001,
+      "return3m": -0.01000331,
+      "return12m": 0.01785768,
+      "high52w": 79.484398,
+      "low52w": 75.718163,
+      "nObs": 252
+    },
+    {
+      "symbol": "AGG.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 95.120003,
+      "return3m": -0.03257393,
+      "return12m": -0.0115362,
+      "high52w": 99.045166,
+      "low52w": 94.949997,
+      "nObs": 252
+    },
+    {
+      "symbol": "IEF.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 90.0,
+      "return3m": -0.04311835,
+      "return12m": -0.03023623,
+      "high52w": 95.745506,
+      "low52w": 89.690002,
+      "nObs": 252
+    },
+    {
+      "symbol": "BND.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 70.629997,
+      "return3m": -0.0313076,
+      "return12m": -0.01071799,
+      "high52w": 73.428726,
+      "low52w": 70.449997,
+      "nObs": 252
+    },
+    {
+      "symbol": "SLV.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 58.139999,
+      "return3m": 0.09121623,
+      "return12m": 0.46007031,
+      "high52w": 105.599998,
+      "low52w": 41.029999,
+      "nObs": 252
+    },
+    {
+      "symbol": "USO.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 148.330002,
+      "return3m": 0.40623812,
+      "return12m": 0.94174634,
+      "high52w": 161.860001,
+      "low52w": 66.169998,
+      "nObs": 252
+    },
+    {
+      "symbol": "DBC.US",
+      "asOfDate": "2026-09-25",
+      "adjClose": 32.619999,
+      "return3m": 0.22770039,
+      "return12m": 0.48930469,
+      "high52w": 33.68,
+      "low52w": 21.351397,
+      "nObs": 252
+    },
+    {
+      "symbol": "BTC-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 84406.453125,
+      "return3m": 0.31245645,
+      "return12m": -0.11244456,
+      "high52w": 93634.429688,
+      "low52w": 58558.859375,
+      "nObs": 252
+    },
+    {
+      "symbol": "ETH-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 2695.213135,
+      "return3m": 0.43881107,
+      "return12m": -0.18545672,
+      "high52w": 3281.157715,
+      "low52w": 1564.81665,
+      "nObs": 252
+    },
+    {
+      "symbol": "SOL-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 121.425644,
+      "return3m": 0.63143871,
+      "return12m": -0.15515692,
+      "high52w": 137.995422,
+      "low52w": 62.189804,
+      "nObs": 252
+    },
+    {
+      "symbol": "XRP-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1.528098,
+      "return3m": 0.39256272,
+      "return12m": -0.25905835,
+      "high52w": 1.992658,
+      "low52w": 0.991973,
+      "nObs": 252
+    },
+    {
+      "symbol": "DOGE-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 0.096766,
+      "return3m": 0.35006626,
+      "return12m": -0.29773863,
+      "high52w": 0.131659,
+      "low52w": 0.068988,
+      "nObs": 252
+    },
+    {
+      "symbol": "LINK-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 14.154918,
+      "return3m": 0.69056102,
+      "return12m": 0.03054537,
+      "high52w": 14.154918,
+      "low52w": 7.189456,
+      "nObs": 252
+    },
+    {
+      "symbol": "ADA-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 0.254308,
+      "return3m": 0.54466814,
+      "return12m": -0.35889284,
+      "high52w": 0.375693,
+      "low52w": 0.143429,
+      "nObs": 252
+    },
+    {
+      "symbol": "AVAX-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 10.859573,
+      "return3m": 0.60519251,
+      "return12m": -0.20928156,
+      "high52w": 12.995943,
+      "low52w": 5.905744,
+      "nObs": 252
+    },
+    {
+      "symbol": "DOT-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1.242884,
+      "return3m": 0.52709656,
+      "return12m": -0.42910788,
+      "high52w": 2.06777,
+      "low52w": 0.750794,
+      "nObs": 252
+    },
+    {
+      "symbol": "LTC-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 72.634254,
+      "return3m": 0.56180045,
+      "return12m": -0.02945951,
+      "high52w": 72.634254,
+      "low52w": 40.853039,
+      "nObs": 252
+    },
+    {
+      "symbol": "BCH-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 335.880829,
+      "return3m": 0.60236257,
+      "return12m": -0.43437493,
+      "high52w": 599.886414,
+      "low52w": 190.060638,
+      "nObs": 252
+    },
+    {
+      "symbol": "ATOM-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 1.867475,
+      "return3m": 0.34891554,
+      "return12m": -0.27216175,
+      "high52w": 2.454567,
+      "low52w": 1.222931,
+      "nObs": 252
+    },
+    {
+      "symbol": "XLM-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 0.216586,
+      "return3m": 0.21639937,
+      "return12m": -0.06062527,
+      "high52w": 0.261542,
+      "low52w": 0.143417,
+      "nObs": 252
+    },
+    {
+      "symbol": "BNB-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 773.235657,
+      "return3m": 0.36020785,
+      "return12m": -0.18352769,
+      "high52w": 932.59137,
+      "low52w": 545.686157,
+      "nObs": 252
+    },
+    {
+      "symbol": "NEAR-USD.CC",
+      "asOfDate": "2026-09-25",
+      "adjClose": 5.024236,
+      "return3m": 1.80454998,
+      "return12m": 1.87123327,
+      "high52w": 5.024236,
+      "low52w": 0.960738,
+      "nObs": 252
+    }
+  ]
+}

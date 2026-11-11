@@ -1,0 +1,17 @@
+{
+  "name": "kardashevian-arenas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The code behind Kardashevian's arenas, scoring and ratings, as it runs in production.",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test test/*.test.mjs" },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "pg": "^8.16.3",
+    "quickjs-emscripten": "^0.32.0",
+    "undici": "^6.29.0",
+    "zod": "^3.25.76"
+  }
+}

@@ -1,0 +1,16 @@
+export type Provider = { id: string; name: string; model: string; configured: boolean };
+export type Forecast = { months: number; expectedReturn: number; reason: string; due?: string; observedDate?: string | null; actualReturn?: number | null; absoluteError?: number | null; directionCorrect?: boolean | null };
+export type WorldThesis = { id: string; title: string; worldView: string; portfolioExpression: string };
+export type Holding = { symbol: string; name: string; weight: number; thesis: string; catalyst: string; invalidation: string; appliesThesisIds?: string[] };
+export type Pick = { thesis: string; risks: string; knowledgeLimitations: string; cashWeight: number; theses?: WorldThesis[]; positions: Holding[]; forecasts: Forecast[] };
+export type Risk = "low" | "medium" | "high";
+export type Horizon = 1 | 3 | 9 | 12 | 24;
+export type Strategy = { horizonMonths: Horizon; riskLevel: Risk; riskRationale: string; expectedMaxDrawdown: number; pick: Pick };
+export type SeriesPoint = { date: string; index: number; return?: number; benchmarkReturn?: number };
+export type Score = { provider: string; horizonMonths?: Horizon; riskLevel?: Risk | "standard"; status: string; message?: string; baseline?: string; index?: number; return?: number; benchmarkReturn?: number; excessReturn?: number; maxDrawdown?: number; asOf?: string; forecasts?: Forecast[]; series?: SeriesPoint[]; holdings?: { symbol: string; return: number }[] };
+export type MarketAsset = { symbol: string; assetClass: string; price: number; priceDate: string; return3m: number | null; return12m: number | null; high52w: number; low52w: number; observations: number };
+export type MarketSnapshot = { version: string; source: string; asOf: string; from: string; through: string; coverageNote?: string | null; assets: MarketAsset[] };
+export type SnapshotDocument = { checkedAt: string; marketDate?: string | null; baseline: string | null; errors: string[]; source?: string; portfolios: Score[] };
+export type SnapshotRecord = { day: string; document: SnapshotDocument };
+export type PortfolioDocument = { status: string; error?: string; corrections?: { horizonMonths: number; riskLevel: string; reason: string }[]; errors?: { horizonMonths: number; riskLevel: string; message: string; rechecked?: boolean }[]; model?: string; pick?: Pick; strategies?: Strategy[] };
+export type Cohort = { id: string; status: string; error?: string; created_at: string; input: { protocol?: string; marketAware?: boolean; marketSnapshot?: MarketSnapshot; riskDefinitions?: Record<Risk, string>; question: string; prompt?: string; prompts?: { horizonMonths: Horizon; riskLevel: Risk; prompt: string }[]; promptHash?: string; models: string[]; providerSnapshot: Provider[] }; portfolios: { provider: string; hash: string; sealed_at: string; document: PortfolioDocument }[]; snapshot: SnapshotDocument | null; snapshots?: SnapshotRecord[] };
