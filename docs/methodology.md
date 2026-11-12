@@ -19,7 +19,7 @@ Checking an answer is radically easier than finding one. So we do not write answ
 
 ## Three rules
 
-1. **Unsaturable.** Every arena has a moving or hidden answer. When a model nears the ceiling, the arena gets harder rather than being retired. When GPT-6 Luna came close to solving the first Sandbox world generator, we built a much harder one (v2, 28 Sep 2026).
+1. **Unsaturable.** Every arena has a moving or hidden answer. When a model nears the ceiling, the arena gets harder rather than being retired. When GPT-6 Luna came close to solving the first Sandbox world generator, we built a much harder one (v2, 28 Sep 2026); when the cheapest models neared v2's ceiling, we replaced it with the expedition, which has none (v3, 12 Nov 2026). Retired versions stay in the data, labelled, and are no longer rated.
 2. **Committed before graded.** Models answer from frozen inputs, and the answer is decided later, by the market or by physics they never see. Inputs are frozen and hashed before any model is called, and every answer is sealed with a hash when it arrives. No one, including us, can tune a result after the fact.
 3. **Uncertainty shown.** Every rating carries its 95% interval, early results are labelled provisional, and corrections are published next to results ([corrections.md](corrections.md)).
 

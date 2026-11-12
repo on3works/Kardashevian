@@ -5,7 +5,7 @@
 import type { Cohort, Horizon, Risk } from "./investing-types";
 import { cellObservations, earlyRead, HORIZONS, investorElo, isLiveModel, isMatrix, modelGrid, playerNames, RISKS, SPY_ID } from "./investing-analytics";
 import { buildPatterns } from "./release-patterns";
-import { learningBoard, learningScore, playerKey, sandboxElo, unrated, type SandboxWorld } from "./sandbox-scoring";
+import { learningBoard, learningScore, ofFamily, playerKey, sandboxElo, unrated, type SandboxWorld } from "./sandbox-scoring";
 import { versionedName } from "./model-versions";
 
 export const RELEASE_VERSION = "kardashevian-release-v1";
@@ -56,9 +56,12 @@ export function buildRelease({ cohorts, worlds }: { cohorts: Cohort[]; worlds: S
   };
 
   /* Sandbox */
-  const finished = worlds.filter(w => w.status === "complete").sort((a, b) => b.created_at.localeCompare(a.created_at));
-  const learning = learningBoard(worlds);
-  const sandboxRows = sandboxElo(worlds);
+  // Expedition worlds only (sandbox-v3). The rover dash (v2) was retired on
+  // 12 Nov 2026 as too easy; its worlds are no longer published or rated.
+  const liveWorlds = ofFamily(worlds, "expedition");
+  const finished = liveWorlds.filter(w => w.status === "complete").sort((a, b) => b.created_at.localeCompare(a.created_at));
+  const learning = learningBoard(liveWorlds);
+  const sandboxRows = finished.some(w => !unrated(w)) ? sandboxElo(liveWorlds) : [];
   const worldRows = finished.slice(0, 12).map(w => {
     const limit = w.input.attempts || 8;
     const players = Object.entries(w.result.players || {}).map(([provider, p]) => ({
@@ -74,13 +77,15 @@ export function buildRelease({ cohorts, worlds }: { cohorts: Cohort[]; worlds: S
   const course = latest ? {
     world: latest.id.slice(0, 8), arena: latest.input.arena,
     start: latest.input.practice.start, goal: latest.input.practice.goal,
-    checkpoints: latest.input.practice.checkpoints || [], obstacles: latest.input.practice.obstacles.map(o => ({ x: round(o.x, 1), y: round(o.y, 1), r: round(o.r, 2) })),
+    family: "expedition" as const, base: latest.input.practice.goal, sites: (latest.input.practice.checkpoints || []).map(c => ({ x: round(c.x, 1), y: round(c.y, 1), value: (c as { value?: number }).value ?? 1 })), sand: (latest.input.practice.sand || []).map(q => ({ x: round(q.x, 1), y: round(q.y, 1), r: round(q.r, 1) })),
+    checkpoints: [], obstacles: latest.input.practice.obstacles.map(o => ({ x: round(o.x, 1), y: round(o.y, 1), r: round(o.r, 2) })),
     paths: Object.entries(latest.result.players || {}).map(([provider, p]) => {
       const best = [...p.attempts].filter(a => a.path?.length).sort((a, b) => b.score - a.score)[0];
       return { id: playerKey(latest, provider), attempt: best?.attempt ?? null, score: round(best?.score ?? null, 2), path: downsample(best?.path) };
     }).filter(p => p.path.length),
   } : null;
   const sandbox = {
+    family: "expedition" as const,
     ratedWorlds: finished.filter(w => !unrated(w)).length,
     leaderboard: sandboxRows.map(r => ({ id: r.id, name: r.name, elo: r.elo, ci: r.ci, worlds: r.worlds, baseline: r.baseline, anchor: r.id === "reference", learning: round(learning[r.id] ?? null, 2) })),
     worlds: worldRows,

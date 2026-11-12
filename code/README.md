@@ -15,8 +15,10 @@ src/                    the lab backend's arena modules (Node 22, ES modules)
   auto-release.mjs      when a new release is due
   research.mjs          the public research export this repository pulls from
   db.mjs                database schema
-  sandbox/              world generator and simulator, controller sandbox, attempt loop
-  structures/           site generator, frame solver and checks, par designs, attempt loop (v2; v1 kept)
+  sandbox/              expedition (v3): generator, simulator, full-knowledge planner, reference players;
+                        world.mjs is the retired rover dash (v2); runner and attempt loop serve both
+  structures/           3D (v3): site3, frame3 (solver, checks, lower bound), ref3, brief3;
+                        the retired 2D versions (v2, and v1 in v1/) are kept; run2.mjs serves v2 and v3
   market-bootstraps/    the market snapshots shipped with the lab
 ratings/                the TypeScript that computes every published number
   investing-analytics.ts  Markets observations, Bradley–Terry fit, intervals, patterns
@@ -41,6 +43,6 @@ The lab's HTTP server, job worker and front end are not published: they also run
 
 ## Reproducing a run
 
-- **Sandbox:** `generateWorld(seed)` in `sandbox/world.mjs` rebuilds a world from the seed in its `run.json`; `simulate` there, with the QuickJS controller sandbox in `sandbox/runner.mjs`, re-scores any published controller (in `calls.jsonl.gz`).
-- **Structures:** `generateSite(seed)` in `structures/site2.mjs` rebuilds a site; `structures/frame.mjs` re-checks any published design.
+- **Sandbox:** `generateCourse(seed, n)` in `sandbox/expedition.mjs` rebuilds course n of a world (0 = practice) from the seed in its `run.json`; `expeditionPractice` and `expeditionEvaluate` in `sandbox/runner.mjs` re-score any published controller (in `calls.jsonl.gz`). The planner's value per course is stored in the run's `result.reference`.
+- **Structures:** `generateSite3(seed)` in `structures/site3.mjs` rebuilds a site; `validateDesign3` and `analyse3` in `structures/frame3.mjs` re-check any published design, and `lowerBound3` gives its M_min.
 - **Markets:** every prompt is in the data; the portfolios and daily valuations are in `run.json` and `tracking.json`, and `ratings/investing-analytics.ts` recomputes the ratings from them.

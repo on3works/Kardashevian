@@ -3,6 +3,20 @@ import { getQuickJS, shouldInterruptAfterDeadline } from 'quickjs-emscripten';
 import { STRUCTURES_PROTOCOL, MATERIALS, FAMILIES, OPTION_COUNT, JOINT_KG, JOINT_KG_PER_KGM, CORROSION_MM, HELD_OUT_UNITS, CASES_PER_UNIT, generateSite, heldOutUnits } from './site2.mjs';
 import { validateDesign, analyse, DesignError } from './frame.mjs';
 import { parDesign, referenceDesign } from './par2.mjs';
+import { STRUCTURES3_PROTOCOL, generateSite3, heldOutUnits3 } from './site3.mjs';
+import { validateDesign3, analyse3, designMass3, lowerBound3, DesignError3 } from './frame3.mjs';
+import { referenceDesign3 } from './ref3.mjs';
+import { structuresBrief3, REPLY_FORMAT3 } from './brief3.mjs';
+
+// Two generations share this attempt loop: v2 (2D, scored against a par
+// design) and v3 (3D, scored against a lower bound on mass). `site.protocol`
+// tells them apart; v2 sites carry none.
+const is3 = site => site?.protocol === STRUCTURES3_PROTOCOL;
+const validate = (site, raw) => (is3(site) ? validateDesign3(site, raw) : validateDesign(site, raw));
+const analyseAny = (site, design, cases, unit, opts) => (is3(site) ? analyse3(site, design, cases, unit, opts) : analyse(site, design, cases, unit, opts));
+const unitsOf = site => (is3(site) ? heldOutUnits3(site) : heldOutUnits(site));
+const isDesignError = e => e instanceof DesignError || e instanceof DesignError3;
+const briefOf = (site, attempts, parMass) => (is3(site) ? structuresBrief3(site, attempts, parMass) : structuresBrief(site, attempts, parMass));
 import { askWithRetries, maxOutputFor, MAX_OUTPUT_TOKENS } from '../sandbox/run.mjs';
 
 export const STRUCTURES_ATTEMPTS = 8;
@@ -12,9 +26,12 @@ const round = (v, d = 1) => Math.round(v * 10 ** d) / 10 ** d;
 const fmtKg = v => Math.round(v).toLocaleString('en');
 const label = m => `${m.a}-${m.b}`;
 
-export function newStructuresInput({ models, seed, providerSnapshot, asOf }) {
-  return { protocol: STRUCTURES_PROTOCOL, family: 'truss', seed, site: generateSite(seed), attempts: STRUCTURES_ATTEMPTS, maxOutputTokens: MAX_OUTPUT_TOKENS, providerMaxOutput: true, models, providerSnapshot, asOf };
+// New sites are structures-v3. v2 sites already stored keep running and showing as before.
+export function newStructuresInput({ models, seed, providerSnapshot, asOf, protocol = STRUCTURES3_PROTOCOL }) {
+  if (protocol !== STRUCTURES3_PROTOCOL) return { protocol: STRUCTURES_PROTOCOL, family: 'truss', seed, site: generateSite(seed), attempts: STRUCTURES_ATTEMPTS, maxOutputTokens: MAX_OUTPUT_TOKENS, providerMaxOutput: true, models, providerSnapshot, asOf };
+  return { protocol: STRUCTURES3_PROTOCOL, family: 'space-frame', seed, site: generateSite3(seed), attempts: STRUCTURES_ATTEMPTS, maxOutputTokens: MAX_OUTPUT_TOKENS, providerMaxOutput: true, models, providerSnapshot, asOf };
 }
+const siteFor = input => (input.protocol === STRUCTURES3_PROTOCOL ? generateSite3(input.seed) : generateSite(input.seed));
 
 // ---------------------------------------------------------------------------
 // The brief.
@@ -103,7 +120,7 @@ function design(site, analyse) { ... return { note, nodes, joints, members }; }
 analyse(design) returns { ok, mass, score, maxUtil, failure, sag, sagLimit, frequency, fMin, fatigueWorst, members: [{ id, util, mode, tension, compression }], cases: [{ id, maxUtil, governing, mode, sag }] } for the published cases on nominal materials, or { error } for an invalid design. \`site\` is this site as JSON with a \`catalogue\` of materials and sections (numbers in m, m², m⁴, m³). Plain JavaScript, no imports, no network. Budget: ${ANALYSIS_BUDGET} analyse() calls and ${PROGRAM_MS / 1000} seconds in total; the design your function returns is the attempt. Start with "NOTE: one sentence" before the block.`;
 
 export function structuresPrompt(site, attempts, history, parMass, maxOutputTokens = MAX_OUTPUT_TOKENS) {
-  const lines = [structuresBrief(site, attempts, parMass), '', `This is attempt ${history.length + 1} of ${attempts}.`];
+  const lines = [briefOf(site, attempts, parMass), '', `This is attempt ${history.length + 1} of ${attempts}.`];
   if (history.length) {
     lines.push('', 'Results so far (nominal materials, published cases):');
     history.forEach(h => lines.push(`Attempt ${h.attempt}${h.program ? ' (program)' : ''}: ${h.error ? `invalid (${h.error})` : `${fmtKg(h.mass)} kg, ${h.ok ? 'passes every check' : `fails (${h.failure})`}, score ${h.score}${h.analyses != null ? `, ${h.analyses} analyses used` : ''}`}${h.note ? ` · your note: ${h.note}` : ''}`));
@@ -115,7 +132,7 @@ export function structuresPrompt(site, attempts, history, parMass, maxOutputToke
     const last = [...history].reverse().find(h => h.report);
     if (last) lines.push('', `Analysis of attempt ${last.attempt}:`, last.report);
   }
-  lines.push('', `Budget: each reply may use at most ${maxOutputTokens.toLocaleString('en')} output tokens, and your reasoning counts toward it. A reply that runs out before the block is complete scores as a failed attempt. Do not try to compute member forces in your head: either reason about load paths and let the report correct you, or write a program and let analyse() do the arithmetic. Write the block before any long explanation.`, '', REPLY_FORMAT);
+  lines.push('', `Budget: each reply may use at most ${maxOutputTokens.toLocaleString('en')} output tokens, and your reasoning counts toward it. A reply that runs out before the block is complete scores as a failed attempt. Do not try to compute member forces in your head: either reason about load paths and let the report correct you, or write a program and let analyse() do the arithmetic. Write the block before any long explanation.`, '', (is3(site) ? REPLY_FORMAT3 : REPLY_FORMAT));
   return lines.join('\n');
 }
 
@@ -142,7 +159,8 @@ export function parseStructuresReply(text) {
 function compactReport(site, design, res, parMass) {
   const ok = res.ok;
   return {
-    ok, mass: round(res.mass), score: ok ? round(100 * parMass / res.mass, 2) : 0,
+    ok, mass: round(res.mass), score: ok ? round(100 * parMass / res.mass, is3(site) ? 3 : 2) : 0,
+    ...(is3(site) ? { sway: round(res.sway * 1000, 1), swayLimit: round(res.swayLimit * 1000, 1), alphaCr: res.alphaCr, alphaCrMin: site.limits.alphaCr, robustness: res.robustness } : {}),
     maxUtil: res.mechanism ? null : round(Math.max(...res.members.map(m => m.util)), 3),
     failure: ok ? null : failureOf(design, res, site),
     sag: round(res.sag * 1000, 1), sagLimit: round(res.sagLimit * 1000, 1), frequency: res.frequency, fMin: site.limits.fMin,
@@ -157,14 +175,18 @@ function failureOf(design, res, site) {
   if (bad.length) {
     const worst = bad.reduce((a, b) => (b.maxUtil > a.maxUtil ? b : a), bad[0]);
     if (worst.maxUtil > 1) return `${worst.id}: ${label(design.members[worst.governing])} at ${worst.maxUtil}× capacity (${worst.mode})`;
+    if (worst.alphaCr != null && worst.alphaCr < site.limits.alphaCr) return `${worst.id}: the structure buckles as a whole at ${worst.alphaCr}× the factored load; ${site.limits.alphaCr}× is required`;
+    if (worst.sway != null && worst.sway > res.swayLimit) return `${worst.id}: deck sways ${round(worst.sway * 1000, 1)} mm sideways, limit ${round(res.swayLimit * 1000, 1)} mm`;
     return `${worst.id}: deck sags ${round(worst.sag * 1000, 1)} mm, limit ${round(res.sagLimit * 1000, 1)} mm`;
   }
   if (res.frequency != null && res.frequency < site.limits.fMin) return `natural frequency ${res.frequency} Hz, below the ${site.limits.fMin} Hz limit`;
   if (res.fatigue && !res.fatigue.ok) return `fatigue: ${label(design.members[res.fatigue.governing])} stress range ${res.fatigue.members[res.fatigue.governing].range} MPa, allowed ${res.fatigue.members[res.fatigue.governing].allow} MPa`;
+  if (res.robustness && !res.robustness.ok) return `robustness: if ${res.robustness.lost} snaps, ${res.robustness.failure}`;
   return 'fails a check';
 }
 function reportText(site, design, res, c) {
   const lines = [`mass ${fmtKg(res.mass)} kg · ${res.ok ? 'passes every check' : 'FAILS: ' + c.failure}`, `deck sag ${c.sag} mm (limit ${c.sagLimit}) · natural frequency ${c.frequency ?? '?'} Hz (min ${c.fMin}) · fatigue worst ${c.fatigueWorst ?? '?'} of 1.0`, '', 'case | max utilisation | governing member (mode) | sag mm'];
+  if (is3(site)) lines.splice(2, 0, `sideways sway ${c.sway} mm (limit ${c.swayLimit}) · global buckling factor ${c.alphaCr ?? 'not critical'} (min ${c.alphaCrMin}) · cable/rod loss: ${c.robustness ? (c.robustness.ok ? `passes (${c.robustness.checked} checked)` : `FAILS if ${c.robustness.lost} snaps`) : 'n/a'}`);
   for (const k of c.cases) lines.push(`${k.id} | ${k.maxUtil ?? 'mechanism'} | ${k.governing ? `${k.governing} (${k.mode})` : '-'} | ${k.sag ?? '-'}`);
   if (!res.mechanism) {
     const top = c.members.map((m, i) => ({ ...m, i })).sort((a, b) => b.util - a.util).slice(0, 20);
@@ -172,28 +194,28 @@ function reportText(site, design, res, c) {
     for (const m of top) lines.push(`${m.id} | ${m.spec} | ${round(design.members[m.i].len, 2)} | ${m.tension} | ${m.compression} | ${m.moment} | ${m.util} (${m.mode}${res.members[m.i].case ? ', ' + res.members[m.i].case : ''})`);
     const idle = c.members.filter(m => m.util < 0.3).length;
     if (idle) lines.push('', `${idle} member${idle === 1 ? '' : 's'} work below 30% of capacity.`);
-  } else lines.push('', 'The structure is a mechanism. Triangulate it or add rigid joints.');
+  } else lines.push('', is3(site) ? 'The structure is a mechanism: some part can move without straining any member. In 3D every node needs restraint in all three directions: brace across the bridge as well as along it.' : 'The structure is a mechanism. Triangulate it or add rigid joints.');
   return lines.join('\n');
 }
 
 export function practice(site, raw, parMass) {
   let design;
-  try { design = validateDesign(site, raw); }
-  catch (e) { if (e instanceof DesignError) return { ok: false, error: e.message, score: 0 }; throw e; }
-  const res = analyse(site, design, site.designCases);
+  try { design = validate(site, raw); }
+  catch (e) { if (isDesignError(e)) return { ok: false, error: e.message, score: 0 }; throw e; }
+  const res = analyseAny(site, design, site.designCases);
   const c = compactReport(site, design, res, parMass);
   return { ...c, utils: res.mechanism ? null : res.members.map(m => round(m.util, 3)), report: reportText(site, design, res, c) };
 }
 
 export function evaluateHeldOut(site, raw, parMass) {
   let design;
-  try { design = validateDesign(site, raw); } catch (e) { return { score: 0, delivered: 0, mass: null, units: [], error: e.message }; }
-  const units = heldOutUnits(site).map(u => {
-    const res = analyse(site, design, u.cases, u);
-    return { unit: u.unit, ok: res.ok, score: res.ok ? round(100 * parMass / res.mass, 2) : 0, failure: res.ok ? null : failureOf(design, res, site), frequency: res.frequency, sag: round(res.sag * 1000, 1) };
+  try { design = validate(site, raw); } catch (e) { return { score: 0, delivered: 0, mass: null, units: [], error: e.message }; }
+  const units = unitsOf(site).map(u => {
+    const res = analyseAny(site, design, u.cases, u);
+    return { unit: u.unit, ok: res.ok, score: res.ok ? round(100 * parMass / res.mass, is3(site) ? 3 : 2) : 0, failure: res.ok ? null : failureOf(design, res, site), frequency: res.frequency, sag: round(res.sag * 1000, 1) };
   });
-  const mass = analyse(site, design, [], undefined, { fatigue: false, frequency: false }).mass;
-  return { score: round(units.reduce((s, u) => s + u.score, 0) / units.length, 2), delivered: units.filter(u => u.ok).length, mass: round(mass), units };
+  const mass = is3(site) ? designMass3(design) : analyse(site, design, [], undefined, { fatigue: false, frequency: false }).mass;
+  return { score: round(units.reduce((s, u) => s + u.score, 0) / units.length, is3(site) ? 3 : 2), delivered: units.filter(u => u.ok).length, mass: round(mass), units };
 }
 
 // ---------------------------------------------------------------------------
@@ -225,12 +247,12 @@ export async function runProgram(site, source, parMass, { budget = ANALYSIS_BUDG
       analyses++;
       try {
         const parsed = JSON.parse(raw);
-        const design = validateDesign(site, parsed);
-        const res = analyse(site, design, site.designCases);
+        const design = validate(site, parsed);
+        const res = analyseAny(site, design, site.designCases);
         out = compactReport(site, design, res, parMass);
         delete out.failure; out.failure = res.ok ? null : failureOf(design, res, site);
         lastDesign = parsed; lastOk = out.ok;
-      } catch (e) { out = { error: e instanceof DesignError ? e.message : 'invalid design' }; }
+      } catch (e) { out = { error: isDesignError(e) ? e.message : 'invalid design' }; }
     }
     return vm.newString(JSON.stringify(out));
   });
@@ -263,6 +285,24 @@ function slim(p) { const { report, ...rest } = p; return rest; }
 
 export async function structuresRun(run, { call, save, retryDelayMs = 20_000 }) {
   // Par first; a site with no deliverable par is replaced by the next seed.
+  if (!run.result.par && run.input.protocol === STRUCTURES3_PROTOCOL) {
+    // v3: "par" is the lower bound on mass; the reference engineer must be able
+    // to deliver a design, otherwise the site is replaced by the next seed.
+    for (let tries = 0; tries < 40; tries++) {
+      if (!run.input.site || run.input.site.seed !== run.input.seed) run.input.site = generateSite3(run.input.seed);
+      const site = run.input.site, ref = referenceDesign3(site);
+      if (ref) {
+        const bound = lowerBound3(site);
+        run.result.par = { mass: bound.mass, bound: true, depth: bound.depth, momentArea: bound.momentArea };
+        run.result.baselines = { reference: { name: 'Reference engineer', design: ref.design, layout: ref.layout, practice: slim(practice(site, ref.design, bound.mass)), final: evaluateHeldOut(site, ref.design, bound.mass) } };
+        break;
+      }
+      run.input.seed = (run.input.seed % (2 ** 31 - 2)) + 1;
+      run.input.site = generateSite3(run.input.seed);
+      await new Promise(resolve => setImmediate(resolve));
+    }
+    if (!run.result.par) throw new Error('Could not find a solvable site');
+  }
   if (!run.result.par) {
     for (let tries = 0; tries < 40; tries++) {
       if (!run.input.site || run.input.site.seed !== run.input.seed) run.input.site = generateSite(run.input.seed);
@@ -275,7 +315,7 @@ export async function structuresRun(run, { call, save, retryDelayMs = 20_000 }) 
   }
   const site = run.input.site, parMass = run.result.par.mass;
   run.result.baselines ||= {};
-  if (!run.result.baselines.reference) {
+  if (!run.result.baselines.reference && !is3(site)) {
     const ref = referenceDesign(site, run.result.par);
     if (ref) run.result.baselines.reference = { name: 'Reference engineer', design: ref.design, layout: ref.layout, practice: slim(practice(site, ref.design, parMass)), final: evaluateHeldOut(site, ref.design, parMass) };
   }
@@ -325,15 +365,15 @@ export async function structuresRun(run, { call, save, retryDelayMs = 20_000 }) 
 
 export function publicStructuresView(run) {
   const done = run.status === 'complete';
-  const site = run.input.site || generateSite(run.input.seed);
+  const site = run.input.site || siteFor(run.input);
   const result = { ...run.result };
   if (!done && result.par) result.par = { mass: result.par.mass };
   if (result.players) result.players = Object.fromEntries(Object.entries(result.players).map(([id, p]) => [id, { ...p, attempts: p.attempts.map(a => { const { report, ...rest } = a; return rest; }) }]));
   return {
     id: run.id, status: run.status, error: run.error, created_at: run.created_at,
     input: { ...run.input, site: undefined }, site,
-    heldOut: done ? heldOutUnits(site) : null,
-    brief: structuresBrief(site, run.input.attempts || STRUCTURES_ATTEMPTS, run.result.par?.mass),
+    heldOut: done ? unitsOf(site) : null,
+    brief: briefOf(site, run.input.attempts || STRUCTURES_ATTEMPTS, run.result.par?.mass),
     result,
   };
 }

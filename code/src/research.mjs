@@ -6,11 +6,19 @@
 
 export const RESEARCH_KINDS = ['investing-once', 'sandbox', 'structures'];
 const ARENA = { 'investing-once': 'markets', sandbox: 'sandbox', structures: 'structures' };
+// Arena versions retired as too easy on 12 Nov 2026. Their runs stay in the
+// export, labelled, but are no longer rated anywhere.
+const RETIRED_NOTE = 'Retired on 12 Nov 2026 as too easy; replaced by a harder version and no longer rated.';
+export function retiredVersion(kind, input) {
+  if (kind === 'sandbox' && input?.family !== 'expedition') return { version: input?.protocol || 'sandbox-v2', note: RETIRED_NOTE };
+  if (kind === 'structures' && input?.protocol !== 'structures-v3') return { version: input?.protocol || 'structures-v1', note: RETIRED_NOTE };
+  return null;
+}
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/;
 
 export async function researchIndex(db) {
   const rows = (await db.query(`
-    SELECT r.id, r.kind, r.status, r.created_at, r.updated_at,
+    SELECT r.id, r.kind, r.status, r.created_at, r.updated_at, r.input->>'protocol' AS protocol, r.input->>'family' AS family,
       (SELECT reason FROM books_voided b WHERE b.run_id=r.id) AS book_voided,
       (SELECT reason FROM sandbox_voided s WHERE s.run_id=r.id) AS world_voided,
       (SELECT count(*)::int FROM calls c WHERE c.run_id=r.id) AS calls,
@@ -18,7 +26,7 @@ export async function researchIndex(db) {
     FROM runs r WHERE r.kind = ANY($1::text[]) ORDER BY r.created_at`, [RESEARCH_KINDS])).rows;
   return {
     note: 'Every run behind the public arenas. Fetch /public/v1/research/runs/{id} for the full record.',
-    runs: rows.map(r => ({ id: r.id, arena: ARENA[r.kind], status: r.status, createdAt: r.created_at, updatedAt: r.updated_at ?? null, withdrawn: r.book_voided || r.world_voided || null, calls: r.calls, lastTracked: r.last_tracked ?? null })),
+    runs: rows.map(r => ({ id: r.id, arena: ARENA[r.kind], status: r.status, createdAt: r.created_at, updatedAt: r.updated_at ?? null, withdrawn: r.book_voided || r.world_voided || null, retired: retiredVersion(r.kind, { protocol: r.protocol, family: r.family }), calls: r.calls, lastTracked: r.last_tracked ?? null })),
   };
 }
 
@@ -31,6 +39,7 @@ export async function researchRun(db, id) {
   const out = {
     arena: ARENA[run.kind], id: run.id, status: run.status, createdAt: run.created_at, error: run.error || null,
     withdrawn: withdrawn ? { reason: withdrawn.reason, at: withdrawn.voided_at } : null,
+    retired: retiredVersion(run.kind, run.input),
     input: run.input, result: run.result,
     calls: calls.map(c => ({ provider: c.provider, key: c.call_key, state: c.state, createdAt: c.created_at, prompt: c.prompt, response: c.response })),
   };

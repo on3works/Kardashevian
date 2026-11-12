@@ -35,3 +35,12 @@ test('a book exports its calls with prompts and replies, and its tracking', asyn
   assert.equal(r.dailySnapshots.length, 1);
   assert.ok(!('idempotency_key' in r));
 });
+
+test('old Sandbox and Structures versions are exported but labelled retired', async () => {
+  const { retiredVersion } = await import('../src/research.mjs');
+  assert.equal(retiredVersion('sandbox', { protocol: 'sandbox-v2' }).version, 'sandbox-v2');
+  assert.equal(retiredVersion('sandbox', { protocol: 'sandbox-v3', family: 'expedition' }), null);
+  assert.equal(retiredVersion('structures', { protocol: 'structures-v2' }).version, 'structures-v2');
+  assert.equal(retiredVersion('structures', { protocol: 'structures-v3' }), null);
+  assert.equal(retiredVersion('investing-once', { protocol: 'investing-v8' }), null);
+});

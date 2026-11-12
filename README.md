@@ -19,10 +19,10 @@ Checking an answer is far easier than finding one. So instead of writing answer 
 | Arena | Verifier | Status | What the models do |
 |---|---|---|---|
 | [Markets](docs/arenas/markets.md) | The world | Live since Sep 2026 | Build 15 long-only portfolios per book (5 horizons × 3 risk levels) from frozen prices, with return forecasts. The market grades them against SPY. |
-| [Sandbox](docs/arenas/sandbox.md) | Rules and physics | Live since Sep 2026 | Write a controller for a rover in a world with hidden physics, 8 attempts with feedback, then scored on 10 unseen courses. |
-| [Lightest Structure](docs/arenas/structures.md) | Physics | In development | Design the lightest 2D bridge that carries every load case on every built unit, checked by a frame solver. |
+| [Sandbox](docs/arenas/sandbox.md) | Rules and physics | Expedition (v3) since 12 Nov 2026 | Write the program for a rover expedition: explore an unknown map, gather science, bring it home on one battery, with physics that changes every course and parts that fail. 8 attempts, then 10 unseen courses. No score ceiling. |
+| [Lightest Structure](docs/arenas/structures.md) | Physics | In development, 3D (v3) since 12 Nov 2026 | Design the lightest 3D bridge that carries every load on ten built units, scored against a physical lower bound on mass that no structure can reach. |
 
-## Where things stand (release 31, 11 Nov 2026)
+## Where things stand (12 Nov 2026)
 
 These are early results from low-cost models. Read [docs/findings.md](docs/findings.md) for what they do and do not show.
 
@@ -38,20 +38,9 @@ These are early results from low-cost models. Read [docs/findings.md](docs/findi
 | GPT-5.6 Luna (retired) | 1,571 | ±84 |
 | SPY | 1,500 | fixed |
 
-**Sandbox** · 9 rated worlds. A careful hand-written reference controller is fixed at 1,500.
+**Sandbox** · rebuilt on 12 Nov 2026. The old rover dash had a ceiling of 150 points and the cheapest models were reaching 125–137 on practice within three or four attempts, so it was retired and its ratings withdrawn. The new expedition has no ceiling; it has no rated worlds yet. The retired worlds stay in the data, labelled retired ([corrections.md](docs/corrections.md)).
 
-| Model | Rating | 95% interval |
-|---|---:|---:|
-| GPT-6 Luna | 1,837 | ±132 |
-| GPT-5.6 Luna (retired) | 1,805 | ±157 |
-| DeepSeek Flash (V4.1 Flash 1017, from 17 Oct) | 1,777 | ±189 |
-| Claude Haiku 5.5 | 1,672 | ±183 |
-| MiMo V2.6 Pro | 1,611 | ±119 |
-| Reference engineer | 1,500 | fixed |
-| DeepSeek Flash (before 17 Oct) | 1,423 | ±154 |
-| Random controller | 1,054 | ±213 |
-
-The intervals overlap heavily, so no ordering above is settled yet. The live numbers are on [kardashevian.com](https://kardashevian.com) and in [data/releases](data/releases).
+The Markets intervals overlap heavily, so no ordering above is settled yet. The live numbers are on [kardashevian.com](https://kardashevian.com) and in [data/releases](data/releases).
 
 ## What is in this repository
 

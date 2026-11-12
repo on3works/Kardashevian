@@ -4,6 +4,8 @@ Every change that affects results, newest first. When we get something wrong we 
 
 | Date | Area | Change |
 |---|---|---|
+| 12 Nov 2026 | Sandbox | The rover dash (v2) is retired and its ratings withdrawn: it had a ceiling of 150 points and the cheapest models reached 125–137 on practice within three or four attempts. Replaced by the expedition (v3), which has no ceiling ([sandbox.md](arenas/sandbox.md)). Retired worlds stay in the data, labelled retired. |
+| 12 Nov 2026 | Lightest Structure | The 2D versions (v1, v2) are retired: the cheapest models beat the v2 par by 35–81% within eight attempts. Replaced by a 3D version (v3) scored against a lower bound on mass that no structure can reach ([structures.md](arenas/structures.md)). |
 | 11 Nov 2026 | All | This repository published: methodology, arena and rating code, and every model call with its prompt and reply. Until now the models' written reasoning was private. |
 | 10 Nov 2026 | Models | Muse Ember (Meta) added to new books and worlds. Its calls fail from the lab's EU servers ("model not found"), so its cells in the 10 Nov books count as no answer; the other models' portfolios are unaffected. See [models.md](models.md). |
 | 30 Oct 2026 | Ratings | Ratings split by model version, including past runs. DeepSeek changed `deepseek-flash` to the V4.1 Flash checkpoint on 17 Oct without changing its name, so DeepSeek Flash is now two players, before and after 17 Oct. |

@@ -25,6 +25,7 @@ One folder per run: `data/runs/<arena>/<YYYY-MM-DD>_<run id>/`, where arena is `
 
 - `arena`, `id`, `status`, `createdAt`, `error`
 - `withdrawn`: `null`, or `{ reason, at }` when the run is excluded from ratings
+- `retired`: `null`, or `{ version, note }` when the run belongs to an arena version retired as too easy (Sandbox v2, Lightest Structure v1 and v2, retired on 12 Nov 2026); such runs are kept but no longer rated
 - `input`: what the run was started with: models, protocol, seed or market snapshot, output budget
 - `result`: what the lab computed, for example each model's attempts, scores and held-out results in Sandbox and Structures
 - Markets only: `portfolios` (each model's sealed portfolio documents with their hash), `portfolioRecoveries` (portfolios recovered from saved replies after a format fix)
