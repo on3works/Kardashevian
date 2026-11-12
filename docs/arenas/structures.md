@@ -1,28 +1,43 @@
 # Lightest Structure
 
-**Verifier: physics.** In development: it runs in the lab but is not yet rated on kardashevian.com. Protocol `structures-v2` since October 2026.
+**Verifier: physics.** In development: it runs in the lab but is not yet rated on kardashevian.com. 3D (`structures-v3`) since 12 Nov 2026; the 2D versions are retired.
 
 The goal is an optimisation problem as close as possible to hard, real engineering, where marginal gains are impressive and the only limit is physics.
 
 ## The task
 
-Design the **lightest bridge structure**, seen in elevation (2D), that carries every load case on every one of a set of **built units**. The model chooses the nodes, the members, each member's material and section, and whether each joint is pinned or rigid. It gets **8 attempts**. After each it sees the mass, score and an analysis report. In an attempt it may submit a design directly, or a program that may call the analysis up to 400 times within 90 seconds before committing one.
+Design the **lightest three-dimensional bridge structure** that carries every load on every one of **10 built units**. Axes: x along the bridge, y up, z across. The model places nodes anywhere in an allowed region, connects them with members, picks each member's material and section (about 560 options), and makes each joint pinned or rigid. It gets **8 attempts**; after each it sees mass, score and an analysis report. An attempt is either a design or a program that may call our analysis up to 400 times in 90 seconds before committing one.
 
-Each site is generated from a seed and specifies:
+Each site is generated from a seed:
 
-- **Span, supports and clearances:** fixed deck nodes, pinned, roller or spring supports on soft ground, an allowed region above and/or below the deck, and keep-out zones.
-- **Materials and sections:** nine materials (four structural steels, stainless steel, two aluminium alloys, glulam timber and steel wire rope, which works in tension only) and eight section families, about 560 member options, each with published bands for strength, stiffness and thickness.
-- **Loads:** deck dead load and self-weight, one or two lanes of traffic with dynamic amplification, crowds, braking, wind on every member, ice, temperature, support settlement, and a seismic case.
-- **Checks:** section class, yield, flexural buckling on a buckling curve, bending interaction, shear, out-of-plane wind bending, deck deflection, lowest natural frequency, fatigue, corrosion and fabrication rules, with partial safety factors.
+- **Geometry.** Span 18–60 m, deck 4–9 m wide, with deck nodes along both edges. Four bearings under the deck corners: one fixed, the others guided so the deck can breathe; some sites anchor both ends, some bearings sit on soft ground. A **traffic envelope** over the roadway that no node or member may enter, an allowed region above and/or below the deck, and sometimes a channel, railway or road below.
+- **Loads.** Deck dead load; one or two lanes of traffic, off-centre so they twist the deck, with a dynamic factor; crowds over any stretch, full width or one side only; braking; cross-wind on every member and on the deck edge; ice; temperature; earthquakes from any horizontal direction; settlement of any one bearing.
+- **Materials.** Nine: four structural steels, stainless steel, two aluminium alloys, glulam timber, and steel wire rope (tension only). Each built unit draws its own strength, stiffness, density, thickness and buckling imperfection inside published bands.
 
-Every **built unit** draws its own steel strength, stiffness, section thickness, imperfections, settlement and temperature from the published bands, so a design must be robust rather than tuned to nominal values. Designs are scored on held-out units the model never sees.
+## Checks
 
-## Grading
+The analysis is a 3D frame solver (six degrees of freedom at rigid joints, pinned ends released, cables that slacken in compression). A design must pass on every built unit:
 
-The model's best practice design is built **10 times** as held-out units, each loaded with its load cases. On each unit that passes every check, the design scores **100 × par mass / design mass**, so beating par scores above 100; a unit that fails any check scores 0. The arena score is the mean over the 10 units. Each site's **par** is the lightest of classic Pratt, Howe and Warren trusses above or below the deck at several depths, with pinned joints and S355 tubes, every member sized by iteration on the weakest allowed steel, then verified on every held-out unit. A textbook Pratt truss with one tube size throughout serves as the reference engineer.
+- **Members:** yield, flexural buckling about both axes on a buckling curve, biaxial bending and axial interaction (moments from rigid joints, self-weight, ice and wind between nodes), shear, section class.
+- **The whole structure:** global elastic buckling factor at least 3–5 under every factored case (a compression chord with nothing holding it sideways fails here even when every member passes), no mechanism in any direction, deck sag and sideways sway limits, lowest natural frequency in any direction, fatigue from traffic, corrosion allowance.
+- **Robustness:** any single wire rope or solid rod may snap; the rest must still carry dead load and half the traffic.
 
-Code: [code/src/structures/site2.mjs](../../code/src/structures/site2.mjs) (materials, sections, sites and load cases), [frame.mjs](../../code/src/structures/frame.mjs) (the 2D frame solver and checks), [par2.mjs](../../code/src/structures/par2.mjs) (par and reference designs) and [run2.mjs](../../code/src/structures/run2.mjs) (the brief and attempt loop). The first version, a 14-tube, two-variable world, is in [v1](../../code/src/structures/v1).
+Each built unit is tested with the **proof load** (the heaviest vehicle in every lane at midspan) and seven unseen cases drawn from the published ranges.
 
-## Status
+## Scoring
 
-The arena is still being calibrated: whether the par is hard enough, and whether the 400-analysis budget is right. Its runs are published in [data/runs/structures](../../data/runs) as they happen, but it will not have a rating until the design is frozen.
+On each unit that passes every check, the design scores **100 × M_min ÷ its mass**; a unit that fails any check scores 0. The arena score is the mean over the 10 units.
+
+**M_min is a lower bound on the mass of any structure for the site.** The deck's dead load and the proof load produce a bending moment M(x) that must be carried within the allowed depth H, so the forces crossing each section satisfy Σ|N| ≥ |M|/H, and the material weighs at least (ρ/f)·∫|M|/H dx with the best density-to-strength ratio in the catalogue. Self-weight, buckling, stiffness, bracing, joints, the other load cases and robustness only add mass, so **100 cannot be reached**. Scores are small numbers; ratings count results within 2% of each other as draws.
+
+A **reference engineer** design anchors the rating: a conventional braced truss hung under the deck, every member a round S355 tube sized by iteration until all ten units hold. In offline checks it scored about 0.2–2. A site where it cannot be made to hold is replaced by the next seed.
+
+Code: [site3.mjs](../../code/src/structures/site3.mjs) (sites, loads, built units), [frame3.mjs](../../code/src/structures/frame3.mjs) (3D solver, checks, lower bound), [ref3.mjs](../../code/src/structures/ref3.mjs) (reference design), [brief3.mjs](../../code/src/structures/brief3.mjs) (the brief) and [run2.mjs](../../code/src/structures/run2.mjs) (the attempt loop shared with v2).
+
+## History
+
+- **v1** (Oct 2026): 14 tube sizes, one material, two design variables. Saturated quickly.
+- **v2** (Oct – 12 Nov 2026): a 2D bridge seen in elevation, scored against a textbook-truss par. The cheapest models beat par by 35–81% within eight attempts, so it was retired.
+- **v3** (12 Nov 2026 –): this page.
+
+Retired sites remain in [data/runs/structures](../../data/runs), labelled retired.

@@ -41,10 +41,10 @@ Each portfolio states an expected maximum drawdown. Across models, almost every 
 
 ## Sandbox
 
-**9 rated worlds.** GPT-6 Luna leads (1,837 ± 132), and every current model rates above the hand-written reference engineer, but again the intervals overlap.
+**Rebuilt on 12 Nov 2026; no rated expedition worlds yet.** The rover dash these findings were based on was retired as too easy: the cheapest models reached 125–137 of its 150-point ceiling on practice within three or four attempts. Two observations from its 9 rated worlds are kept for the record:
 
-- **Learning differs more than final skill.** DeepSeek Flash V4.1 (from 17 Oct) has the highest learning score, 85, finding good controllers early; Claude Haiku 5.5 (31) and GPT-5.6 Luna (34) found theirs late.
-- **DeepSeek's silent upgrade mattered.** DeepSeek Flash before 17 Oct rated 1,423, below the reference engineer; after DeepSeek's unannounced switch to V4.1 Flash it rates 1,777. Pooling the two would have hidden a 350-point change, which is why ratings are split by model version.
+- **Learning differed more than final skill.** DeepSeek Flash V4.1 (from 17 Oct) found good controllers earliest; Claude Haiku 5.5 and GPT-5.6 Luna found theirs late.
+- **DeepSeek's silent upgrade mattered.** DeepSeek Flash before 17 Oct rated 1,423, below the reference engineer; after DeepSeek's unannounced switch to V4.1 Flash it rated 1,777. Pooling the two would have hidden a 350-point change, which is why ratings are split by model version.
 
 ## Notes published along the way
 

@@ -34,7 +34,7 @@ Each arena fixes one player at 1,500 so the scale means something:
 
 ## Sandbox matches
 
-Each rated world is a round. Every pair of players meets once on their mean score over the 10 unseen courses; results within **3 points** are draws. The learning score (below) is shown beside the rating and does not change it.
+Each rated world is a round. Every pair of players meets once on their mean score over the 10 unseen courses. On the expedition (v3), scores within **5% of each other** are draws, because scores are a percentage of the planner and often small; the retired rover dash used **3 points** on its 150-point scale. The learning score (below) is shown beside the rating and does not change it.
 
 ## Scores shown beside ratings
 
