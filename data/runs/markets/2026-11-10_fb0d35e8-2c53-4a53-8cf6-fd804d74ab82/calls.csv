@@ -1,0 +1,86 @@
+provider,key,state,created_at,returned_model,input_tokens,output_tokens,estimated_cost_usd,latency_ms,finish_reason,reply_chars,error
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:1:low,complete,2026-11-10T11:20:25.047Z,gpt-6-luna,24911,20608,0.0127951,177536,completed,5766,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:1:medium,complete,2026-11-10T11:20:25.047Z,gpt-6-luna,24911,22895,0.0139386,214443,completed,9040,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:3:low,complete,2026-11-10T11:20:25.047Z,gpt-6-luna,24911,25025,0.0150036,327547,completed,9331,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:1:high,complete,2026-11-10T11:20:25.047Z,gpt-6-luna,24911,15934,0.0104581,173658,completed,7682,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:3:medium,complete,2026-11-10T11:20:25.058Z,gpt-6-luna,24911,15459,0.0102206,163252,completed,9670,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:3:high,complete,2026-11-10T11:20:25.060Z,gpt-6-luna,24911,26419,0.015700600000000002,221302,completed,10077,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:9:low,complete,2026-11-10T11:20:25.061Z,gpt-6-luna,24911,25744,0.015363100000000001,302248,completed,9541,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:9:high,complete,2026-11-10T11:20:25.063Z,gpt-6-luna,24911,23789,0.0143856,225539,completed,13803,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:9:medium,complete,2026-11-10T11:20:25.068Z,gpt-6-luna,24911,24661,0.0148216,209166,completed,11523,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:12:low,complete,2026-11-10T11:20:25.078Z,gpt-6-luna,24911,16761,0.0108716,158955,completed,8993,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:12:medium,complete,2026-11-10T11:20:25.079Z,gpt-6-luna,24911,31480,0.0182311,273375,completed,11507,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:12:high,complete,2026-11-10T11:20:25.082Z,gpt-6-luna,24911,21668,0.013325100000000001,238755,completed,11029,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:24:low,complete,2026-11-10T11:20:25.091Z,gpt-6-luna,24911,24526,0.014754100000000001,303616,completed,10211,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:24:medium,complete,2026-11-10T11:20:25.098Z,gpt-6-luna,24911,24614,0.0147981,222526,completed,11800,
+openai6,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:openai6:24:high,complete,2026-11-10T11:20:25.102Z,gpt-6-luna,24911,27501,0.016241600000000002,246104,completed,13608,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:1:high,complete,2026-11-10T11:20:25.107Z,deepseek-flash,25594,19445,0.0310122,87605,stop,17625,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:1:low,complete,2026-11-10T11:20:25.107Z,deepseek-flash,25594,9324,0.018867,71106,stop,7950,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:1:medium,complete,2026-11-10T11:20:25.118Z,deepseek-flash,25594,13656,0.0240654,108418,stop,11645,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:3:medium,complete,2026-11-10T11:20:25.120Z,deepseek-flash,25594,28841,0.042287399999999996,192817,stop,24576,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:3:low,complete,2026-11-10T11:20:25.122Z,deepseek-flash,25594,14868,0.0255198,106433,stop,12882,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:3:high,complete,2026-11-10T11:20:25.123Z,deepseek-flash,25594,15831,0.026675400000000002,116095,stop,16106,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:9:medium,complete,2026-11-10T11:20:25.131Z,deepseek-flash,25594,29474,0.043046999999999995,193385,stop,18930,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:9:high,complete,2026-11-10T11:20:25.135Z,deepseek-flash,25594,20595,0.0323922,142759,stop,21386,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:9:low,complete,2026-11-10T11:20:25.142Z,deepseek-flash,25594,15116,0.0258174,110923,stop,17525,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:12:low,complete,2026-11-10T11:20:25.144Z,deepseek-flash,25594,22828,0.03507179999999999,160019,stop,19112,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:12:medium,complete,2026-11-10T11:20:25.154Z,deepseek-flash,25594,28411,0.04177139999999999,185669,stop,19118,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:12:high,complete,2026-11-10T11:20:25.155Z,deepseek-flash,25594,17519,0.028701,129773,stop,16483,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:24:medium,complete,2026-11-10T11:20:25.161Z,deepseek-flash,25594,22761,0.0349914,156741,stop,27288,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:24:high,complete,2026-11-10T11:20:25.162Z,deepseek-flash,25594,22265,0.034396199999999995,142222,stop,21897,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:24:low,complete,2026-11-10T11:20:25.168Z,deepseek-flash,25594,16949,0.028017,124295,stop,19101,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:1:low,complete,2026-11-10T11:20:25.168Z,claude-haiku-5-5,32985,6445,0.006521,30258,end_turn,10435,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:1:medium,complete,2026-11-10T11:20:25.174Z,claude-haiku-5-5,32987,6628,0.006612700000000001,33279,end_turn,12320,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:1:high,complete,2026-11-10T11:20:25.176Z,claude-haiku-5-5,32985,14374,0.0104855,64343,end_turn,19746,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:3:medium,complete,2026-11-10T11:20:25.176Z,claude-haiku-5-5,32987,10454,0.0085257,49130,end_turn,13568,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:3:low,complete,2026-11-10T11:20:25.177Z,claude-haiku-5-5,32985,8605,0.007601,41107,end_turn,14235,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:3:high,complete,2026-11-10T11:20:25.185Z,claude-haiku-5-5,32985,13932,0.0102645,63134,end_turn,18410,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:9:high,complete,2026-11-10T11:20:25.188Z,claude-haiku-5-5,32985,13533,0.010065,60706,end_turn,16536,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:12:low,complete,2026-11-10T11:20:25.189Z,claude-haiku-5-5,32985,14463,0.01053,66813,end_turn,17826,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:9:low,complete,2026-11-10T11:20:25.195Z,claude-haiku-5-5,32985,12489,0.009543,60136,end_turn,13549,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:9:medium,complete,2026-11-10T11:20:25.201Z,claude-haiku-5-5,32987,12482,0.0095397,58688,end_turn,18920,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:12:medium,complete,2026-11-10T11:20:25.237Z,claude-haiku-5-5,32987,10711,0.0086542,51334,end_turn,15579,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:12:high,complete,2026-11-10T11:20:25.237Z,claude-haiku-5-5,32985,11752,0.0091745,54157,end_turn,16209,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:24:low,complete,2026-11-10T11:20:25.238Z,claude-haiku-5-5,32985,9674,0.0081355,44444,end_turn,13822,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:24:medium,complete,2026-11-10T11:20:25.242Z,claude-haiku-5-5,32987,14030,0.0103137,63293,end_turn,21621,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:24:high,complete,2026-11-10T11:20:25.253Z,claude-haiku-5-5,32985,13373,0.009985,62599,end_turn,20666,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:1:low,complete,2026-11-10T11:20:25.254Z,mimo-v2.6-pro,34891,4241,0.018867254999999996,137960,stop,12879,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:1:medium,complete,2026-11-10T11:20:25.258Z,mimo-v2.6-pro,34891,6485,0.020819535,198877,stop,18384,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:1:high,complete,2026-11-10T11:20:25.265Z,mimo-v2.6-pro,34891,7382,0.021599925,220963,stop,13586,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:3:low,complete,2026-11-10T11:20:25.266Z,mimo-v2.6-pro,34891,5879,0.020292315,110079,stop,19096,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:3:high,complete,2026-11-10T11:20:25.268Z,mimo-v2.6-pro,34891,3712,0.018407024999999997,125605,stop,10912,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:9:low,complete,2026-11-10T11:20:25.269Z,mimo-v2.6-pro,34891,5012,0.019538024999999997,176448,stop,19359,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:3:medium,complete,2026-11-10T11:20:25.283Z,mimo-v2.6-pro,34891,21630,0.033995685,349955,stop,25279,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:9:medium,complete,2026-11-10T11:20:25.284Z,mimo-v2.6-pro,34891,5733,0.020165295,170470,stop,15555,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:9:high,complete,2026-11-10T11:20:25.285Z,mimo-v2.6-pro,34891,11132,0.024862425,312643,stop,16397,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:12:low,complete,2026-11-10T11:20:25.290Z,mimo-v2.6-pro,34894,6070,0.020459790000000002,191101,stop,18580,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:12:medium,complete,2026-11-10T11:20:25.293Z,mimo-v2.6-pro,34894,17502,0.030405629999999996,485520,stop,32519,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:12:high,complete,2026-11-10T11:20:25.294Z,mimo-v2.6-pro,34894,14336,0.02765121,422677,stop,25616,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:24:low,complete,2026-11-10T11:20:25.295Z,mimo-v2.6-pro,34894,13593,0.0270048,366624,stop,18647,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:24:medium,complete,2026-11-10T11:20:25.299Z,mimo-v2.6-pro,34894,14768,0.028027049999999998,259225,stop,31657,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:24:high,complete,2026-11-10T11:20:25.301Z,mimo-v2.6-pro,34894,6599,0.02092002,126906,stop,18517,
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:1:low,failed,2026-11-10T11:20:25.309Z,muse-ember-1.0,0,0,,111,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:1:medium,failed,2026-11-10T11:20:25.310Z,muse-ember-1.0,0,0,,227,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:1:high,failed,2026-11-10T11:20:25.312Z,muse-ember-1.0,0,0,,356,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:3:low,failed,2026-11-10T11:20:25.319Z,muse-ember-1.0,0,0,,367,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:3:medium,failed,2026-11-10T11:20:25.324Z,muse-ember-1.0,0,0,,355,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:3:high,failed,2026-11-10T11:20:25.326Z,muse-ember-1.0,0,0,,350,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:9:low,failed,2026-11-10T11:20:25.329Z,muse-ember-1.0,0,0,,343,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:9:high,failed,2026-11-10T11:20:25.336Z,muse-ember-1.0,0,0,,352,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:9:medium,failed,2026-11-10T11:20:25.342Z,muse-ember-1.0,0,0,,344,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:12:low,failed,2026-11-10T11:20:25.344Z,muse-ember-1.0,0,0,,320,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:12:medium,failed,2026-11-10T11:20:25.345Z,muse-ember-1.0,0,0,,355,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:24:medium,failed,2026-11-10T11:20:25.348Z,muse-ember-1.0,0,0,,321,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:12:high,failed,2026-11-10T11:20:25.357Z,muse-ember-1.0,0,0,,576,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:24:high,failed,2026-11-10T11:20:25.369Z,muse-ember-1.0,0,0,,306,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+ember,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:ember:24:low,failed,2026-11-10T11:20:25.369Z,muse-ember-1.0,0,0,,370,,,"Provider ember returned HTTP 404: The requested model was not found. It may not exist, or this API key may not have access to it. Check the model name; GET /v1/models lists the models this API key can use."
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:24:low:fix,complete,2026-11-10T11:21:09.703Z,claude-haiku-5-5,38019,5960,0.0067818999999999996,123547,end_turn,13807,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:9:medium:fix,complete,2026-11-10T11:21:23.939Z,claude-haiku-5-5,39864,8485,0.008228899999999999,118069,end_turn,18919,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:9:high:fix,complete,2026-11-10T11:21:25.953Z,claude-haiku-5-5,38910,7929,0.0078555,115777,end_turn,16535,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:3:high:fix,complete,2026-11-10T11:21:28.348Z,claude-haiku-5-5,39705,8707,0.008324,115184,end_turn,17568,
+anthropic,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:anthropic:1:high:fix,complete,2026-11-10T11:21:29.539Z,claude-haiku-5-5,40106,8409,0.008215100000000001,112188,end_turn,19745,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:3:low:fix,complete,2026-11-10T11:22:15.366Z,mimo-v2.6-pro,39250,5845,0.022158900000000002,63455,stop,18883,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:3:high:fix,complete,2026-11-10T11:22:30.900Z,mimo-v2.6-pro,37477,2679,0.018633225000000003,38657,stop,10837,
+deepseek,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:deepseek:12:high:fix,complete,2026-11-10T11:22:34.946Z,deepseek-flash,29307,5080,0.0148881,15794,stop,16708,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:1:low:fix,complete,2026-11-10T11:22:43.235Z,mimo-v2.6-pro,37861,3120,0.019183935000000003,43602,stop,12644,
+mimo,fb0d35e8-2c53-4a53-8cf6-fd804d74ab82:one-shot:mimo:12:low:fix,complete,2026-11-10T11:23:36.490Z,mimo-v2.6-pro,39039,4636,0.021015284999999998,65211,stop,18579,

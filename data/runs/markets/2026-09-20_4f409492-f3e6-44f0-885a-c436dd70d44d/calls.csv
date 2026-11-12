@@ -1,0 +1,37 @@
+provider,key,state,created_at,returned_model,input_tokens,output_tokens,estimated_cost_usd,latency_ms,finish_reason,reply_chars,error
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:3:high,complete,2026-09-20T19:51:57.006Z,gpt-5.6-luna,25079,15939,0.0241426,119910,completed,17757,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:3:low,complete,2026-09-20T19:51:57.006Z,gpt-5.6-luna,25079,15243,0.0233074,115003,completed,10265,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:9:low,complete,2026-09-20T19:51:57.006Z,gpt-5.6-luna,25079,18810,0.0275878,141488,completed,16358,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:9:medium,complete,2026-09-20T19:51:57.020Z,gpt-5.6-luna,25079,18695,0.0274498,160545,completed,16885,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:9:high,complete,2026-09-20T19:51:57.028Z,gpt-5.6-luna,25079,22056,0.031483,161615,completed,17290,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:3:medium,complete,2026-09-20T19:51:57.028Z,gpt-5.6-luna,25079,16843,0.025227399999999997,128157,completed,15205,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:12:low,complete,2026-09-20T19:51:57.043Z,gpt-5.6-luna,25079,19184,0.0280366,162975,completed,12690,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:12:medium,complete,2026-09-20T19:51:57.049Z,gpt-5.6-luna,25079,21367,0.030656199999999998,154001,completed,20575,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:12:high,complete,2026-09-20T19:51:57.060Z,gpt-5.6-luna,25079,22004,0.0314206,165446,completed,19649,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:24:low,complete,2026-09-20T19:51:57.068Z,gpt-5.6-luna,25079,22173,0.031623399999999996,178320,completed,14524,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:24:medium,pending,2026-09-20T19:51:57.075Z,,,,,,,,
+openai,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:openai:24:high,complete,2026-09-20T19:51:57.082Z,gpt-5.6-luna,25079,23321,0.033001,178997,completed,22238,
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:3:low,failed,2026-09-20T19:51:57.090Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:3:medium,failed,2026-09-20T19:51:57.100Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:3:high,failed,2026-09-20T19:51:57.106Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:9:low,failed,2026-09-20T19:51:57.114Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:9:medium,failed,2026-09-20T19:51:57.122Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:9:high,failed,2026-09-20T19:51:57.131Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:12:low,failed,2026-09-20T19:51:57.136Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:12:medium,failed,2026-09-20T19:51:57.145Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:12:high,failed,2026-09-20T19:51:57.152Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:24:low,failed,2026-09-20T19:51:57.159Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:24:medium,failed,2026-09-20T19:51:57.165Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+meta,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:meta:24:high,failed,2026-09-20T19:51:57.171Z,muse-spark-1.3-contributor,0,0,,,,,Provider meta returned HTTP 404: The requested model was not found.
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:3:low,complete,2026-09-20T19:51:57.177Z,deepseek-flash,25743,9348,0.0189405,45823,stop,10320,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:3:medium,complete,2026-09-20T19:51:57.184Z,deepseek-flash,25743,19079,0.030617699999999998,83458,stop,20916,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:3:high,complete,2026-09-20T19:51:57.192Z,deepseek-flash,25743,17679,0.028937699999999997,79104,stop,20797,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:9:low,complete,2026-09-20T19:51:57.200Z,deepseek-flash,25743,11423,0.0214305,50738,stop,12047,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:9:medium,complete,2026-09-20T19:51:57.209Z,deepseek-flash,25743,22414,0.034619699999999996,98422,stop,21998,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:9:high,complete,2026-09-20T19:51:57.215Z,deepseek-flash,25743,20585,0.0324249,91028,stop,18206,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:12:low,complete,2026-09-20T19:51:57.220Z,deepseek-flash,25743,15456,0.026270099999999998,68501,stop,13900,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:12:medium,complete,2026-09-20T19:51:57.226Z,deepseek-flash,25743,17461,0.0286761,79647,stop,14409,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:12:high,complete,2026-09-20T19:51:57.231Z,deepseek-flash,25743,16392,0.027393299999999995,72964,stop,14723,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:24:low,complete,2026-09-20T19:51:57.238Z,deepseek-flash,25743,14582,0.025221299999999995,66812,stop,15750,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:24:medium,complete,2026-09-20T19:51:57.246Z,deepseek-flash,25743,20081,0.0318201,89180,stop,18131,
+deepseek,4f409492-f3e6-44f0-885a-c436dd70d44d:one-shot:deepseek:24:high,complete,2026-09-20T19:51:57.253Z,deepseek-flash,25743,16741,0.0278121,76895,stop,16919,

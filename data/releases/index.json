@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "n": 32,
+      "releasedAt": "2026-11-12T08:00:26.608Z",
+      "note": "Automatic daily release: prices through 2026-11-11; 21 books, 9 rated worlds"
+    },
+    {
       "n": 31,
       "releasedAt": "2026-11-11T08:02:44.209Z",
       "note": "Automatic daily release: prices through 2026-11-10; 21 books, 9 rated worlds"

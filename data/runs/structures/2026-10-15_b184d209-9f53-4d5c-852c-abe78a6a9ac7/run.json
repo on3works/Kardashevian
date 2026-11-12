@@ -1,0 +1,7584 @@
+{
+  "arena": "structures",
+  "id": "b184d209-9f53-4d5c-852c-abe78a6a9ac7",
+  "status": "complete",
+  "createdAt": "2026-10-15T14:34:23.641Z",
+  "error": null,
+  "withdrawn": null,
+  "retired": {
+    "version": "structures-v1",
+    "note": "Retired on 12 Nov 2026 as too easy; replaced by a harder version and no longer rated."
+  },
+  "input": {
+    "asOf": "2026-10-15T14:34:23.474Z",
+    "seed": 150550343,
+    "family": "truss",
+    "models": [
+      "openai",
+      "openai6",
+      "deepseek",
+      "mimo"
+    ],
+    "attempts": 8,
+    "protocol": "structures-v1",
+    "maxOutputTokens": 100000,
+    "providerSnapshot": [
+      {
+        "id": "openai",
+        "kind": "responses",
+        "name": "GPT-5.6 Luna",
+        "model": "gpt-5.6-luna",
+        "pricing": "conservative estimate; not an invoice",
+        "inputRate": 0.2,
+        "reasoning": "max",
+        "configured": true,
+        "keyPresent": true,
+        "outputRate": 1.2,
+        "endpointConfigured": true
+      },
+      {
+        "id": "openai6",
+        "kind": "responses",
+        "name": "GPT-6 Luna",
+        "model": "gpt-6-luna",
+        "pricing": "conservative estimate; not an invoice",
+        "inputRate": 0.1,
+        "reasoning": "max",
+        "configured": true,
+        "keyPresent": true,
+        "outputRate": 0.5,
+        "endpointConfigured": true
+      },
+      {
+        "id": "deepseek",
+        "kind": "chat",
+        "name": "DeepSeek Flash",
+        "model": "deepseek-flash",
+        "pricing": "conservative estimate; not an invoice",
+        "inputRate": 0.3,
+        "reasoning": "max",
+        "configured": true,
+        "keyPresent": true,
+        "outputRate": 1.2,
+        "endpointConfigured": true
+      },
+      {
+        "id": "mimo",
+        "kind": "chat",
+        "name": "MiMo V2.6 Pro",
+        "model": "mimo-v2.6-pro",
+        "pricing": "conservative estimate; not an invoice",
+        "inputRate": 0.435,
+        "reasoning": "thinking",
+        "configured": true,
+        "keyPresent": true,
+        "outputRate": 0.87,
+        "endpointConfigured": true
+      }
+    ]
+  },
+  "result": {
+    "par": {
+      "mass": 1542.7,
+      "design": {
+        "nodes": [
+          {
+            "x": 1.55,
+            "y": 2.634,
+            "id": "M0"
+          },
+          {
+            "x": 4.65,
+            "y": 2.634,
+            "id": "M1"
+          },
+          {
+            "x": 7.75,
+            "y": 2.634,
+            "id": "M2"
+          },
+          {
+            "x": 10.85,
+            "y": 2.634,
+            "id": "M3"
+          },
+          {
+            "x": 13.95,
+            "y": 2.634,
+            "id": "M4"
+          },
+          {
+            "x": 17.05,
+            "y": 2.634,
+            "id": "M5"
+          },
+          {
+            "x": 20.15,
+            "y": 2.634,
+            "id": "M6"
+          },
+          {
+            "x": 23.25,
+            "y": 2.634,
+            "id": "M7"
+          },
+          {
+            "x": 26.35,
+            "y": 2.634,
+            "id": "M8"
+          },
+          {
+            "x": 29.45,
+            "y": 2.634,
+            "id": "M9"
+          },
+          {
+            "x": 32.55,
+            "y": 2.634,
+            "id": "M10"
+          }
+        ],
+        "members": [
+          [
+            "D0",
+            "D1",
+            "CHS114.3x5"
+          ],
+          [
+            "D1",
+            "D2",
+            "CHS88.9x5"
+          ],
+          [
+            "D2",
+            "D3",
+            "CHS76.1x4"
+          ],
+          [
+            "D3",
+            "D4",
+            "CHS48.3x3.2"
+          ],
+          [
+            "D4",
+            "D5",
+            "CHS60.3x4"
+          ],
+          [
+            "D5",
+            "D6",
+            "CHS60.3x4"
+          ],
+          [
+            "D6",
+            "D7",
+            "CHS60.3x4"
+          ],
+          [
+            "D7",
+            "D8",
+            "CHS48.3x3.2"
+          ],
+          [
+            "D8",
+            "D9",
+            "CHS76.1x4"
+          ],
+          [
+            "D9",
+            "D10",
+            "CHS88.9x5"
+          ],
+          [
+            "D10",
+            "D11",
+            "CHS114.3x5"
+          ],
+          [
+            "D0",
+            "M0",
+            "CHS88.9x5"
+          ],
+          [
+            "M0",
+            "D1",
+            "CHS60.3x4"
+          ],
+          [
+            "D1",
+            "M1",
+            "CHS88.9x5"
+          ],
+          [
+            "M1",
+            "D2",
+            "CHS60.3x4"
+          ],
+          [
+            "D2",
+            "M2",
+            "CHS88.9x5"
+          ],
+          [
+            "M2",
+            "D3",
+            "CHS48.3x3.2"
+          ],
+          [
+            "D3",
+            "M3",
+            "CHS76.1x4"
+          ],
+          [
+            "M3",
+            "D4",
+            "CHS48.3x3.2"
+          ],
+          [
+            "D4",
+            "M4",
+            "CHS76.1x4"
+          ],
+          [
+            "M4",
+            "D5",
+            "CHS48.3x3.2"
+          ],
+          [
+            "D5",
+            "M5",
+            "CHS60.3x4"
+          ],
+          [
+            "M5",
+            "D6",
+            "CHS60.3x4"
+          ],
+          [
+            "D6",
+            "M6",
+            "CHS48.3x3.2"
+          ],
+          [
+            "M6",
+            "D7",
+            "CHS76.1x4"
+          ],
+          [
+            "D7",
+            "M7",
+            "CHS48.3x3.2"
+          ],
+          [
+            "M7",
+            "D8",
+            "CHS76.1x4"
+          ],
+          [
+            "D8",
+            "M8",
+            "CHS48.3x3.2"
+          ],
+          [
+            "M8",
+            "D9",
+            "CHS88.9x5"
+          ],
+          [
+            "D9",
+            "M9",
+            "CHS60.3x4"
+          ],
+          [
+            "M9",
+            "D10",
+            "CHS88.9x5"
+          ],
+          [
+            "D10",
+            "M10",
+            "CHS60.3x4"
+          ],
+          [
+            "M10",
+            "D11",
+            "CHS88.9x5"
+          ],
+          [
+            "M0",
+            "M1",
+            "CHS88.9x5"
+          ],
+          [
+            "M1",
+            "M2",
+            "CHS114.3x5"
+          ],
+          [
+            "M2",
+            "M3",
+            "CHS114.3x5"
+          ],
+          [
+            "M3",
+            "M4",
+            "CHS139.7x6.3"
+          ],
+          [
+            "M4",
+            "M5",
+            "CHS139.7x6.3"
+          ],
+          [
+            "M5",
+            "M6",
+            "CHS139.7x6.3"
+          ],
+          [
+            "M6",
+            "M7",
+            "CHS139.7x6.3"
+          ],
+          [
+            "M7",
+            "M8",
+            "CHS114.3x5"
+          ],
+          [
+            "M8",
+            "M9",
+            "CHS114.3x5"
+          ],
+          [
+            "M9",
+            "M10",
+            "CHS88.9x5"
+          ]
+        ]
+      },
+      "layout": {
+        "side": "above",
+        "type": "warren",
+        "depth": 2.634
+      }
+    },
+    "players": {
+      "mimo": {
+        "final": {
+          "mass": null,
+          "score": 0,
+          "units": [],
+          "attempt": null,
+          "delivered": 0
+        },
+        "attempts": [
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 1,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 2,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 3,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 4,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 5,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 6,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 7,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 8,
+            "finishReason": "length",
+            "outputTokens": 100000
+          }
+        ]
+      },
+      "openai": {
+        "final": {
+          "mass": 1712.1,
+          "score": 90.11,
+          "units": [
+            {
+              "ok": true,
+              "unit": 1,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 2,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 3,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 4,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 5,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 6,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 7,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 8,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 9,
+              "score": 90.11,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 10,
+              "score": 90.11,
+              "failure": null
+            }
+          ],
+          "attempt": 7,
+          "delivered": 10
+        },
+        "attempts": [
+          {
+            "ok": false,
+            "mass": 2188.5,
+            "note": "A full-height, symmetric Pratt truss uses larger chords and end posts where forces and buckling demand them, with lighter interior bracing.",
+            "score": 0,
+            "utils": [
+              1.453,
+              0.696,
+              0.158,
+              0.271,
+              0.375,
+              0.437,
+              0.375,
+              0.309,
+              0.13,
+              0.666,
+              1.494,
+              0.503,
+              0.391,
+              0.549,
+              0.632,
+              0.688,
+              0.677,
+              0.677,
+              0.616,
+              0.555,
+              0.398,
+              0.497,
+              0.651,
+              0.525,
+              0.453,
+              0.327,
+              0.549,
+              0.253,
+              0.009,
+              0.539,
+              0.32,
+              0.459,
+              0.532,
+              0.644,
+              0.68,
+              0.547,
+              0.47,
+              0.338,
+              0.278,
+              0.928,
+              0.252,
+              0.33,
+              0.476,
+              0.554,
+              0.673
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 0,
+                  "y": 4.39,
+                  "id": "T0"
+                },
+                {
+                  "x": 3.1,
+                  "y": 4.39,
+                  "id": "T1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 4.39,
+                  "id": "T2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 4.39,
+                  "id": "T3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.39,
+                  "id": "T4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.39,
+                  "id": "T5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.39,
+                  "id": "T6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.39,
+                  "id": "T7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 4.39,
+                  "id": "T8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 4.39,
+                  "id": "T9"
+                },
+                {
+                  "x": 31,
+                  "y": 4.39,
+                  "id": "T10"
+                },
+                {
+                  "x": 34.1,
+                  "y": 4.39,
+                  "id": "T11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T0",
+                  "T1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T10",
+                  "T11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "T0",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "T1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D4",
+                  "T4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "T6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D11",
+                  "T11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T4",
+                  "D5",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T5",
+                  "D6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "T7",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D7",
+                  "T8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "T11",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 49,
+            "attempt": 1,
+            "failure": "C3: D10-D11 at 1.494× capacity (buckling)",
+            "maxUtil": 1.494
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 2,
+            "finishReason": "incomplete",
+            "outputTokens": 100000
+          },
+          {
+            "ok": false,
+            "mass": 1911.4,
+            "note": "Replaced the failed full-height Pratt layout with a triangulated tied-arch profile, using heavier end and central chords/webs for buckling resistance and lighter outer members.",
+            "score": 0,
+            "utils": [
+              0.17,
+              0.364,
+              0.24,
+              0.194,
+              0.099,
+              0.105,
+              0.096,
+              0.18,
+              0.218,
+              0.367,
+              0.171,
+              0.447,
+              0.845,
+              0.886,
+              0.816,
+              0.744,
+              0.688,
+              0.732,
+              0.796,
+              0.897,
+              0.862,
+              0.443,
+              0.155,
+              0.125,
+              0.147,
+              0.224,
+              0.187,
+              0.227,
+              0.217,
+              0.159,
+              0.107,
+              0.122,
+              0.287,
+              0.629,
+              0.588,
+              1.112,
+              0.201,
+              1.079,
+              0.637,
+              0.541,
+              0.292
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45,
+                  "id": "T1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.2,
+                  "id": "T2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 2.95,
+                  "id": "T3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 3.67,
+                  "id": "T4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.39,
+                  "id": "T5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.39,
+                  "id": "T6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 3.67,
+                  "id": "T7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 2.95,
+                  "id": "T8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.2,
+                  "id": "T9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45,
+                  "id": "T10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D0",
+                  "T1",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T10",
+                  "D11",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "D1",
+                  "T1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "T2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "T3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "T4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "T6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "T10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "T4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D6",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 40.6,
+            "attempt": 3,
+            "failure": "C2: T4-D5 at 1.112× capacity (buckling)",
+            "maxUtil": 1.112
+          },
+          {
+            "ok": true,
+            "mass": 1941.5,
+            "note": "Kept the efficient tied-arch layout and upgraded the two governing compression diagonals from CHS88.9x5 to CHS114.3x5 for buckling reserve under the full load range.",
+            "score": 79.46,
+            "utils": [
+              0.17,
+              0.364,
+              0.24,
+              0.194,
+              0.1,
+              0.105,
+              0.096,
+              0.18,
+              0.218,
+              0.368,
+              0.171,
+              0.448,
+              0.846,
+              0.887,
+              0.818,
+              0.745,
+              0.689,
+              0.733,
+              0.798,
+              0.899,
+              0.863,
+              0.443,
+              0.155,
+              0.125,
+              0.147,
+              0.224,
+              0.187,
+              0.228,
+              0.217,
+              0.159,
+              0.107,
+              0.122,
+              0.287,
+              0.628,
+              0.587,
+              0.504,
+              0.201,
+              0.489,
+              0.637,
+              0.54,
+              0.292
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45,
+                  "id": "T1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.2,
+                  "id": "T2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 2.95,
+                  "id": "T3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 3.67,
+                  "id": "T4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.39,
+                  "id": "T5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.39,
+                  "id": "T6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 3.67,
+                  "id": "T7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 2.95,
+                  "id": "T8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.2,
+                  "id": "T9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45,
+                  "id": "T10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D0",
+                  "T1",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T10",
+                  "D11",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "D1",
+                  "T1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "T2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "T3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "T4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "T6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "T10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "T4",
+                  "D5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D7",
+                  "T8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 40.7,
+            "attempt": 4,
+            "failure": null,
+            "maxUtil": 0.899
+          },
+          {
+            "ok": true,
+            "mass": 1768.7,
+            "note": "Raised the outer arch toward the moving-load moment envelope, replaced the oversized tie with CHS88.9, and downsized the hangers and central bracing while retaining CHS114.3 for the compression chord.",
+            "score": 87.22,
+            "utils": [
+              0.499,
+              0.488,
+              0.263,
+              0.226,
+              0.17,
+              0.161,
+              0.162,
+              0.26,
+              0.234,
+              0.447,
+              0.458,
+              0.829,
+              0.689,
+              0.797,
+              0.74,
+              0.692,
+              0.683,
+              0.681,
+              0.721,
+              0.807,
+              0.702,
+              0.82,
+              0.155,
+              0.448,
+              0.201,
+              0.324,
+              0.107,
+              0.186,
+              0.314,
+              0.218,
+              0.454,
+              0.121,
+              0.57,
+              0.551,
+              0.618,
+              0.569,
+              0.443,
+              0.547,
+              0.671,
+              0.459,
+              0.577
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 2.2,
+                  "id": "T1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.5,
+                  "id": "T2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.3,
+                  "id": "T3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.1,
+                  "id": "T4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.39,
+                  "id": "T5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.39,
+                  "id": "T6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.1,
+                  "id": "T7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.3,
+                  "id": "T8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.5,
+                  "id": "T9"
+                },
+                {
+                  "x": 31,
+                  "y": 2.2,
+                  "id": "T10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "T1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "T1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "T2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "T3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "T4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D5",
+                  "T5",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "T6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D7",
+                  "T7",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "T8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "T10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "T4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 38.8,
+            "attempt": 5,
+            "failure": null,
+            "maxUtil": 0.829
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 6,
+            "finishReason": "incomplete",
+            "outputTokens": 100000
+          },
+          {
+            "ok": true,
+            "mass": 1712.1,
+            "note": "Smoothed and deepened the arch for a more uniform load path, tapered the end tie and end hangers, lightened low-shear diagonals, and retained larger compression members near midspan.",
+            "score": 90.11,
+            "utils": [
+              0.848,
+              0.42,
+              0.174,
+              0.208,
+              0.22,
+              0.215,
+              0.211,
+              0.241,
+              0.144,
+              0.39,
+              0.789,
+              0.828,
+              0.609,
+              0.7,
+              0.695,
+              0.69,
+              0.682,
+              0.679,
+              0.678,
+              0.708,
+              0.621,
+              0.82,
+              0.309,
+              0.392,
+              0.282,
+              0.218,
+              0.099,
+              0.179,
+              0.211,
+              0.272,
+              0.397,
+              0.242,
+              0.373,
+              0.297,
+              0.642,
+              0.541,
+              0.443,
+              0.519,
+              0.729,
+              0.301,
+              0.379
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 2.3,
+                  "id": "T1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 3,
+                  "id": "T2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.6,
+                  "id": "T3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.12,
+                  "id": "T4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.39,
+                  "id": "T5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.39,
+                  "id": "T6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.12,
+                  "id": "T7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.6,
+                  "id": "T8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 3,
+                  "id": "T9"
+                },
+                {
+                  "x": 31,
+                  "y": 2.3,
+                  "id": "T10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "T1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "T10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "T10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "T1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D2",
+                  "T2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "T3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "T4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D5",
+                  "T5",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "T6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D7",
+                  "T7",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "T8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "T9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "T10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "T1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T2",
+                  "D3",
+                  "CHS60.3x4"
+                ],
+                [
+                  "T3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "T4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "T6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "T7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "T8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "T9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "T10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.5,
+            "attempt": 7,
+            "failure": null,
+            "maxUtil": 0.848
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 8,
+            "finishReason": "incomplete",
+            "outputTokens": 100000
+          }
+        ]
+      },
+      "openai6": {
+        "final": {
+          "mass": 1537.8,
+          "score": 100.32,
+          "units": [
+            {
+              "ok": true,
+              "unit": 1,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 2,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 3,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 4,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 5,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 6,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 7,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 8,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 9,
+              "score": 100.32,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 10,
+              "score": 100.32,
+              "failure": null
+            }
+          ],
+          "attempt": 5,
+          "delivered": 10
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "mass": 1777.5,
+            "note": "Use a parabolic tied-arch truss with short tension hangers and robust arch-end and diagonal members.",
+            "score": 86.79,
+            "utils": [
+              0.267,
+              0.226,
+              0.179,
+              0.122,
+              0.087,
+              0.085,
+              0.101,
+              0.146,
+              0.183,
+              0.213,
+              0.241,
+              0.445,
+              0.829,
+              0.728,
+              0.72,
+              0.685,
+              0.676,
+              0.668,
+              0.73,
+              0.742,
+              0.821,
+              0.44,
+              0.213,
+              0.247,
+              0.314,
+              0.473,
+              0.461,
+              0.812,
+              0.668,
+              0.318,
+              0.251,
+              0.21,
+              0.141,
+              0.259,
+              0.342,
+              0.49,
+              0.467,
+              0.48,
+              0.329,
+              0.263,
+              0.145
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45124,
+                  "id": "A1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.61223,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.4838,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.06347,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.35372,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.35372,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.06347,
+                  "id": "A7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.4838,
+                  "id": "A8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.61223,
+                  "id": "A9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45124,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS139.7x6.3"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS88.9x5"
+                ]
+              ]
+            },
+            "maxSag": 34.6,
+            "attempt": 1,
+            "failure": null,
+            "maxUtil": 0.829
+          },
+          {
+            "ok": true,
+            "mass": 1634.7,
+            "note": "Kept the parabolic arch and web, reduced the deck and end-chord sections, and reinforced the two longest centre hangers.",
+            "score": 94.37,
+            "utils": [
+              0.528,
+              0.446,
+              0.353,
+              0.24,
+              0.145,
+              0.166,
+              0.199,
+              0.287,
+              0.36,
+              0.421,
+              0.477,
+              0.913,
+              0.826,
+              0.725,
+              0.718,
+              0.683,
+              0.674,
+              0.666,
+              0.727,
+              0.739,
+              0.817,
+              0.903,
+              0.213,
+              0.247,
+              0.313,
+              0.476,
+              0.295,
+              0.337,
+              0.671,
+              0.318,
+              0.251,
+              0.21,
+              0.143,
+              0.26,
+              0.344,
+              0.492,
+              0.467,
+              0.481,
+              0.331,
+              0.264,
+              0.147
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45124,
+                  "id": "A1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.61223,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.4838,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.06347,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.35372,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.35372,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.06347,
+                  "id": "A7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.4838,
+                  "id": "A8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.61223,
+                  "id": "A9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45124,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS88.9x5"
+                ]
+              ]
+            },
+            "maxSag": 35.5,
+            "attempt": 2,
+            "failure": null,
+            "maxUtil": 0.913
+          },
+          {
+            "ok": true,
+            "mass": 1620.4,
+            "note": "I split each buckling-critical arch end into two short CHS114 segments with a triangulating brace, and downsized only the four outer diagonals to CHS76 while keeping the central web and deck sections.",
+            "score": 95.2,
+            "utils": [
+              0.523,
+              0.448,
+              0.355,
+              0.24,
+              0.145,
+              0.166,
+              0.199,
+              0.288,
+              0.361,
+              0.423,
+              0.472,
+              0.681,
+              0.68,
+              0.825,
+              0.724,
+              0.717,
+              0.682,
+              0.673,
+              0.665,
+              0.726,
+              0.738,
+              0.816,
+              0.672,
+              0.674,
+              0.214,
+              0.247,
+              0.314,
+              0.473,
+              0.295,
+              0.337,
+              0.667,
+              0.318,
+              0.251,
+              0.211,
+              0.009,
+              0.009,
+              0.279,
+              0.514,
+              0.345,
+              0.492,
+              0.467,
+              0.482,
+              0.332,
+              0.523,
+              0.287
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45124,
+                  "id": "A1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.61223,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.4838,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.06347,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.35372,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.35372,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.06347,
+                  "id": "A7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.4838,
+                  "id": "A8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.61223,
+                  "id": "A9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45124,
+                  "id": "A10"
+                },
+                {
+                  "x": 1.55,
+                  "y": 0.72562,
+                  "id": "M1"
+                },
+                {
+                  "x": 32.55,
+                  "y": 0.72562,
+                  "id": "M10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "M1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "M1",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "M10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "M10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "M1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "M10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.5,
+            "attempt": 3,
+            "failure": null,
+            "maxUtil": 0.825
+          },
+          {
+            "ok": true,
+            "mass": 1602.8,
+            "note": "I retained the high-rise arch and central web, upgraded the two long outboard hangers for weak-steel buckling reserve, and downsized only seven interior deck ties.",
+            "score": 96.25,
+            "utils": [
+              0.529,
+              0.454,
+              0.755,
+              0.516,
+              0.282,
+              0.326,
+              0.392,
+              0.577,
+              0.731,
+              0.411,
+              0.46,
+              0.68,
+              0.679,
+              0.824,
+              0.723,
+              0.716,
+              0.681,
+              0.672,
+              0.664,
+              0.725,
+              0.737,
+              0.815,
+              0.672,
+              0.673,
+              0.213,
+              0.246,
+              0.314,
+              0.213,
+              0.295,
+              0.339,
+              0.276,
+              0.318,
+              0.25,
+              0.211,
+              0.009,
+              0.009,
+              0.278,
+              0.514,
+              0.346,
+              0.492,
+              0.467,
+              0.481,
+              0.333,
+              0.522,
+              0.286
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 3.1,
+                  "y": 1.45124,
+                  "id": "A1"
+                },
+                {
+                  "x": 6.2,
+                  "y": 2.61223,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.3,
+                  "y": 3.4838,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.4,
+                  "y": 4.06347,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.35372,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.35372,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.7,
+                  "y": 4.06347,
+                  "id": "A7"
+                },
+                {
+                  "x": 24.8,
+                  "y": 3.4838,
+                  "id": "A8"
+                },
+                {
+                  "x": 27.9,
+                  "y": 2.61223,
+                  "id": "A9"
+                },
+                {
+                  "x": 31,
+                  "y": 1.45124,
+                  "id": "A10"
+                },
+                {
+                  "x": 1.55,
+                  "y": 0.72562,
+                  "id": "M1"
+                },
+                {
+                  "x": 32.55,
+                  "y": 0.72562,
+                  "id": "M10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "M1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "M1",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "M10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "M10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "M1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "M10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.2,
+            "attempt": 4,
+            "failure": null,
+            "maxUtil": 0.824
+          },
+          {
+            "ok": true,
+            "mass": 1537.8,
+            "note": "I shifted the outer arch points slightly inward and removed the two end half-panel nodes and braces, retaining the established member sizes for reserve.",
+            "score": 100.32,
+            "utils": [
+              0.548,
+              0.458,
+              0.761,
+              0.527,
+              0.264,
+              0.307,
+              0.376,
+              0.596,
+              0.748,
+              0.421,
+              0.487,
+              0.669,
+              0.846,
+              0.736,
+              0.725,
+              0.924,
+              0.671,
+              0.901,
+              0.734,
+              0.75,
+              0.837,
+              0.662,
+              0.179,
+              0.214,
+              0.279,
+              0.256,
+              0.295,
+              0.339,
+              0.337,
+              0.283,
+              0.218,
+              0.177,
+              0.105,
+              0.294,
+              0.225,
+              0.451,
+              0.467,
+              0.442,
+              0.215,
+              0.299,
+              0.106
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 2.6,
+                  "y": 1.2368,
+                  "id": "A1"
+                },
+                {
+                  "x": 5.7,
+                  "y": 2.44461,
+                  "id": "A2"
+                },
+                {
+                  "x": 8.8,
+                  "y": 3.36216,
+                  "id": "A3"
+                },
+                {
+                  "x": 11.9,
+                  "y": 3.98947,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.5,
+                  "y": 4.35372,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.6,
+                  "y": 4.35372,
+                  "id": "A6"
+                },
+                {
+                  "x": 22.2,
+                  "y": 3.98947,
+                  "id": "A7"
+                },
+                {
+                  "x": 25.3,
+                  "y": 3.36216,
+                  "id": "A8"
+                },
+                {
+                  "x": 28.4,
+                  "y": 2.44461,
+                  "id": "A9"
+                },
+                {
+                  "x": 31.5,
+                  "y": 1.2368,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.4,
+            "attempt": 5,
+            "failure": null,
+            "maxUtil": 0.924
+          },
+          {
+            "ok": true,
+            "mass": 1541.7,
+            "note": "I redistributed the parabolic arch nodes to equalize compression-chord lengths, upgraded the two critical deck panels, and reduced only the two central hangers.",
+            "score": 100.07,
+            "utils": [
+              0.533,
+              0.453,
+              0.358,
+              0.508,
+              0.275,
+              0.315,
+              0.39,
+              0.582,
+              0.352,
+              0.416,
+              0.472,
+              0.805,
+              0.79,
+              0.734,
+              0.753,
+              0.736,
+              0.725,
+              0.717,
+              0.763,
+              0.748,
+              0.781,
+              0.796,
+              0.194,
+              0.229,
+              0.297,
+              0.227,
+              0.459,
+              0.828,
+              0.307,
+              0.302,
+              0.233,
+              0.192,
+              0.188,
+              0.392,
+              0.291,
+              0.462,
+              0.476,
+              0.452,
+              0.279,
+              0.399,
+              0.194
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 2.92,
+                  "y": 1.37491,
+                  "id": "A1"
+                },
+                {
+                  "x": 5.94,
+                  "y": 2.52601,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.05,
+                  "y": 3.42351,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.22,
+                  "y": 4.0377,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.44,
+                  "y": 4.35086,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.66,
+                  "y": 4.35086,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.88,
+                  "y": 4.0377,
+                  "id": "A7"
+                },
+                {
+                  "x": 25.05,
+                  "y": 3.42351,
+                  "id": "A8"
+                },
+                {
+                  "x": 28.16,
+                  "y": 2.52601,
+                  "id": "A9"
+                },
+                {
+                  "x": 31.18,
+                  "y": 1.37491,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 36.4,
+            "attempt": 6,
+            "failure": null,
+            "maxUtil": 0.828
+          },
+          {
+            "ok": true,
+            "mass": 1559,
+            "note": "Kept the equal-length high-rise arch and existing web, while restoring both long central hangers to CHS60 for weak-steel buckling reserve.",
+            "score": 98.96,
+            "utils": [
+              0.534,
+              0.453,
+              0.358,
+              0.507,
+              0.274,
+              0.314,
+              0.389,
+              0.582,
+              0.353,
+              0.416,
+              0.473,
+              0.805,
+              0.79,
+              0.735,
+              0.754,
+              0.737,
+              0.725,
+              0.718,
+              0.763,
+              0.749,
+              0.782,
+              0.797,
+              0.194,
+              0.229,
+              0.298,
+              0.224,
+              0.295,
+              0.338,
+              0.305,
+              0.302,
+              0.233,
+              0.192,
+              0.189,
+              0.393,
+              0.292,
+              0.463,
+              0.476,
+              0.453,
+              0.28,
+              0.4,
+              0.195
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 2.92,
+                  "y": 1.37491,
+                  "id": "A1"
+                },
+                {
+                  "x": 5.94,
+                  "y": 2.52601,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.05,
+                  "y": 3.42351,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.22,
+                  "y": 4.0377,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.44,
+                  "y": 4.35086,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.66,
+                  "y": 4.35086,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.88,
+                  "y": 4.0377,
+                  "id": "A7"
+                },
+                {
+                  "x": 25.05,
+                  "y": 3.42351,
+                  "id": "A8"
+                },
+                {
+                  "x": 28.16,
+                  "y": 2.52601,
+                  "id": "A9"
+                },
+                {
+                  "x": 31.18,
+                  "y": 1.37491,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.3,
+            "attempt": 7,
+            "failure": null,
+            "maxUtil": 0.805
+          },
+          {
+            "ok": true,
+            "mass": 1559,
+            "note": "Kept the equal-length, near-maximum-rise arch and CHS60 central hangers for weak-steel buckling reserve, retaining the established critical chord and deck sizes.",
+            "score": 98.96,
+            "utils": [
+              0.534,
+              0.453,
+              0.358,
+              0.507,
+              0.274,
+              0.314,
+              0.389,
+              0.582,
+              0.353,
+              0.416,
+              0.473,
+              0.805,
+              0.79,
+              0.735,
+              0.754,
+              0.737,
+              0.725,
+              0.718,
+              0.763,
+              0.749,
+              0.782,
+              0.797,
+              0.194,
+              0.229,
+              0.298,
+              0.224,
+              0.295,
+              0.338,
+              0.305,
+              0.302,
+              0.233,
+              0.192,
+              0.189,
+              0.393,
+              0.292,
+              0.463,
+              0.476,
+              0.453,
+              0.28,
+              0.4,
+              0.195
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 2.92,
+                  "y": 1.37491,
+                  "id": "A1"
+                },
+                {
+                  "x": 5.94,
+                  "y": 2.52601,
+                  "id": "A2"
+                },
+                {
+                  "x": 9.05,
+                  "y": 3.42351,
+                  "id": "A3"
+                },
+                {
+                  "x": 12.22,
+                  "y": 4.0377,
+                  "id": "A4"
+                },
+                {
+                  "x": 15.44,
+                  "y": 4.35086,
+                  "id": "A5"
+                },
+                {
+                  "x": 18.66,
+                  "y": 4.35086,
+                  "id": "A6"
+                },
+                {
+                  "x": 21.88,
+                  "y": 4.0377,
+                  "id": "A7"
+                },
+                {
+                  "x": 25.05,
+                  "y": 3.42351,
+                  "id": "A8"
+                },
+                {
+                  "x": 28.16,
+                  "y": 2.52601,
+                  "id": "A9"
+                },
+                {
+                  "x": 31.18,
+                  "y": 1.37491,
+                  "id": "A10"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "A1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "A2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A2",
+                  "A3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A3",
+                  "A4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A4",
+                  "A5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A5",
+                  "A6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A6",
+                  "A7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A7",
+                  "A8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A8",
+                  "A9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A9",
+                  "A10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A10",
+                  "D11",
+                  "CHS114.3x5"
+                ],
+                [
+                  "A1",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A2",
+                  "D2",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A3",
+                  "D3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A4",
+                  "D4",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A5",
+                  "D5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A6",
+                  "D6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A7",
+                  "D7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "A8",
+                  "D8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A9",
+                  "D9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "A10",
+                  "D10",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "A2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "A3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "A4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "A5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "A8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "A9",
+                  "D10",
+                  "CHS76.1x4"
+                ]
+              ]
+            },
+            "maxSag": 35.3,
+            "report": "case | max utilisation | governing member (mode) | deck sag mm (limit 113.7)\nC1 | 0.805 | D0-A1 (buckling) | 29.2\nC2 | 0.754 | A3-A4 (buckling) | 33\nC3 | 0.725 | A5-A6 (buckling) | 35.3\nC4 | 0.763 | A7-A8 (buckling) | 33.5\nC5 | 0.797 | A10-D11 (buckling) | 29.3\nC6 | 0.434 | D0-A1 (buckling) | 19.4\n\nMost loaded members: member | section | length m | max tension kN | max compression kN | utilisation (mode, case)\nD0-A1 | CHS114.3x5 | 3.23 | 0 | 274.4 | 0.805 (buckling, C1)\nA10-D11 | CHS114.3x5 | 3.23 | 0 | 271.5 | 0.797 (buckling, C5)\nA1-A2 | CHS114.3x5 | 3.23 | 0 | 268.6 | 0.79 (buckling, C1)\nA9-A10 | CHS114.3x5 | 3.23 | 0 | 265.7 | 0.782 (buckling, C5)\nA7-A8 | CHS114.3x5 | 3.23 | 0 | 259.9 | 0.763 (buckling, C4)\nA3-A4 | CHS114.3x5 | 3.23 | 0 | 256.6 | 0.754 (buckling, C2)\nA8-A9 | CHS114.3x5 | 3.24 | 0 | 253.8 | 0.749 (buckling, C5)\nA4-A5 | CHS114.3x5 | 3.24 | 0 | 249.8 | 0.737 (buckling, C2)\nA2-A3 | CHS114.3x5 | 3.24 | 0 | 249 | 0.735 (buckling, C2)\nA5-A6 | CHS114.3x5 | 3.22 | 0 | 248.4 | 0.725 (buckling, C3)\nA6-A7 | CHS114.3x5 | 3.24 | 0 | 243.6 | 0.718 (buckling, C4)\nD7-D8 | CHS60.3x4 | 3.1 | 32.6 | 23.6 | 0.582 (buckling, C1)\nD0-D1 | CHS76.1x4 | 3.1 | 68.5 | 45.3 | 0.534 (buckling, C4)\nD3-D4 | CHS60.3x4 | 3.1 | 27.1 | 20.5 | 0.507 (buckling, C4)\nA5-D6 | CHS88.9x5 | 5.38 | 24.9 | 26.5 | 0.476 (buckling, C2)",
+            "attempt": 8,
+            "failure": null,
+            "maxUtil": 0.805
+          }
+        ]
+      },
+      "deepseek": {
+        "final": {
+          "mass": 1884.4,
+          "score": 81.87,
+          "units": [
+            {
+              "ok": true,
+              "unit": 1,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 2,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 3,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 4,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 5,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 6,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 7,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 8,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 9,
+              "score": 81.87,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 10,
+              "score": 81.87,
+              "failure": null
+            }
+          ],
+          "attempt": 2,
+          "delivered": 10
+        },
+        "attempts": [
+          {
+            "ok": false,
+            "mass": 1862.9,
+            "note": "Warren truss with top nodes at panel midpoints; sections sized for weakest steel and full load ranges.",
+            "score": 0,
+            "utils": [
+              5.859,
+              1.009,
+              0.247,
+              0.289,
+              0.352,
+              0.39,
+              0.342,
+              0.319,
+              0.195,
+              0.483,
+              2.544,
+              0.498,
+              0.854,
+              0.543,
+              0.626,
+              0.682,
+              0.671,
+              0.61,
+              0.55,
+              0.871,
+              0.493,
+              0.766,
+              0.744,
+              0.617,
+              0.598,
+              0.532,
+              0.803,
+              0.847,
+              0.577,
+              0.646,
+              0.415,
+              0.581,
+              0.615,
+              0.384,
+              0.633,
+              0.564,
+              0.828,
+              0.814,
+              0.539,
+              0.606,
+              0.626,
+              0.737,
+              0.758
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 46.7,
+            "attempt": 1,
+            "failure": "C4: D0-D1 at 5.859× capacity (buckling)",
+            "maxUtil": 5.859
+          },
+          {
+            "ok": true,
+            "mass": 1884.4,
+            "note": "Strengthened the three failing end bottom chords (D0-D1, D1-D2, D10-D11) and offset mass by reducing lightly loaded D6-U7 and D8-D9.",
+            "score": 81.87,
+            "utils": [
+              0.719,
+              0.748,
+              0.187,
+              0.223,
+              0.285,
+              0.323,
+              0.269,
+              0.246,
+              0.178,
+              0.694,
+              0.741,
+              0.498,
+              0.854,
+              0.543,
+              0.626,
+              0.681,
+              0.67,
+              0.61,
+              0.55,
+              0.871,
+              0.493,
+              0.766,
+              0.745,
+              0.617,
+              0.598,
+              0.531,
+              0.802,
+              0.846,
+              0.576,
+              0.645,
+              0.419,
+              0.579,
+              0.617,
+              0.93,
+              0.633,
+              0.564,
+              0.828,
+              0.813,
+              0.538,
+              0.606,
+              0.625,
+              0.737,
+              0.758
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 45,
+            "attempt": 2,
+            "failure": null,
+            "maxUtil": 0.93
+          },
+          {
+            "ok": false,
+            "mass": 1869.9,
+            "note": "Upgraded the buckling-critical D6-U7 to CHS60.3 and lightened three lightly loaded mid diagonals to reduce mass while keeping the Warren topology.",
+            "score": 0,
+            "utils": [
+              0.718,
+              0.748,
+              0.187,
+              0.223,
+              0.284,
+              0.322,
+              0.268,
+              0.246,
+              0.178,
+              0.693,
+              0.74,
+              0.498,
+              0.854,
+              0.543,
+              0.625,
+              0.681,
+              0.67,
+              0.61,
+              0.55,
+              0.87,
+              0.492,
+              0.766,
+              0.744,
+              0.616,
+              0.597,
+              0.531,
+              0.801,
+              0.845,
+              0.575,
+              0.644,
+              1.025,
+              1.217,
+              1.287,
+              0.389,
+              0.632,
+              0.563,
+              0.827,
+              0.812,
+              0.538,
+              0.605,
+              0.625,
+              0.737,
+              0.758
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 45,
+            "attempt": 3,
+            "failure": "C2: D6-U6 at 1.287× capacity (buckling)",
+            "maxUtil": 1.287
+          },
+          {
+            "note": null,
+            "error": "Reply was cut off at the output limit before the design was complete",
+            "score": 0,
+            "attempt": 4,
+            "finishReason": "length",
+            "outputTokens": 100000
+          },
+          {
+            "ok": true,
+            "mass": 1972.2,
+            "note": "Strengthened diagonals and bottom chords based on the full-range compression envelope, using uniform CHS88.9 bottom chords and upgrading critical diagonals to CHS114.3 to handle moving loads and weak steel.",
+            "score": 78.22,
+            "utils": [
+              0.738,
+              0.397,
+              0.119,
+              0.214,
+              0.273,
+              0.311,
+              0.261,
+              0.238,
+              0.114,
+              0.377,
+              0.767,
+              0.5,
+              0.858,
+              0.545,
+              0.628,
+              0.684,
+              0.672,
+              0.612,
+              0.552,
+              0.874,
+              0.495,
+              0.769,
+              0.748,
+              0.619,
+              0.6,
+              0.533,
+              0.805,
+              0.384,
+              0.577,
+              0.646,
+              0.416,
+              0.581,
+              0.615,
+              0.384,
+              0.633,
+              0.564,
+              0.376,
+              0.523,
+              0.54,
+              0.608,
+              0.628,
+              0.74,
+              0.761
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 43.6,
+            "attempt": 5,
+            "failure": null,
+            "maxUtil": 0.874
+          },
+          {
+            "ok": true,
+            "mass": 1912.7,
+            "note": "Optimized the holding Warren design by reducing lightly loaded top chords U1-U2/U10-U11, bottom chords D2-D3/D3-D4/D8-D9, and diagonal D8-U9 while keeping all critical buckling members unchanged.",
+            "score": 80.65,
+            "utils": [
+              0.744,
+              0.405,
+              0.235,
+              0.298,
+              0.266,
+              0.305,
+              0.256,
+              0.233,
+              0.219,
+              0.387,
+              0.776,
+              0.982,
+              0.856,
+              0.544,
+              0.626,
+              0.682,
+              0.671,
+              0.611,
+              0.551,
+              0.872,
+              0.972,
+              0.767,
+              0.746,
+              0.618,
+              0.599,
+              0.532,
+              0.803,
+              0.384,
+              0.576,
+              0.646,
+              0.415,
+              0.581,
+              0.615,
+              0.384,
+              0.633,
+              0.564,
+              0.376,
+              0.815,
+              0.539,
+              0.607,
+              0.626,
+              0.738,
+              0.759
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS76.1x4"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 44.5,
+            "attempt": 6,
+            "failure": null,
+            "maxUtil": 0.982
+          },
+          {
+            "ok": true,
+            "mass": 1970.8,
+            "note": "Robust attempt 6: upgraded end top chords U1-U2/U10-U11 to CHS88.9, strengthened quarter-point top chords U2-U3/U9-U10 to CHS114.3, and upgraded tension diagonals D3-U3/D8-U9 to CHS60.3 for weak-steel and full-range safety.",
+            "score": 78.28,
+            "utils": [
+              0.746,
+              0.405,
+              0.234,
+              0.298,
+              0.267,
+              0.305,
+              0.256,
+              0.233,
+              0.218,
+              0.387,
+              0.778,
+              0.5,
+              0.388,
+              0.545,
+              0.627,
+              0.683,
+              0.672,
+              0.612,
+              0.552,
+              0.396,
+              0.494,
+              0.769,
+              0.748,
+              0.619,
+              0.6,
+              0.533,
+              0.515,
+              0.384,
+              0.576,
+              0.646,
+              0.415,
+              0.581,
+              0.615,
+              0.384,
+              0.633,
+              0.564,
+              0.376,
+              0.522,
+              0.54,
+              0.608,
+              0.627,
+              0.74,
+              0.761
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 42.4,
+            "attempt": 7,
+            "failure": null,
+            "maxUtil": 0.778
+          },
+          {
+            "ok": true,
+            "mass": 1970.8,
+            "note": "Reusing the robust attempt 7 Warren truss with upgraded end top chords and critical diagonals for weak-steel and full-range safety.",
+            "score": 78.28,
+            "utils": [
+              0.746,
+              0.405,
+              0.234,
+              0.298,
+              0.267,
+              0.305,
+              0.256,
+              0.233,
+              0.218,
+              0.387,
+              0.778,
+              0.5,
+              0.388,
+              0.545,
+              0.627,
+              0.683,
+              0.672,
+              0.612,
+              0.552,
+              0.396,
+              0.494,
+              0.769,
+              0.748,
+              0.619,
+              0.6,
+              0.533,
+              0.515,
+              0.384,
+              0.576,
+              0.646,
+              0.415,
+              0.581,
+              0.615,
+              0.384,
+              0.633,
+              0.564,
+              0.376,
+              0.522,
+              0.54,
+              0.608,
+              0.627,
+              0.74,
+              0.761
+            ],
+            "design": {
+              "nodes": [
+                {
+                  "x": 1.55,
+                  "y": 4.39,
+                  "id": "U1"
+                },
+                {
+                  "x": 4.65,
+                  "y": 4.39,
+                  "id": "U2"
+                },
+                {
+                  "x": 7.75,
+                  "y": 4.39,
+                  "id": "U3"
+                },
+                {
+                  "x": 10.85,
+                  "y": 4.39,
+                  "id": "U4"
+                },
+                {
+                  "x": 13.95,
+                  "y": 4.39,
+                  "id": "U5"
+                },
+                {
+                  "x": 17.05,
+                  "y": 4.39,
+                  "id": "U6"
+                },
+                {
+                  "x": 20.15,
+                  "y": 4.39,
+                  "id": "U7"
+                },
+                {
+                  "x": 23.25,
+                  "y": 4.39,
+                  "id": "U8"
+                },
+                {
+                  "x": 26.35,
+                  "y": 4.39,
+                  "id": "U9"
+                },
+                {
+                  "x": 29.45,
+                  "y": 4.39,
+                  "id": "U10"
+                },
+                {
+                  "x": 32.55,
+                  "y": 4.39,
+                  "id": "U11"
+                }
+              ],
+              "members": [
+                [
+                  "D0",
+                  "D1",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D1",
+                  "D2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D2",
+                  "D3",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D3",
+                  "D4",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D4",
+                  "D5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "D6",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D6",
+                  "D7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "D8",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D8",
+                  "D9",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D9",
+                  "D10",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D10",
+                  "D11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "CHS88.9x5"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U9",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "U10",
+                  "U11",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D0",
+                  "U1",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D1",
+                  "U1",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D1",
+                  "U2",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D2",
+                  "U2",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D2",
+                  "U3",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D3",
+                  "U3",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D3",
+                  "U4",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D4",
+                  "U4",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D4",
+                  "U5",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D5",
+                  "U5",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D5",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U6",
+                  "CHS76.1x4"
+                ],
+                [
+                  "D6",
+                  "U7",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D7",
+                  "U7",
+                  "CHS88.9x5"
+                ],
+                [
+                  "D7",
+                  "U8",
+                  "CHS48.3x3.2"
+                ],
+                [
+                  "D8",
+                  "U8",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D8",
+                  "U9",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D9",
+                  "U9",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D9",
+                  "U10",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D10",
+                  "U10",
+                  "CHS114.3x5"
+                ],
+                [
+                  "D10",
+                  "U11",
+                  "CHS60.3x4"
+                ],
+                [
+                  "D11",
+                  "U11",
+                  "CHS114.3x5"
+                ]
+              ]
+            },
+            "maxSag": 42.4,
+            "report": "case | max utilisation | governing member (mode) | deck sag mm (limit 113.7)\nC1 | 0.769 | D0-U1 (buckling) | 31.5\nC2 | 0.716 | D0-D1 (buckling) | 38.8\nC3 | 0.778 | D10-D11 (buckling) | 42.4\nC4 | 0.746 | D0-D1 (buckling) | 37.8\nC5 | 0.761 | D11-U11 (buckling) | 32.2\nC6 | 0.469 | D10-D11 (buckling) | 23.4\n\nMost loaded members: member | section | length m | max tension kN | max compression kN | utilisation (mode, case)\nD10-D11 | CHS88.9x5 | 3.1 | 0 | 130.1 | 0.778 (buckling, C3)\nD0-U1 | CHS114.3x5 | 4.66 | 0 | 125.9 | 0.769 (buckling, C1)\nD11-U11 | CHS114.3x5 | 4.66 | 0 | 124.7 | 0.761 (buckling, C5)\nD1-U1 | CHS60.3x4 | 4.66 | 125.2 | 0 | 0.748 (tension, C1)\nD0-D1 | CHS88.9x5 | 3.1 | 0 | 124.7 | 0.746 (buckling, C4)\nD10-U11 | CHS60.3x4 | 4.66 | 123.9 | 0 | 0.74 (tension, C5)\nU5-U6 | CHS114.3x5 | 3.1 | 0 | 252.5 | 0.683 (buckling, C3)\nU6-U7 | CHS114.3x5 | 3.1 | 0 | 248.3 | 0.672 (buckling, C3)\nD4-U5 | CHS88.9x5 | 4.66 | 6.5 | 47.9 | 0.646 (buckling, C3)\nD7-U7 | CHS88.9x5 | 4.66 | 5.9 | 47 | 0.633 (buckling, C3)\nU4-U5 | CHS114.3x5 | 3.1 | 0 | 231.8 | 0.627 (buckling, C2)\nD10-U10 | CHS114.3x5 | 4.66 | 0 | 102.8 | 0.627 (buckling, C4)\nD1-U2 | CHS114.3x5 | 4.66 | 0 | 101.4 | 0.619 (buckling, C2)\nD6-U6 | CHS76.1x4 | 4.66 | 21 | 23.2 | 0.615 (buckling, C2)\nU7-U8 | CHS114.3x5 | 3.1 | 0 | 226.1 | 0.612 (buckling, C4)",
+            "attempt": 8,
+            "failure": null,
+            "maxUtil": 0.778
+          }
+        ]
+      }
+    },
+    "baselines": {
+      "reference": {
+        "name": "Reference engineer",
+        "final": {
+          "mass": 3700.9,
+          "score": 41.68,
+          "units": [
+            {
+              "ok": true,
+              "unit": 1,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 2,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 3,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 4,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 5,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 6,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 7,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 8,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 9,
+              "score": 41.68,
+              "failure": null
+            },
+            {
+              "ok": true,
+              "unit": 10,
+              "score": 41.68,
+              "failure": null
+            }
+          ],
+          "delivered": 10
+        },
+        "design": {
+          "nodes": [
+            {
+              "x": 3.1,
+              "y": 4.263,
+              "id": "O1"
+            },
+            {
+              "x": 6.2,
+              "y": 4.263,
+              "id": "O2"
+            },
+            {
+              "x": 9.3,
+              "y": 4.263,
+              "id": "O3"
+            },
+            {
+              "x": 12.4,
+              "y": 4.263,
+              "id": "O4"
+            },
+            {
+              "x": 15.5,
+              "y": 4.263,
+              "id": "O5"
+            },
+            {
+              "x": 18.6,
+              "y": 4.263,
+              "id": "O6"
+            },
+            {
+              "x": 21.7,
+              "y": 4.263,
+              "id": "O7"
+            },
+            {
+              "x": 24.8,
+              "y": 4.263,
+              "id": "O8"
+            },
+            {
+              "x": 27.9,
+              "y": 4.263,
+              "id": "O9"
+            },
+            {
+              "x": 31,
+              "y": 4.263,
+              "id": "O10"
+            }
+          ],
+          "members": [
+            [
+              "D0",
+              "D1",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D1",
+              "D2",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D2",
+              "D3",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D3",
+              "D4",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D4",
+              "D5",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D5",
+              "D6",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D6",
+              "D7",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D7",
+              "D8",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D8",
+              "D9",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D9",
+              "D10",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D10",
+              "D11",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D0",
+              "O1",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O1",
+              "O2",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O1",
+              "D2",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O2",
+              "O3",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O2",
+              "D3",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O3",
+              "O4",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O3",
+              "D4",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O4",
+              "O5",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O4",
+              "D5",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O5",
+              "O6",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O5",
+              "D6",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O6",
+              "O7",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D6",
+              "O7",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O7",
+              "O8",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D7",
+              "O8",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O8",
+              "O9",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D8",
+              "O9",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O9",
+              "O10",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D9",
+              "O10",
+              "CHS139.7x6.3"
+            ],
+            [
+              "O10",
+              "D11",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D1",
+              "O1",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D2",
+              "O2",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D3",
+              "O3",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D4",
+              "O4",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D5",
+              "O5",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D6",
+              "O6",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D7",
+              "O7",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D8",
+              "O8",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D9",
+              "O9",
+              "CHS139.7x6.3"
+            ],
+            [
+              "D10",
+              "O10",
+              "CHS139.7x6.3"
+            ]
+          ]
+        },
+        "layout": {
+          "side": "above",
+          "type": "pratt",
+          "depth": 4.263
+        },
+        "practice": {
+          "ok": true,
+          "mass": 3700.9,
+          "score": 41.68,
+          "utils": [
+            0.15,
+            0.147,
+            0.053,
+            0.102,
+            0.159,
+            0.191,
+            0.159,
+            0.121,
+            0.05,
+            0.145,
+            0.148,
+            0.536,
+            0.255,
+            0.202,
+            0.356,
+            0.173,
+            0.411,
+            0.124,
+            0.447,
+            0.092,
+            0.44,
+            0.09,
+            0.44,
+            0.09,
+            0.401,
+            0.121,
+            0.36,
+            0.175,
+            0.259,
+            0.205,
+            0.531,
+            0.054,
+            0.199,
+            0.143,
+            0.108,
+            0.049,
+            0.003,
+            0.106,
+            0.141,
+            0.201,
+            0.043
+          ],
+          "maxSag": 25.3,
+          "failure": null,
+          "maxUtil": 0.536
+        }
+      }
+    },
+    "completedAt": "2026-10-15T19:03:33.757Z"
+  }
+}
