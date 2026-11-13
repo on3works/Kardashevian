@@ -1,7 +1,7 @@
 {
   "arena": "structures",
   "id": "7261b095-2ab7-461d-ad67-e91b830f289c",
-  "status": "running",
+  "status": "complete",
   "createdAt": "2026-11-12T15:17:32.779Z",
   "error": null,
   "withdrawn": null,
@@ -583,15 +583,2109 @@
       "depth": 17.71,
       "momentArea": 280350
     },
+    "best": {
+      "mass": 36579.3,
+      "score": 0.268,
+      "player": "reference",
+      "attempt": null
+    },
     "players": {
       "mimo": {
-        "final": null,
+        "final": {
+          "mass": 36719.5,
+          "score": 0,
+          "units": [
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 1,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 2,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 3,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 4,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 5,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 6,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 7,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 8,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 9,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            },
+            {
+              "ok": false,
+              "sag": 0,
+              "unit": 10,
+              "score": 0,
+              "failure": "mechanism: part of the structure can move without straining any member",
+              "frequency": null
+            }
+          ],
+          "attempt": 5,
+          "delivered": 0
+        },
         "attempts": [
           {
             "note": null,
             "error": "Used the whole output budget thinking and returned nothing",
             "score": 0,
             "attempt": 1,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 2,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 3,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 4,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "ok": false,
+            "sag": 0,
+            "fMin": 1.7,
+            "mass": 36719.5,
+            "note": "Pratt truss H9.5 asymmetric",
+            "sway": 0,
+            "cases": [
+              {
+                "id": "PL",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V1",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V2",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V3",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V4",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V5",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "C1",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "C2",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "W+",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "W-",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "T+",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "T-",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "I",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "S",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              }
+            ],
+            "score": 0,
+            "utils": null,
+            "design": {
+              "nodes": [
+                {
+                  "x": 0,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T0",
+                  "joint": "pin"
+                },
+                {
+                  "x": 0,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U0",
+                  "joint": "pin"
+                },
+                {
+                  "x": 4.833,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T1",
+                  "joint": "pin"
+                },
+                {
+                  "x": 4.833,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U1",
+                  "joint": "pin"
+                },
+                {
+                  "x": 9.667,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T2",
+                  "joint": "pin"
+                },
+                {
+                  "x": 9.667,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U2",
+                  "joint": "pin"
+                },
+                {
+                  "x": 14.5,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T3",
+                  "joint": "pin"
+                },
+                {
+                  "x": 14.5,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U3",
+                  "joint": "pin"
+                },
+                {
+                  "x": 19.333,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T4",
+                  "joint": "pin"
+                },
+                {
+                  "x": 19.333,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U4",
+                  "joint": "pin"
+                },
+                {
+                  "x": 24.167,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T5",
+                  "joint": "pin"
+                },
+                {
+                  "x": 24.167,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U5",
+                  "joint": "pin"
+                },
+                {
+                  "x": 29,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T6",
+                  "joint": "pin"
+                },
+                {
+                  "x": 29,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U6",
+                  "joint": "pin"
+                },
+                {
+                  "x": 33.833,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T7",
+                  "joint": "pin"
+                },
+                {
+                  "x": 33.833,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U7",
+                  "joint": "pin"
+                },
+                {
+                  "x": 38.667,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T8",
+                  "joint": "pin"
+                },
+                {
+                  "x": 38.667,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U8",
+                  "joint": "pin"
+                },
+                {
+                  "x": 43.5,
+                  "y": 9.5,
+                  "z": -2.9,
+                  "id": "T9",
+                  "joint": "pin"
+                },
+                {
+                  "x": 43.5,
+                  "y": 9.5,
+                  "z": 2.9,
+                  "id": "U9",
+                  "joint": "pin"
+                }
+              ],
+              "members": [
+                [
+                  "U0",
+                  "U1",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R0",
+                  "R1",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T0",
+                  "T1",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L0",
+                  "L1",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U1",
+                  "U2",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R1",
+                  "R2",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T1",
+                  "T2",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L1",
+                  "L2",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U2",
+                  "U3",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R2",
+                  "R3",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T2",
+                  "T3",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L2",
+                  "L3",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U3",
+                  "U4",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R3",
+                  "R4",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T3",
+                  "T4",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L3",
+                  "L4",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U4",
+                  "U5",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R4",
+                  "R5",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T4",
+                  "T5",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L4",
+                  "L5",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U5",
+                  "U6",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R5",
+                  "R6",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T5",
+                  "T6",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L5",
+                  "L6",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U6",
+                  "U7",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R6",
+                  "R7",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T6",
+                  "T7",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L6",
+                  "L7",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U7",
+                  "U8",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R7",
+                  "R8",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T7",
+                  "T8",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L7",
+                  "L8",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "U8",
+                  "U9",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "R8",
+                  "R9",
+                  "S355 CHS323.9x10"
+                ],
+                [
+                  "T8",
+                  "T9",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L8",
+                  "L9",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "T0",
+                  "U0",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R0",
+                  "U0",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L0",
+                  "T0",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T1",
+                  "U1",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R1",
+                  "U1",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L1",
+                  "T1",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T2",
+                  "U2",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R2",
+                  "U2",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L2",
+                  "T2",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T3",
+                  "U3",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R3",
+                  "U3",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L3",
+                  "T3",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T4",
+                  "U4",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R4",
+                  "U4",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L4",
+                  "T4",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T5",
+                  "U5",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R5",
+                  "U5",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L5",
+                  "T5",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T6",
+                  "U6",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R6",
+                  "U6",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L6",
+                  "T6",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T7",
+                  "U7",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R7",
+                  "U7",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L7",
+                  "T7",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T8",
+                  "U8",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R8",
+                  "U8",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L8",
+                  "T8",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "T9",
+                  "U9",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "R9",
+                  "U9",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "L9",
+                  "T9",
+                  "S355 CHS168.3x5"
+                ],
+                [
+                  "R0",
+                  "U1",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L0",
+                  "T1",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "R1",
+                  "U2",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L1",
+                  "T2",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "R2",
+                  "U3",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L2",
+                  "T3",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "R3",
+                  "U4",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L3",
+                  "T4",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "R4",
+                  "U5",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "L4",
+                  "T5",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "U5",
+                  "R6",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "T5",
+                  "L6",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "U6",
+                  "R7",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "T6",
+                  "L7",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "U7",
+                  "R8",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "T7",
+                  "L8",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "U8",
+                  "R9",
+                  "S355 CHS273x10"
+                ],
+                [
+                  "T8",
+                  "L9",
+                  "S355 CHS219.1x8"
+                ],
+                [
+                  "T0",
+                  "U1",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T1",
+                  "U0",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L0",
+                  "R1",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L1",
+                  "R0",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T1",
+                  "U2",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "U1",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L1",
+                  "R2",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L2",
+                  "R1",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T2",
+                  "U3",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "U2",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L2",
+                  "R3",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L3",
+                  "R2",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T3",
+                  "U4",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "U3",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L3",
+                  "R4",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L4",
+                  "R3",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T4",
+                  "U5",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "U4",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L4",
+                  "R5",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L5",
+                  "R4",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T5",
+                  "U6",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "U5",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L5",
+                  "R6",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L6",
+                  "R5",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T6",
+                  "U7",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "U6",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L6",
+                  "R7",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L7",
+                  "R6",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T7",
+                  "U8",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "U7",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L7",
+                  "R8",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L8",
+                  "R7",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T8",
+                  "U9",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "T9",
+                  "U8",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L8",
+                  "R9",
+                  "S355 CHS114.3x5"
+                ],
+                [
+                  "L9",
+                  "R8",
+                  "S355 CHS114.3x5"
+                ]
+              ]
+            },
+            "alphaCr": null,
+            "attempt": 5,
+            "failure": "mechanism: part of the structure can move without straining any member",
+            "maxUtil": null,
+            "members": [
+              {
+                "id": "U0-U1",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-R1",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T0-T1",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-L1",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U1-U2",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-R2",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T1-T2",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-L2",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U2-U3",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-R3",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T2-T3",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-L3",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U3-U4",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-R4",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T3-T4",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-L4",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U4-U5",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R4-R5",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T4-T5",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-L5",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U5-U6",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-R6",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T5-T6",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-L6",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U6-U7",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R6-R7",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T6-T7",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-L7",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U7-U8",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-R8",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T7-T8",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-L8",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U8-U9",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R8-R9",
+                "mode": "-",
+                "spec": "S355 CHS323.9x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T8-T9",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-L9",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T0-U0",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-U0",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-T0",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T1-U1",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-U1",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-T1",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T2-U2",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-U2",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-T2",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T3-U3",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-U3",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-T3",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T4-U4",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R4-U4",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-T4",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T5-U5",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-U5",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-T5",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T6-U6",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R6-U6",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-T6",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T7-U7",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-U7",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-T7",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T8-U8",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R8-U8",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-T8",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T9-U9",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R9-U9",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L9-T9",
+                "mode": "-",
+                "spec": "S355 CHS168.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-U1",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-T1",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-U2",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-T2",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-U3",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-T3",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-U4",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-T4",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R4-U5",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-T5",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U5-R6",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T5-L6",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U6-R7",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T6-L7",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U7-R8",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T7-L8",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "U8-R9",
+                "mode": "-",
+                "spec": "S355 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T8-L9",
+                "mode": "-",
+                "spec": "S355 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T0-U1",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T1-U0",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-R1",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-R0",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T1-U2",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T2-U1",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-R2",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-R1",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T2-U3",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T3-U2",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-R3",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-R2",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T3-U4",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T4-U3",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-R4",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-R3",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T4-U5",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T5-U4",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-R5",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-R4",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T5-U6",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T6-U5",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-R6",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-R5",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T6-U7",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T7-U6",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-R7",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-R6",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T7-U8",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T8-U7",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-R8",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-R7",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T8-U9",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "T9-U8",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-R9",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L9-R8",
+                "mode": "-",
+                "spec": "S355 CHS114.3x5",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              }
+            ],
+            "program": "function design(site, analyse) {\n  var xs = [0, 4.833, 9.667, 14.5, 19.333, 24.167, 29, 33.833, 38.667, 43.5];\n  var H = 9.5;\n  var nodes = [];\n  for (var i = 0; i < 10; i++) {\n    nodes.push({id: \"T\" + i, x: xs[i], y: H, z: -2.9, joint: \"pin\"});\n    nodes.push({id: \"U\" + i, x: xs[i], y: H, z: 2.9, joint: \"pin\"});\n  }\n  function build(rc, lc, rd, ld, rv, lv, cr) {\n    var m = [];\n    for (var i = 0; i < 9; i++) {\n      m.push([\"U\" + i, \"U\" + (i + 1), rc]);\n      m.push([\"R\" + i, \"R\" + (i + 1), rc]);\n      m.push([\"T\" + i, \"T\" + (i + 1), lc]);\n      m.push([\"L\" + i, \"L\" + (i + 1), lc]);\n    }\n    for (var i = 0; i < 10; i++) {\n      m.push([\"T\" + i, \"U\" + i, cr]);\n      m.push([\"R\" + i, \"U\" + i, rv]);\n      m.push([\"L\" + i, \"T\" + i, lv]);\n    }\n    for (var i = 0; i < 5; i++) {\n      m.push([\"R\" + i, \"U\" + (i + 1), rd]);\n      m.push([\"L\" + i, \"T\" + (i + 1), ld]);\n    }\n    for (var i = 5; i < 9; i++) {\n      m.push([\"U\" + i, \"R\" + (i + 1), rd]);\n      m.push([\"T\" + i, \"L\" + (i + 1), ld]);\n    }\n    for (var i = 0; i < 9; i++) {\n      m.push([\"T\" + i, \"U\" + (i + 1), cr]);\n      m.push([\"T\" + (i + 1), \"U\" + i, cr]);\n      m.push([\"L\" + i, \"R\" + (i + 1), cr]);\n      m.push([\"L\" + (i + 1), \"R\" + i, cr]);\n    }\n    return {note: \"Pratt truss H9.5 asymmetric\", nodes: nodes, members: m};\n  }\n  var tries = [\n    [\"S355 CHS244.5x8\", \"S355 CHS168.3x6.3\", \"S355 CHS193.7x8\", \"S355 CHS139.7x5\", \"S355 CHS139.7x5\", \"S355 CHS114.3x5\", \"S355 CHS60.3x3.2\"],\n    [\"S355 CHS273x10\", \"S355 CHS193.7x8\", \"S355 CHS219.1x8\", \"S355 CHS168.3x5\", \"S355 CHS168.3x5\", \"S355 CHS114.3x5\", \"S355 CHS76.1x4\"],\n    [\"S355 CHS273x10\", \"S355 CHS219.1x8\", \"S355 CHS244.5x8\", \"S355 CHS193.7x6.3\", \"S355 CHS193.7x6.3\", \"S355 CHS139.7x5\", \"S355 CHS76.1x4\"],\n    [\"S355 CHS323.9x10\", \"S355 CHS273x10\", \"S355 CHS273x10\", \"S355 CHS219.1x8\", \"S355 CHS219.1x8\", \"S355 CHS168.3x5\", \"S355 CHS114.3x5\"]\n  ];\n  var safe = null, safeM = Infinity;\n  for (var a = 0; a < tries.length; a++) {\n    var d = build.apply(null, tries[a]);\n    try {\n      var r = analyse(d);\n      if (r && r.ok && r.mass && r.mass < safeM) {\n        safeM = r.mass;\n        safe = d;\n        safe.note = \"ok \" + Math.round(r.mass) + \"kg maxU=\" + (r.maxUtil ? r.maxUtil.toFixed(2) : \"?\");\n      }\n    } catch (e) {}\n  }\n  return safe || build.apply(null, tries[3]);\n}",
+            "analyses": 4,
+            "sagLimit": 145,
+            "elapsedMs": 21,
+            "frequency": null,
+            "swayLimit": 108.8,
+            "alphaCrMin": 3,
+            "robustness": null,
+            "fatigueWorst": null,
+            "finishReason": "stop",
+            "outputTokens": 110996
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 6,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 7,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 8,
             "finishReason": "length",
             "outputTokens": 131072
           }
@@ -63663,6 +65757,7 @@
           "fatigueWorst": 0.68
         }
       }
-    }
+    },
+    "completedAt": "2026-11-13T00:09:01.507Z"
   }
 }

@@ -1,0 +1,12 @@
+provider,key,state,created_at,returned_model,input_tokens,output_tokens,estimated_cost_usd,latency_ms,finish_reason,reply_chars,error
+mimo,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:mimo:1,pending,2026-11-13T16:52:38.987Z,,,,,,,,
+openai6,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:openai6:1,pending,2026-11-13T16:52:38.987Z,,,,,,,,
+deepseek,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:deepseek:1,complete,2026-11-13T16:52:38.988Z,deepseek-flash,1406,110969,0.13358459999999997,636486,stop,37002,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:1,complete,2026-11-13T16:52:38.998Z,claude-haiku-5-5,1995,48182,0.0242905,205361,end_turn,9924,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:2,complete,2026-11-13T16:56:04.955Z,claude-haiku-5-5,21151,55386,0.029808099999999997,235257,end_turn,12143,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:3,complete,2026-11-13T17:00:00.895Z,claude-haiku-5-5,28113,48291,0.0269568,207835,end_turn,11175,
+deepseek,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:deepseek:2,complete,2026-11-13T17:03:15.638Z,deepseek-flash,16186,71897,0.0911322,370006,stop,37489,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:4,complete,2026-11-13T17:03:29.233Z,claude-haiku-5-5,28326,37076,0.0213706,152521,end_turn,11366,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:5,complete,2026-11-13T17:06:02.360Z,claude-haiku-5-5,28380,45006,0.025341,192103,end_turn,12176,
+anthropic,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:anthropic:6,pending,2026-11-13T17:09:14.933Z,,,,,,,,
+deepseek,cf42e462-e6d0-4238-88c1-d06e110357e1:sandbox:deepseek:3,pending,2026-11-13T17:09:26.519Z,,,,,,,,

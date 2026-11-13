@@ -1,0 +1,11 @@
+provider,key,state,created_at,returned_model,input_tokens,output_tokens,estimated_cost_usd,latency_ms,finish_reason,reply_chars,error
+openai6,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:openai6:1,complete,2026-11-13T16:54:21.590Z,gpt-6-luna,8338,79228,0.040447800000000006,702617,completed,9391,
+deepseek,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:deepseek:1,complete,2026-11-13T16:54:21.590Z,deepseek-flash,8338,78575,0.0967914,434412,stop,10089,
+mimo,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:mimo:1,pending,2026-11-13T16:54:21.608Z,,,,,,,,
+anthropic,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:anthropic:1,complete,2026-11-13T16:54:21.608Z,claude-haiku-5-5,11128,73055,0.0376403,323657,end_turn,7385,
+anthropic,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:anthropic:2,complete,2026-11-13T16:59:45.288Z,claude-haiku-5-5,15905,47422,0.0253015,214555,end_turn,4961,
+deepseek,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:deepseek:2,complete,2026-11-13T17:01:36.036Z,deepseek-flash,14494,85903,0.1074318,505412,stop,11333,
+anthropic,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:anthropic:3,complete,2026-11-13T17:03:19.874Z,claude-haiku-5-5,23149,47919,0.0262744,217017,end_turn,4853,
+openai6,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:openai6:2,pending,2026-11-13T17:06:04.286Z,,,,,,,,
+anthropic,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:anthropic:4,pending,2026-11-13T17:06:56.929Z,,,,,,,,
+deepseek,ab48e309-29b1-485f-b08c-5ed426d57f55:structures:deepseek:3,pending,2026-11-13T17:10:01.575Z,,,,,,,,
