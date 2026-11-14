@@ -37,4 +37,6 @@ openai6,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:openai6:8,pending,2026-1
 openai6,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:openai6:8:retry,complete,2026-11-13T15:18:28.496Z,gpt-6-luna,26899,63957,0.0346684,536647,completed,21009,
 mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:3,complete,2026-11-13T15:43:48.728Z,mimo-v2.6-pro,10095,131072,0.11842396499999999,1627589,length,0,
 mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:4,complete,2026-11-13T16:10:56.370Z,mimo-v2.6-pro,10111,131072,0.118430925,2050415,length,0,
-mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:5,pending,2026-11-13T16:45:06.838Z,,,,,,,,
+mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:5,complete,2026-11-13T16:45:06.838Z,mimo-v2.6-pro,10127,131072,0.11843788499999999,2885199,length,0,
+mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:6,complete,2026-11-13T17:33:12.096Z,mimo-v2.6-pro,10143,131072,0.118444845,2072620,length,0,
+mimo,0e8286aa-9dd9-4b63-af03-e5a8ec905fde:structures:mimo:7,failed,2026-11-13T18:07:44.774Z,mimo-v2.6-pro,0,0,,308,,,Provider mimo returned HTTP 402: Insufficient account balance

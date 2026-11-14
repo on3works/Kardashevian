@@ -1,7 +1,7 @@
 {
   "arena": "structures",
   "id": "c265b389-18b5-4b59-8560-f03ab8607af0",
-  "status": "running",
+  "status": "complete",
   "createdAt": "2026-11-13T13:59:43.062Z",
   "error": null,
   "withdrawn": null,
@@ -638,9 +638,102 @@
       "depth": 14.02,
       "momentArea": 184011
     },
+    "best": {
+      "mass": 14819.2,
+      "score": 0.597,
+      "player": "deepseek",
+      "attempt": 8
+    },
     "players": {
       "mimo": {
-        "final": null,
+        "final": {
+          "mass": 12881.1,
+          "score": 0,
+          "units": [
+            {
+              "ok": false,
+              "sag": 15.2,
+              "unit": 1,
+              "score": 0,
+              "failure": "U1.2: L0-R1 at 1.432× capacity (buckling)",
+              "frequency": 2.363
+            },
+            {
+              "ok": false,
+              "sag": 15.3,
+              "unit": 2,
+              "score": 0,
+              "failure": "U2.2: L0-R1 at 1.449× capacity (buckling)",
+              "frequency": 2.367
+            },
+            {
+              "ok": false,
+              "sag": 14.4,
+              "unit": 3,
+              "score": 0,
+              "failure": "natural frequency 2.425 Hz, below the 2.5 Hz limit",
+              "frequency": 2.425
+            },
+            {
+              "ok": false,
+              "sag": 14.9,
+              "unit": 4,
+              "score": 0,
+              "failure": "U4.6: L0-R1 at 1.585× capacity (buckling)",
+              "frequency": 2.388
+            },
+            {
+              "ok": false,
+              "sag": 15.2,
+              "unit": 5,
+              "score": 0,
+              "failure": "natural frequency 2.374 Hz, below the 2.5 Hz limit",
+              "frequency": 2.374
+            },
+            {
+              "ok": false,
+              "sag": 14.1,
+              "unit": 6,
+              "score": 0,
+              "failure": "U6.5: R0-L1 at 1.148× capacity (buckling)",
+              "frequency": 2.45
+            },
+            {
+              "ok": false,
+              "sag": 15.6,
+              "unit": 7,
+              "score": 0,
+              "failure": "U7.2: L0-R1 at 1.679× capacity (buckling)",
+              "frequency": 2.339
+            },
+            {
+              "ok": false,
+              "sag": 14.8,
+              "unit": 8,
+              "score": 0,
+              "failure": "U8.7: L0-R1 at 1.55× capacity (buckling)",
+              "frequency": 2.407
+            },
+            {
+              "ok": false,
+              "sag": 15.6,
+              "unit": 9,
+              "score": 0,
+              "failure": "U9.4: R0-L1 at 1.039× capacity (buckling)",
+              "frequency": 2.338
+            },
+            {
+              "ok": false,
+              "sag": 15.9,
+              "unit": 10,
+              "score": 0,
+              "failure": "U10.2: R1-L2 at 1.305× capacity (buckling)",
+              "frequency": 2.321
+            }
+          ],
+          "attempt": 5,
+          "delivered": 0
+        },
         "attempts": [
           {
             "note": null,
@@ -1485,7 +1578,6 @@
                 }
               ]
             },
-            "report": "mass 12,881 kg · FAILS: W-: L0-R1 at 1.351× capacity (buckling)\ndeck sag 16.9 mm (limit 105.7) · natural frequency 2.414 Hz (min 2.5) · fatigue worst 0.812 of 1.0\nsideways sway 9.9 mm (limit 63.4) · global buckling factor 47.2 (min 3) · cable/rod loss: passes (0 checked)\n\ncase | max utilisation | governing member (mode) | sag mm\nPL | 0.89 | R4-C4 (buckling) | 14.5\nV1 | 0.715 | R0-L1 (buckling) | 7.8\nV2 | 1.013 | L0-R1 (buckling) | 9.7\nV3 | 0.866 | L4-A4 (buckling) | 15.9\nV4 | 0.975 | L0-R1 (buckling) | 9.9\nV5 | 0.669 | R0-L1 (buckling) | 9.6\nC1 | 0.724 | R0-L1 (buckling) | 16.9\nC2 | 0.776 | L0-R1 (buckling) | 4.3\nW+ | 0.963 | R0-L1 (buckling) | 3.5\nW- | 1.351 | L0-R1 (buckling) | 3.5\nT+ | 0.762 | L4-A4 (buckling) | 10\nT- | 0.762 | L4-A4 (buckling) | 10\nI | 1.18 | R1-L2 (buckling) | 12.6\nEx | 0.359 | L4-A4 (buckling) | 10\nEz | 0.401 | R0-L1 (buckling) | 10\nS | 0.762 | L4-A4 (buckling) | 10\n\nMost loaded members: member | option | length m | max tension kN | max compression kN | max moment kNm | utilisation (mode, case)\nL0-R1 | AL7075 CHS193.7x6.3 | 9.02 | 124.6 | 140.1 | 0 | 1.351 (buckling, W-)\nR1-L2 | AL7075 CHS193.7x6.3 | 9.02 | 80.4 | 116.6 | 0 | 1.18 (buckling, I)\nR0-L1 | AL7075 CHS193.7x6.3 | 9.02 | 63.5 | 116.5 | 0 | 1.179 (buckling, I)\nR4-C4 | AL7075 CHS193.7x6.3 | 5.6 | 0 | 237.6 | 0 | 0.89 (buckling, PL)\nL4-A4 | AL7075 CHS193.7x6.3 | 5.6 | 0 | 237.3 | 0 | 0.889 (buckling, PL)\nR2-L3 | AL7075 CHS193.7x6.3 | 9.02 | 45.2 | 83.3 | 0 | 0.871 (buckling, I)\nR7-L8 | AL7075 CHS193.7x6.3 | 9.02 | 53.1 | 86.2 | 0 | 0.849 (buckling, W-)\nL1-R2 | AL7075 CHS193.7x6.3 | 9.02 | 79.9 | 83.3 | 0 | 0.823 (buckling, W-)\nL2-R3 | AL7075 CHS193.7x6.3 | 9.02 | 61.1 | 72.8 | 0 | 0.725 (buckling, W-)\nR2-A2 | AL7075 CHS114.3x5 | 9.12 | 7.2 | 8.6 | 0 | 0.719 (buckling, I)\nR6-A6 | AL7075 CHS114.3x5 | 9.12 | 7.2 | 8.6 | 0 | 0.719 (buckling, I)\nL7-R8 | AL7075 CHS193.7x6.3 | 9.02 | 25.1 | 64 | 0 | 0.69 (buckling, I)\nR4-A4 | AL7075 CHS139.7x5 | 9.85 | 10.7 | 12.9 | 0 | 0.675 (buckling, I)\nL3-A3 | AL7075 CHS193.7x6.3 | 5.25 | 0 | 192.9 | 0 | 0.652 (buckling, V3)\nL5-A5 | AL7075 CHS193.7x6.3 | 5.25 | 0 | 191.9 | 0 | 0.649 (buckling, V3)\nL3-C3 | AL7075 CHS114.3x5 | 9.65 | 9.7 | 8.1 | 0 | 0.648 (buckling, W-)\nL5-C5 | AL7075 CHS114.3x5 | 9.65 | 9.7 | 8.1 | 0 | 0.648 (buckling, W-)\nR3-L4 | AL7075 CHS193.7x6.3 | 9.02 | 25.2 | 58.6 | 0 | 0.64 (buckling, I)\nR3-C3 | AL7075 CHS193.7x6.3 | 5.25 | 0 | 190.4 | 0 | 0.632 (buckling, PL)\nR5-C5 | AL7075 CHS193.7x6.3 | 5.25 | 0 | 187.2 | 0 | 0.631 (buckling, V3)\n\n40 members work below 30% of capacity.",
             "alphaCr": 47.2,
             "attempt": 5,
             "failure": "W-: L0-R1 at 1.351× capacity (buckling)",
@@ -2381,6 +2473,1693 @@
             "fatigueWorst": 0.812,
             "finishReason": "stop",
             "outputTokens": 117820
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 6,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 7,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "ok": false,
+            "sag": 0,
+            "fMin": 2.5,
+            "mass": 18519.2,
+            "note": "Deep Pratt truss (5.5m below deck): two side trusses at z=±4.05 with variable-section S460 CHS chords, verticals and tension diagonals, cross-braced top and bottom planes with S355 transversals and S460 diagonal bracing; all joints pinned, no wires/rods so robustness check exempt.",
+            "sway": 0,
+            "cases": [
+              {
+                "id": "PL",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V1",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V2",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V3",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V4",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "V5",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "C1",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "C2",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "W+",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "W-",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "T+",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "T-",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "I",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "Ex",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "Ez",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              },
+              {
+                "id": "S",
+                "sag": null,
+                "mode": "mechanism",
+                "maxUtil": null,
+                "governing": null
+              }
+            ],
+            "score": 0,
+            "utils": null,
+            "design": {
+              "nodes": [
+                {
+                  "x": 0,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL0",
+                  "joint": "pin"
+                },
+                {
+                  "x": 3.963,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL1",
+                  "joint": "pin"
+                },
+                {
+                  "x": 7.925,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL2",
+                  "joint": "pin"
+                },
+                {
+                  "x": 11.888,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL3",
+                  "joint": "pin"
+                },
+                {
+                  "x": 15.85,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL4",
+                  "joint": "pin"
+                },
+                {
+                  "x": 19.813,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL5",
+                  "joint": "pin"
+                },
+                {
+                  "x": 23.775,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL6",
+                  "joint": "pin"
+                },
+                {
+                  "x": 27.738,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL7",
+                  "joint": "pin"
+                },
+                {
+                  "x": 31.7,
+                  "y": -5.5,
+                  "z": -4.05,
+                  "id": "BL8",
+                  "joint": "pin"
+                },
+                {
+                  "x": 0,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR0",
+                  "joint": "pin"
+                },
+                {
+                  "x": 3.963,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR1",
+                  "joint": "pin"
+                },
+                {
+                  "x": 7.925,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR2",
+                  "joint": "pin"
+                },
+                {
+                  "x": 11.888,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR3",
+                  "joint": "pin"
+                },
+                {
+                  "x": 15.85,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR4",
+                  "joint": "pin"
+                },
+                {
+                  "x": 19.813,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR5",
+                  "joint": "pin"
+                },
+                {
+                  "x": 23.775,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR6",
+                  "joint": "pin"
+                },
+                {
+                  "x": 27.738,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR7",
+                  "joint": "pin"
+                },
+                {
+                  "x": 31.7,
+                  "y": -5.5,
+                  "z": 4.05,
+                  "id": "BR8",
+                  "joint": "pin"
+                }
+              ],
+              "members": [
+                [
+                  "L0",
+                  "L1",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L1",
+                  "L2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "L2",
+                  "L3",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "L3",
+                  "L4",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "L4",
+                  "L5",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "L5",
+                  "L6",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "L6",
+                  "L7",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "L7",
+                  "L8",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R0",
+                  "R1",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R1",
+                  "R2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "R2",
+                  "R3",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "R3",
+                  "R4",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "R4",
+                  "R5",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "R5",
+                  "R6",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "R6",
+                  "R7",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "R7",
+                  "R8",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "BL0",
+                  "BL1",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BL1",
+                  "BL2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "BL2",
+                  "BL3",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "BL3",
+                  "BL4",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "BL4",
+                  "BL5",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "BL5",
+                  "BL6",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "BL6",
+                  "BL7",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "BL7",
+                  "BL8",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR0",
+                  "BR1",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR1",
+                  "BR2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "BR2",
+                  "BR3",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "BR3",
+                  "BR4",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "BR4",
+                  "BR5",
+                  "S460 CHS273x10"
+                ],
+                [
+                  "BR5",
+                  "BR6",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "BR6",
+                  "BR7",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "BR7",
+                  "BR8",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "L0",
+                  "BL0",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L1",
+                  "BL1",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L2",
+                  "BL2",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L3",
+                  "BL3",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L4",
+                  "BL4",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L5",
+                  "BL5",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L6",
+                  "BL6",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L7",
+                  "BL7",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L8",
+                  "BL8",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R0",
+                  "BR0",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R1",
+                  "BR1",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R2",
+                  "BR2",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R3",
+                  "BR3",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R4",
+                  "BR4",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R5",
+                  "BR5",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R6",
+                  "BR6",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R7",
+                  "BR7",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R8",
+                  "BR8",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L0",
+                  "BL1",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "L1",
+                  "BL2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "L2",
+                  "BL3",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L3",
+                  "BL4",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "L5",
+                  "BL4",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "L6",
+                  "BL5",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L7",
+                  "BL6",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "L8",
+                  "BL7",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "R0",
+                  "BR1",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "R1",
+                  "BR2",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "R2",
+                  "BR3",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R3",
+                  "BR4",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "R5",
+                  "BR4",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "R6",
+                  "BR5",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R7",
+                  "BR6",
+                  "S460 CHS219.1x8"
+                ],
+                [
+                  "R8",
+                  "BR7",
+                  "S460 CHS244.5x8"
+                ],
+                [
+                  "BL0",
+                  "BR0",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL1",
+                  "BR1",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL2",
+                  "BR2",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL3",
+                  "BR3",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL4",
+                  "BR4",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL5",
+                  "BR5",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL6",
+                  "BR6",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL7",
+                  "BR7",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL8",
+                  "BR8",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "BL0",
+                  "BR1",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR1",
+                  "BL2",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BL2",
+                  "BR3",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR3",
+                  "BL4",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BL4",
+                  "BR5",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR5",
+                  "BL6",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BL6",
+                  "BR7",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "BR7",
+                  "BL8",
+                  "S460 CHS139.7x6.3"
+                ],
+                [
+                  "L0",
+                  "R0",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L1",
+                  "R1",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L2",
+                  "R2",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L3",
+                  "R3",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L4",
+                  "R4",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L5",
+                  "R5",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L6",
+                  "R6",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L7",
+                  "R7",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L8",
+                  "R8",
+                  "S355 CHS76.1x4"
+                ],
+                [
+                  "L0",
+                  "R1",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R1",
+                  "L2",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L2",
+                  "R3",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R3",
+                  "L4",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L4",
+                  "R5",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R5",
+                  "L6",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "L6",
+                  "R7",
+                  "S460 CHS168.3x6.3"
+                ],
+                [
+                  "R7",
+                  "L8",
+                  "S460 CHS168.3x6.3"
+                ]
+              ]
+            },
+            "report": "mass 18,519 kg · FAILS: mechanism: part of the structure can move without straining any member\ndeck sag 0 mm (limit 105.7) · natural frequency ? Hz (min 2.5) · fatigue worst ? of 1.0\nsideways sway 0 mm (limit 63.4) · global buckling factor not critical (min 3) · cable/rod loss: n/a\n\ncase | max utilisation | governing member (mode) | sag mm\nPL | mechanism | - | -\nV1 | mechanism | - | -\nV2 | mechanism | - | -\nV3 | mechanism | - | -\nV4 | mechanism | - | -\nV5 | mechanism | - | -\nC1 | mechanism | - | -\nC2 | mechanism | - | -\nW+ | mechanism | - | -\nW- | mechanism | - | -\nT+ | mechanism | - | -\nT- | mechanism | - | -\nI | mechanism | - | -\nEx | mechanism | - | -\nEz | mechanism | - | -\nS | mechanism | - | -\n\nThe structure is a mechanism: some part can move without straining any member. In 3D every node needs restraint in all three directions: brace across the bridge as well as along it.",
+            "alphaCr": null,
+            "attempt": 8,
+            "failure": "mechanism: part of the structure can move without straining any member",
+            "maxUtil": null,
+            "members": [
+              {
+                "id": "L0-L1",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-L2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-L3",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-L4",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-L5",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-L6",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-L7",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-L8",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-R1",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-R2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-R3",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-R4",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R4-R5",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-R6",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R6-R7",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-R8",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL0-BL1",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL1-BL2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL2-BL3",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL3-BL4",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL4-BL5",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL5-BL6",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL6-BL7",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL7-BL8",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR0-BR1",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR1-BR2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR2-BR3",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR3-BR4",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR4-BR5",
+                "mode": "-",
+                "spec": "S460 CHS273x10",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR5-BR6",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR6-BR7",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR7-BR8",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-BL0",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-BL1",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-BL2",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-BL3",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-BL4",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-BL5",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-BL6",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-BL7",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-BL8",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-BR0",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-BR1",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-BR2",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-BR3",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R4-BR4",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-BR5",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R6-BR6",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-BR7",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R8-BR8",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-BL1",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-BL2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-BL3",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-BL4",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-BL4",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-BL5",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-BL6",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-BL7",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R0-BR1",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-BR2",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R2-BR3",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-BR4",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-BR4",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R6-BR5",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-BR6",
+                "mode": "-",
+                "spec": "S460 CHS219.1x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R8-BR7",
+                "mode": "-",
+                "spec": "S460 CHS244.5x8",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL0-BR0",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL1-BR1",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL2-BR2",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL3-BR3",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL4-BR4",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL5-BR5",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL6-BR6",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL7-BR7",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL8-BR8",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL0-BR1",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR1-BL2",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL2-BR3",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR3-BL4",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL4-BR5",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR5-BL6",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BL6-BR7",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "BR7-BL8",
+                "mode": "-",
+                "spec": "S460 CHS139.7x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-R0",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L1-R1",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-R2",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L3-R3",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-R4",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L5-R5",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-R6",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L7-R7",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L8-R8",
+                "mode": "-",
+                "spec": "S355 CHS76.1x4",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L0-R1",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R1-L2",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L2-R3",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R3-L4",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L4-R5",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R5-L6",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "L6-R7",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              },
+              {
+                "id": "R7-L8",
+                "mode": "-",
+                "spec": "S460 CHS168.3x6.3",
+                "util": 0,
+                "moment": 0,
+                "tension": 0,
+                "compression": 0
+              }
+            ],
+            "sagLimit": 105.7,
+            "frequency": null,
+            "swayLimit": 63.4,
+            "alphaCrMin": 3,
+            "robustness": null,
+            "fatigueWorst": null,
+            "finishReason": "stop",
+            "outputTokens": 106484
           }
         ]
       },
@@ -52763,6 +54542,7 @@
           "fatigueWorst": 0.342
         }
       }
-    }
+    },
+    "completedAt": "2026-11-13T18:00:09.743Z"
   }
 }

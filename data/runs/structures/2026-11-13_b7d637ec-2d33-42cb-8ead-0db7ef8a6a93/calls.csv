@@ -35,4 +35,5 @@ mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:2,complete,2026-11-13T
 openai6,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:openai6:8,complete,2026-11-13T15:11:18.090Z,gpt-6-luna,20761,63136,0.033644099999999996,554420,completed,10299,
 mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:3,complete,2026-11-13T15:50:18.800Z,mimo-v2.6-pro,10108,131072,0.11842962,1679365,length,0,
 mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:4,complete,2026-11-13T16:18:18.218Z,mimo-v2.6-pro,10124,131072,0.11843658,2777707,length,0,
-mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:5,pending,2026-11-13T17:04:35.979Z,,,,,,,,
+mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:5,complete,2026-11-13T17:04:35.979Z,mimo-v2.6-pro,10140,131072,0.11844354,2740154,length,0,
+mimo,b7d637ec-2d33-42cb-8ead-0db7ef8a6a93:structures:mimo:6,failed,2026-11-13T17:50:16.177Z,mimo-v2.6-pro,0,0,,541,,,Provider mimo returned HTTP 402: Insufficient account balance

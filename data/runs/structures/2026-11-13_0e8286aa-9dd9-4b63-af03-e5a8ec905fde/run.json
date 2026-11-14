@@ -1,7 +1,7 @@
 {
   "arena": "structures",
   "id": "0e8286aa-9dd9-4b63-af03-e5a8ec905fde",
-  "status": "running",
+  "status": "complete",
   "createdAt": "2026-11-13T13:55:18.300Z",
   "error": null,
   "withdrawn": null,
@@ -608,9 +608,22 @@
       "depth": 4.9,
       "momentArea": 121901
     },
+    "best": {
+      "mass": 23880.4,
+      "score": 0.669,
+      "player": "reference",
+      "attempt": null
+    },
     "players": {
       "mimo": {
-        "final": null,
+        "final": {
+          "mass": null,
+          "score": 0,
+          "units": [],
+          "attempt": null,
+          "delivered": 0
+        },
+        "stopped": "Provider mimo returned HTTP 402: Insufficient account balance",
         "attempts": [
           {
             "note": null,
@@ -641,6 +654,22 @@
             "error": "Used the whole output budget thinking and returned nothing",
             "score": 0,
             "attempt": 4,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 5,
+            "finishReason": "length",
+            "outputTokens": 131072
+          },
+          {
+            "note": null,
+            "error": "Used the whole output budget thinking and returned nothing",
+            "score": 0,
+            "attempt": 6,
             "finishReason": "length",
             "outputTokens": 131072
           }
@@ -45981,6 +46010,7 @@
           "fatigueWorst": 0.65
         }
       }
-    }
+    },
+    "completedAt": "2026-11-13T18:07:45.139Z"
   }
 }
