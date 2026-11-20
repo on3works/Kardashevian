@@ -521,6 +521,7 @@
       "player": "openai6",
       "attempt": 1
     },
+    "solver": "frame3-2026-11-18-converged-frequency",
     "players": {
       "mimo": {
         "final": {
@@ -608,7 +609,7 @@
               "unit": 1,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.706
+              "frequency": 3.705
             },
             {
               "ok": true,
@@ -616,7 +617,7 @@
               "unit": 2,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.674
+              "frequency": 3.672
             },
             {
               "ok": true,
@@ -624,7 +625,7 @@
               "unit": 3,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.768
+              "frequency": 3.766
             },
             {
               "ok": true,
@@ -632,7 +633,7 @@
               "unit": 4,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.725
+              "frequency": 3.723
             },
             {
               "ok": true,
@@ -640,7 +641,7 @@
               "unit": 5,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.579
+              "frequency": 3.578
             },
             {
               "ok": true,
@@ -648,7 +649,7 @@
               "unit": 6,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.699
+              "frequency": 3.697
             },
             {
               "ok": true,
@@ -656,7 +657,7 @@
               "unit": 7,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.685
+              "frequency": 3.683
             },
             {
               "ok": true,
@@ -664,7 +665,7 @@
               "unit": 8,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.658
+              "frequency": 3.657
             },
             {
               "ok": true,
@@ -672,7 +673,7 @@
               "unit": 9,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.648
+              "frequency": 3.646
             },
             {
               "ok": true,
@@ -680,7 +681,7 @@
               "unit": 10,
               "score": 0.998,
               "failure": null,
-              "frequency": 3.711
+              "frequency": 3.709
             }
           ],
           "attempt": 1,

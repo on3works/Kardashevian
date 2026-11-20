@@ -644,6 +644,7 @@
       "player": "deepseek",
       "attempt": 8
     },
+    "solver": "frame3-2026-11-18-converged-frequency",
     "players": {
       "mimo": {
         "final": {
@@ -4173,8 +4174,8 @@
               "sag": 20.8,
               "unit": 1,
               "score": 0,
-              "failure": "natural frequency 2.445 Hz, below the 2.5 Hz limit",
-              "frequency": 2.445
+              "failure": "natural frequency 2.444 Hz, below the 2.5 Hz limit",
+              "frequency": 2.444
             },
             {
               "ok": false,
@@ -4182,7 +4183,7 @@
               "unit": 2,
               "score": 0,
               "failure": "U2.3: R7-R8 at 1.026× capacity (buckling)",
-              "frequency": 2.445
+              "frequency": 2.443
             },
             {
               "ok": true,
@@ -4190,7 +4191,7 @@
               "unit": 3,
               "score": 1.033,
               "failure": null,
-              "frequency": 2.513
+              "frequency": 2.511
             },
             {
               "ok": false,
@@ -4198,15 +4199,15 @@
               "unit": 4,
               "score": 0,
               "failure": "U4.8: R7-R8 at 1.157× capacity (buckling)",
-              "frequency": 2.473
+              "frequency": 2.471
             },
             {
               "ok": false,
               "sag": 20.7,
               "unit": 5,
               "score": 0,
-              "failure": "natural frequency 2.452 Hz, below the 2.5 Hz limit",
-              "frequency": 2.452
+              "failure": "natural frequency 2.45 Hz, below the 2.5 Hz limit",
+              "frequency": 2.45
             },
             {
               "ok": false,
@@ -4214,7 +4215,7 @@
               "unit": 6,
               "score": 0,
               "failure": "U6.2: L4-BR2 at 1.436× capacity (buckling)",
-              "frequency": 2.539
+              "frequency": 2.538
             },
             {
               "ok": false,
@@ -4222,7 +4223,7 @@
               "unit": 7,
               "score": 0,
               "failure": "U7.2: R2-BL1 at 1.157× capacity (bending)",
-              "frequency": 2.418
+              "frequency": 2.417
             },
             {
               "ok": false,
@@ -4230,15 +4231,15 @@
               "unit": 8,
               "score": 0,
               "failure": "U8.7: R2-BL1 at 1.071× capacity (bending)",
-              "frequency": 2.493
+              "frequency": 2.492
             },
             {
               "ok": false,
               "sag": 21.3,
               "unit": 9,
               "score": 0,
-              "failure": "natural frequency 2.416 Hz, below the 2.5 Hz limit",
-              "frequency": 2.416
+              "failure": "natural frequency 2.415 Hz, below the 2.5 Hz limit",
+              "frequency": 2.415
             },
             {
               "ok": false,
@@ -4246,7 +4247,7 @@
               "unit": 10,
               "score": 0,
               "failure": "U10.3: R7-R8 at 1.19× capacity (buckling)",
-              "frequency": 2.397
+              "frequency": 2.396
             }
           ],
           "attempt": 5,
@@ -16874,7 +16875,7 @@
               "unit": 1,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.655
+              "frequency": 2.598
             },
             {
               "ok": true,
@@ -16882,7 +16883,7 @@
               "unit": 2,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.691
+              "frequency": 2.632
             },
             {
               "ok": true,
@@ -16890,7 +16891,7 @@
               "unit": 3,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.672
+              "frequency": 2.621
             },
             {
               "ok": true,
@@ -16898,7 +16899,7 @@
               "unit": 4,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.671
+              "frequency": 2.614
             },
             {
               "ok": true,
@@ -16906,7 +16907,7 @@
               "unit": 5,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.723
+              "frequency": 2.666
             },
             {
               "ok": true,
@@ -16914,7 +16915,7 @@
               "unit": 6,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.712
+              "frequency": 2.651
             },
             {
               "ok": true,
@@ -16922,7 +16923,7 @@
               "unit": 7,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.738
+              "frequency": 2.68
             },
             {
               "ok": true,
@@ -16930,7 +16931,7 @@
               "unit": 8,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.634
+              "frequency": 2.582
             },
             {
               "ok": true,
@@ -16938,7 +16939,7 @@
               "unit": 9,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.639
+              "frequency": 2.581
             },
             {
               "ok": true,
@@ -16946,7 +16947,7 @@
               "unit": 10,
               "score": 0.597,
               "failure": null,
-              "frequency": 2.746
+              "frequency": 2.694
             }
           ],
           "attempt": 8,

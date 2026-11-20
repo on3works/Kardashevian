@@ -601,6 +601,7 @@
       "player": "reference",
       "attempt": null
     },
+    "solver": "frame3-2026-11-18-converged-frequency",
     "players": {
       "mimo": {
         "final": {

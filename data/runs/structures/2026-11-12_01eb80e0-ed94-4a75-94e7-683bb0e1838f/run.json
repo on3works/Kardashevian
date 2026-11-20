@@ -661,93 +661,14 @@
       "player": "reference",
       "attempt": null
     },
+    "solver": "frame3-2026-11-18-converged-frequency",
     "players": {
       "mimo": {
         "final": {
-          "mass": 34184,
+          "mass": null,
+          "error": "Deck node L11 is not connected: every deck node carries load.",
           "score": 0,
-          "units": [
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 1,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 2,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 3,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 4,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 5,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 6,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 7,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 8,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 9,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            },
-            {
-              "ok": false,
-              "sag": 0,
-              "unit": 10,
-              "score": 0,
-              "failure": "mechanism: part of the structure can move without straining any member",
-              "frequency": null
-            }
-          ],
+          "units": [],
           "attempt": 4,
           "delivered": 0
         },
@@ -3088,89 +3009,9 @@
       "openai6": {
         "final": {
           "mass": 60916.1,
+          "note": "restored 2026-11-19: results from before the re-score; per-unit detail lost",
           "score": 0.43,
-          "units": [
-            {
-              "ok": true,
-              "sag": 9.7,
-              "unit": 1,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.168
-            },
-            {
-              "ok": true,
-              "sag": 8.4,
-              "unit": 2,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.191
-            },
-            {
-              "ok": true,
-              "sag": 11.8,
-              "unit": 3,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.156
-            },
-            {
-              "ok": false,
-              "sag": 7.4,
-              "unit": 4,
-              "score": 0,
-              "failure": "fatigue: L0-R1 stress range 53.7 MPa, allowed 52.6 MPa",
-              "frequency": 3.118
-            },
-            {
-              "ok": true,
-              "sag": 12.1,
-              "unit": 5,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.155
-            },
-            {
-              "ok": true,
-              "sag": 10.8,
-              "unit": 6,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.188
-            },
-            {
-              "ok": true,
-              "sag": 11.3,
-              "unit": 7,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.21
-            },
-            {
-              "ok": true,
-              "sag": 7.1,
-              "unit": 8,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.186
-            },
-            {
-              "ok": true,
-              "sag": 8.5,
-              "unit": 9,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.126
-            },
-            {
-              "ok": true,
-              "sag": 7.3,
-              "unit": 10,
-              "score": 0.478,
-              "failure": null,
-              "frequency": 3.248
-            }
-          ],
+          "units": [],
           "attempt": 5,
           "delivered": 9
         },
@@ -20978,89 +20819,9 @@
       "deepseek": {
         "final": {
           "mass": 34399.2,
+          "note": "restored 2026-11-19: results from before the re-score; per-unit detail lost",
           "score": 0.423,
-          "units": [
-            {
-              "ok": true,
-              "sag": 18.5,
-              "unit": 1,
-              "score": 0.846,
-              "failure": null,
-              "frequency": 2.963
-            },
-            {
-              "ok": false,
-              "sag": 16.5,
-              "unit": 2,
-              "score": 0,
-              "failure": "fatigue: L9-R9 stress range 74.2 MPa, allowed 52.6 MPa",
-              "frequency": 2.962
-            },
-            {
-              "ok": false,
-              "sag": 23,
-              "unit": 3,
-              "score": 0,
-              "failure": "fatigue: L9-R9 stress range 55.5 MPa, allowed 52.6 MPa",
-              "frequency": 2.841
-            },
-            {
-              "ok": true,
-              "sag": 15.8,
-              "unit": 4,
-              "score": 0.846,
-              "failure": null,
-              "frequency": 2.831
-            },
-            {
-              "ok": true,
-              "sag": 20.2,
-              "unit": 5,
-              "score": 0.846,
-              "failure": null,
-              "frequency": 2.967
-            },
-            {
-              "ok": false,
-              "sag": 19.3,
-              "unit": 6,
-              "score": 0,
-              "failure": "fatigue: L9-R9 stress range 95.5 MPa, allowed 52.6 MPa",
-              "frequency": 2.974
-            },
-            {
-              "ok": false,
-              "sag": 20.2,
-              "unit": 7,
-              "score": 0,
-              "failure": "fatigue: L6-R6 stress range 53.9 MPa, allowed 52.6 MPa",
-              "frequency": 2.943
-            },
-            {
-              "ok": true,
-              "sag": 14.4,
-              "unit": 8,
-              "score": 0.846,
-              "failure": null,
-              "frequency": 2.971
-            },
-            {
-              "ok": false,
-              "sag": 15,
-              "unit": 9,
-              "score": 0,
-              "failure": "fatigue: L9-R9 stress range 57.1 MPa, allowed 52.6 MPa",
-              "frequency": 2.907
-            },
-            {
-              "ok": true,
-              "sag": 15.2,
-              "unit": 10,
-              "score": 0.846,
-              "failure": null,
-              "frequency": 2.885
-            }
-          ],
+          "units": [],
           "attempt": 7,
           "delivered": 5
         },
@@ -33913,89 +33674,9 @@
       "anthropic": {
         "final": {
           "mass": 112407.3,
+          "note": "restored 2026-11-19: results from before the re-score; per-unit detail lost",
           "score": 0.259,
-          "units": [
-            {
-              "ok": true,
-              "sag": 8.1,
-              "unit": 1,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.622
-            },
-            {
-              "ok": true,
-              "sag": 6.7,
-              "unit": 2,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.645
-            },
-            {
-              "ok": true,
-              "sag": 8.7,
-              "unit": 3,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.612
-            },
-            {
-              "ok": true,
-              "sag": 6.3,
-              "unit": 4,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.559
-            },
-            {
-              "ok": true,
-              "sag": 8.1,
-              "unit": 5,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.614
-            },
-            {
-              "ok": true,
-              "sag": 7.6,
-              "unit": 6,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.623
-            },
-            {
-              "ok": true,
-              "sag": 7.7,
-              "unit": 7,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.647
-            },
-            {
-              "ok": true,
-              "sag": 5.9,
-              "unit": 8,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.631
-            },
-            {
-              "ok": true,
-              "sag": 6.1,
-              "unit": 9,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.572
-            },
-            {
-              "ok": true,
-              "sag": 5.6,
-              "unit": 10,
-              "score": 0.259,
-              "failure": null,
-              "frequency": 3.688
-            }
-          ],
+          "units": [],
           "attempt": 2,
           "delivered": 10
         },
@@ -47060,94 +46741,15 @@
         ]
       }
     },
+    "restored": "restored 2026-11-19: results from before the re-score; per-unit detail lost",
     "baselines": {
       "reference": {
         "name": "Reference engineer",
         "final": {
           "mass": 32956,
+          "note": "restored 2026-11-19: results from before the re-score; per-unit detail lost",
           "score": 0.883,
-          "units": [
-            {
-              "ok": true,
-              "sag": 13.7,
-              "unit": 1,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.234
-            },
-            {
-              "ok": true,
-              "sag": 10.3,
-              "unit": 2,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.314
-            },
-            {
-              "ok": true,
-              "sag": 17.1,
-              "unit": 3,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.167
-            },
-            {
-              "ok": true,
-              "sag": 10.7,
-              "unit": 4,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.271
-            },
-            {
-              "ok": true,
-              "sag": 17,
-              "unit": 5,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.319
-            },
-            {
-              "ok": true,
-              "sag": 15.8,
-              "unit": 6,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.259
-            },
-            {
-              "ok": true,
-              "sag": 16.5,
-              "unit": 7,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.309
-            },
-            {
-              "ok": true,
-              "sag": 10.4,
-              "unit": 8,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.304
-            },
-            {
-              "ok": true,
-              "sag": 13.2,
-              "unit": 9,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.228
-            },
-            {
-              "ok": true,
-              "sag": 11.5,
-              "unit": 10,
-              "score": 0.883,
-              "failure": null,
-              "frequency": 3.322
-            }
-          ],
+          "units": [],
           "delivered": 10
         },
         "design": {

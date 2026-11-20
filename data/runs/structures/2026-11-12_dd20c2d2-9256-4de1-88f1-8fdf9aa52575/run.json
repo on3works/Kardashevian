@@ -600,6 +600,7 @@
       "player": "deepseek",
       "attempt": 8
     },
+    "solver": "frame3-2026-11-18-converged-frequency",
     "players": {
       "mimo": {
         "final": {
@@ -612,7 +613,7 @@
               "unit": 1,
               "score": 0,
               "failure": "U1.6: RT2-R3 at 1.592× capacity (buckling)",
-              "frequency": 5.581
+              "frequency": 5.569
             },
             {
               "ok": true,
@@ -620,7 +621,7 @@
               "unit": 2,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.562
+              "frequency": 5.551
             },
             {
               "ok": true,
@@ -628,7 +629,7 @@
               "unit": 3,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.522
+              "frequency": 5.51
             },
             {
               "ok": true,
@@ -636,7 +637,7 @@
               "unit": 4,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.791
+              "frequency": 5.781
             },
             {
               "ok": true,
@@ -644,7 +645,7 @@
               "unit": 5,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.662
+              "frequency": 5.65
             },
             {
               "ok": true,
@@ -652,7 +653,7 @@
               "unit": 6,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.471
+              "frequency": 5.46
             },
             {
               "ok": true,
@@ -660,7 +661,7 @@
               "unit": 7,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.606
+              "frequency": 5.594
             },
             {
               "ok": true,
@@ -668,7 +669,7 @@
               "unit": 8,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.61
+              "frequency": 5.599
             },
             {
               "ok": true,
@@ -676,7 +677,7 @@
               "unit": 9,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.543
+              "frequency": 5.532
             },
             {
               "ok": true,
@@ -684,7 +685,7 @@
               "unit": 10,
               "score": 0.228,
               "failure": null,
-              "frequency": 5.531
+              "frequency": 5.519
             }
           ],
           "attempt": 6,
@@ -30145,7 +30146,7 @@
               "unit": 7,
               "score": 0.065,
               "failure": null,
-              "frequency": 8.128
+              "frequency": 8.127
             },
             {
               "ok": true,
@@ -43012,7 +43013,7 @@
               "unit": 1,
               "score": 0.322,
               "failure": null,
-              "frequency": 4.035
+              "frequency": 3.955
             },
             {
               "ok": true,
@@ -43020,7 +43021,7 @@
               "unit": 2,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.973
+              "frequency": 3.897
             },
             {
               "ok": true,
@@ -43028,7 +43029,7 @@
               "unit": 3,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.979
+              "frequency": 3.902
             },
             {
               "ok": true,
@@ -43036,7 +43037,7 @@
               "unit": 4,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.978
+              "frequency": 3.9
             },
             {
               "ok": true,
@@ -43044,7 +43045,7 @@
               "unit": 5,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.89
+              "frequency": 3.816
             },
             {
               "ok": true,
@@ -43052,7 +43053,7 @@
               "unit": 6,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.915
+              "frequency": 3.84
             },
             {
               "ok": true,
@@ -43060,7 +43061,7 @@
               "unit": 7,
               "score": 0.322,
               "failure": null,
-              "frequency": 4.106
+              "frequency": 4.024
             },
             {
               "ok": true,
@@ -43068,7 +43069,7 @@
               "unit": 8,
               "score": 0.322,
               "failure": null,
-              "frequency": 4.093
+              "frequency": 4.011
             },
             {
               "ok": true,
@@ -43076,7 +43077,7 @@
               "unit": 9,
               "score": 0.322,
               "failure": null,
-              "frequency": 4.075
+              "frequency": 3.994
             },
             {
               "ok": true,
@@ -43084,7 +43085,7 @@
               "unit": 10,
               "score": 0.322,
               "failure": null,
-              "frequency": 3.942
+              "frequency": 3.866
             }
           ],
           "delivered": 10
