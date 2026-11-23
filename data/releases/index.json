@@ -1,6 +1,11 @@
 {
   "releases": [
     {
+      "n": 46,
+      "releasedAt": "2026-11-23T06:00:19.414Z",
+      "note": "Automatic daily release: prices through 2026-11-20; 22 books, 9 expedition worlds, 10 race worlds, 6 structure sites, 821 settled questions"
+    },
+    {
       "n": 45,
       "releasedAt": "2026-11-21T07:53:32.256Z",
       "note": "Automatic daily release: prices through 2026-11-20; 22 books, 9 expedition worlds, 10 race worlds, 6 structure sites, 614 settled questions"
